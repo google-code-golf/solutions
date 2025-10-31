@@ -1,0 +1,1 @@
+p=lambda g,k=0:[g:=[[k|(k:=k^max({*h}&{*r}))for h in g]for r in zip(*g)]for _ in g][1]

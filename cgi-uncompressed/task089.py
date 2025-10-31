@@ -1,0 +1,1 @@
+p=lambda n:[[[*[n[b-r][m-o*(n[b][m]>2or-1)]for r in range(-2,3)for o in range(-2,3)if i+r<13>p+o>-1<n[i+r][p+o]in(2,3)for b in range(13)for m in range(13)if(b,m)!=(i+r,p+o)!=-1<b-r<13>m-o*(n[b][m]>2or-1)>-1<n[b][m]==n[i+r][p+o]!=n[b-r][m-o*(n[b][m]>2or-1)]in{n[b-r][m-o]for r in range(-1,2)for o in range(-1,2)if b-r<13>m-o}-{0}],n[i][p]][0]for p in range(13)]for i in range(13)]

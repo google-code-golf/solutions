@@ -1,0 +1,1 @@
+p=lambda g:[*eval('map(lambda*r,b=0:[b:=a*6**b%10for a in r][::-1],*'*4+'g))))')]

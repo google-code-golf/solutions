@@ -1,0 +1,1 @@
+p=lambda g,k=11:-k*g or[*map(lambda*l,a=0:[a:=b^b-0**k>>a&4for b in l][::-1],*p(g,k-1))]

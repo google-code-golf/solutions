@@ -1,0 +1,1 @@
+def p(g,n=3):*l,=filter(int,sum(g,[]));i=~9-1%len({*l[:-9]})*7;return[[v%~v&l[i:=i+1]for*c,v in[*zip(*g,r)][::n]if[c[:15]]>g]for r in g[::n]if[r]*~i>g]*-i or p(g,n+1)

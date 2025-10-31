@@ -1,0 +1,1 @@
+p=lambda g:[[min(f:=sum(g[:6]+g,[])[11:],key=f.count)]]

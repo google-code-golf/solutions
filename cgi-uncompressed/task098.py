@@ -1,0 +1,1 @@
+p=lambda g,h=[],i=[]:g*0!=0and[*map(p,g,(h+g)[1:]+g,g[:1]+i+g)]or(h*i<1)*g

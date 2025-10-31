@@ -1,0 +1,1 @@
+exec(f'p=lambda g:max(M:=[g {"for*g,in map(zip,g,g[1:],g[2:])"*2}if(0,)*3not in[*zip(*g)]+g],key=M.count)')

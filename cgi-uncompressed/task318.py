@@ -1,0 +1,1 @@
+p=lambda g,u=[]:g*0!=0and[*map(p,g,u+g[5:])]or(g!=u)*3

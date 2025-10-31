@@ -1,0 +1,1 @@
+p=lambda g:[[3%-~max(r)or(2in x)*2for x in zip(*g)]for r in g]

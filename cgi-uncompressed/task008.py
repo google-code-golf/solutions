@@ -1,0 +1,1 @@
+p=lambda g,*n:sorted(zip(*n or p([],*g)),key=lambda r:g.extend(r)or(8in g)*3^any(r))

@@ -1,0 +1,1 @@
+p=lambda g,k=7,l=1,a=1:-k*g or p([[a:=[[a|c|(l:=l<<7),4228224>>c%127&2][k<1],5][c==5]for c in r]for r in zip(*g[::-1])],k-1,0)

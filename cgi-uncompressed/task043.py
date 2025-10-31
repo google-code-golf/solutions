@@ -1,0 +1,1 @@
+p=lambda g:[[x+r[-1]&r.pop(0)+2for x in g[0]]for*r,in g]

@@ -1,0 +1,1 @@
+exec("p=lambda g,Z=[[0]*30]:[[g[1][1]&sorted(b'%r'%g)[-4]"+"for*g,in map(zip,Z+g,g,g[1:]+Z)]"*2)

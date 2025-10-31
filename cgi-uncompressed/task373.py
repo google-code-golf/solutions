@@ -1,0 +1,1 @@
+p=lambda g:[T:=max(zip(*g))*3,T[::-1]]

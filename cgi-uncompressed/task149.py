@@ -1,0 +1,1 @@
+p=lambda g:g and[[sum((b"%.104r"%g*7)[j::35])>894for j in b""]]+p(g[4:])

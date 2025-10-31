@@ -1,0 +1,1 @@
+p=lambda g,x=0,y=2:(G:=[(i//y*x*[0]+g[i%y])[:10]for i in range(10)])*(G[:4]<g<G)or p(g,~-x%3,y^1)
