@@ -1,0 +1,1 @@
+p=lambda g,r=range(10):eval(min([b"%r"%[[g[i][j]or g[a-j][i]*2for j in r]for i in r]for a in r],key=sum))

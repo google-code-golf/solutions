@@ -1,0 +1,1 @@
+p=lambda g:g and[x:=[3]*len(g),g[2:]and[*g[0][1:],3]or x,*zip(*p([*zip(*g[2:])])[::-1])]

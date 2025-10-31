@@ -1,0 +1,1 @@
+p=lambda g,i=1:[[*map(max,r,r[:(z:=abs(g.index(m:=max(g))+(i:=i-1)))]+m,m[z:]+r)]for r in g]

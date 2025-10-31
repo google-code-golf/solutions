@@ -1,0 +1,1 @@
+def p(g):*_,a,b=g;j=k=a.index(max(a));exec("j-=1;r=_[j-k];r[j]=r[~j]=b[k];"*j);return g

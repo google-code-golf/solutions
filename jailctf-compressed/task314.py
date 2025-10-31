@@ -1,0 +1,1 @@
+import re;p=lambda g:eval(re.sub('(?<=[2-9].{%d})1(?=.{%d}(\d))|'*2%(*b'MM',),r'\1\2',str(g)))

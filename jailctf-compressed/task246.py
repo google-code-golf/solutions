@@ -1,0 +1,1 @@
+p=lambda g,s=0:[[j|8&j-((s:=s+sum(i)*sum(a))^9<9or 2in i)*(2-sum(a)<8&-s)for*a,j in zip(*g,i)]for i in g]

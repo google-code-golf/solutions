@@ -1,0 +1,1 @@
+p=lambda g,x=[],z=[]:g*0!=0and[*map(p,g,g[:1]+x+g,(z+g)[1:]+g)]or g>>x*z

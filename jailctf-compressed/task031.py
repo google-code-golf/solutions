@@ -1,0 +1,1 @@
+p=lambda g,*a:[*filter(any,zip(*a or p(*g)))]

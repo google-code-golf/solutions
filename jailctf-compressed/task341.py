@@ -1,0 +1,1 @@
+p=lambda g,i=7:g*-i or[(q:=0)or[[(k:=r.pop())*(k%-8<q),q:=k or-q*any(r)&8][i<4]for _ in g]for*r,in zip(*p(g,i-1))]

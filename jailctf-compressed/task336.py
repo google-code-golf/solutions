@@ -1,0 +1,1 @@
+p=lambda g:exec(f"g[:]={'[r.pop()or(sum(r[:5])&sum(r)&5>4)*8for r in g],'*10};"*4)or g

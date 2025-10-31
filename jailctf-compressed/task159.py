@@ -1,0 +1,1 @@
+p=lambda z:eval((3*'ip(*[[2,*r,2]for r in z')[4:]+' for _ in"%r".count("2")//12*"a"if{*r}-{0,2}])'%z*2+']')

@@ -1,0 +1,1 @@
+def p(g):f=sum(g,[])*2;q=lambda c:[x==c for x in f[f.index(c):][:22]];return[[[g,5][q(g)==q(A:=f[0]|f[10])!=g!=A]for g in g]for g in g]

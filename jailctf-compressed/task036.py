@@ -1,0 +1,1 @@
+p=lambda g,x=0:[r for r in zip(*x or p(g,g))if{*r}-{*sum(g[:5]+g[25:],[])}]

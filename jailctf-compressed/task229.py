@@ -1,0 +1,1 @@
+p=lambda g:[[[5,i][i==max(q:=sum(g,g),key=q.count)]for i in j]for j in g]

@@ -1,0 +1,1 @@
+p=lambda g,i=3:-i*g or p([*zip(*[h:=[[i*(j>i)for i in a[len(g):]for j in b[:len(g)]]for a in g for b in g],g][h==h[::-1]])][::-1],i-1)

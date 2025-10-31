@@ -1,0 +1,1 @@
+def p(g):c=len(g)//2;return[x*0!=0and p(x)or x%~x&g[c]for x in g[:c]+g[c-1::-1]]

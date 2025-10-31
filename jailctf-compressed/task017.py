@@ -1,0 +1,1 @@
+p=lambda g:[[i or 8for i in map(max,*[x for x in g if all(-a^-b<1for a,b in zip(x,r))])]for r in g]

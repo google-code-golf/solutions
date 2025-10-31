@@ -1,0 +1,1 @@
+p=lambda g:(d:=g[:3])*(d!=[*map(list,zip(*d))])or p(g[3:])

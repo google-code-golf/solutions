@@ -1,0 +1,1 @@
+p=lambda g:[[a:=sum(g*2,g),*map(max,*[a[d:]for _ in a if a.pop(0)==5])][4:7]for d in b'it']

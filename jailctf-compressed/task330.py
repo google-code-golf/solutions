@@ -1,0 +1,1 @@
+p=lambda g,k=-15,i=1:k*g or[[c%~c&(i:=[i*8,1+c%7//6,c|i&c%~c][k//14])for c in[0]+r][:0:-1]for*r,in zip(*p(g,k+1))]

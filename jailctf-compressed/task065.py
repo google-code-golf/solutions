@@ -1,0 +1,1 @@
+p=lambda g:[p(i)for*i,in map(zip,g,g[len(g)//2+1:])]or min(q:=g[0]+g[1],key=q.count)

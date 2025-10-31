@@ -1,0 +1,1 @@
+def p(g):*x,c={}.fromkeys(sum(zip(*g),(0,*g[0])));return[f[::(s:=len(f)//3)]for i in g if any(f:=[x[j==c]for*a,j in zip(*g,i)if c in a])][::s]

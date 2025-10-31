@@ -1,0 +1,1 @@
+def p(g,x=0,i=2):r,c,e=x%9,x%8,3-x//72;h=*zip(*g[::-1]),;return-i*g or any(0in a[c:c+e]for a in g[r:r+e])and p(g,x+1)or p([[*map(max,x,y[10-c-r-e:]+y)]for x,y in zip(g,h[c-r:]+h)],x,i-1)

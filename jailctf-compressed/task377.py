@@ -1,0 +1,1 @@
+p=lambda g,x=0:[g:=r for*r,in zip(*x or p(g,g))if g!=r]

@@ -1,0 +1,1 @@
+p=lambda g:[R[:q]for r in g if(q:=len({*str(g)})-6)<=len(R:=[c for c in r if c%5])][:q]

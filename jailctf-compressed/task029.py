@@ -1,0 +1,1 @@
+p=lambda g,c=1:(a:=[z:=r[r.index(c)+1:~r[::-1].index(c)]for r in g if c in r])[1:-(a>[]<a[0]==z)]or p(g,c+1)

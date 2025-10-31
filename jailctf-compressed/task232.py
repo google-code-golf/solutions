@@ -1,0 +1,1 @@
+p=lambda g:[(c:=0)or[[c:=v-c,5][c<0]for v in x]for x in g]

@@ -1,0 +1,1 @@
+p=lambda g:[[c^6&b+~a]*3for a,b,c in g]

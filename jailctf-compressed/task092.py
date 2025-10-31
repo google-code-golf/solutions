@@ -1,0 +1,1 @@
+p=lambda g,x=0,l=0:[[[l:=l^i*~-r.count(i),i][i>0]for i in r]for*r,in zip(*x or p(g,g))]

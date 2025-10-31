@@ -1,0 +1,1 @@
+p=lambda g,x=0:(O:=[*zip(*[zip(*x or p(g,g))]*3)])[(M:=[str(o).count("0")for o in O]).index(min(M,key=M.count))]

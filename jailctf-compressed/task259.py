@@ -1,0 +1,1 @@
+p=lambda g:exec('g[:]=zip(*eval(f"{g[any(g[-1])-2::-1]}".replace(*"10")));'*24)or g

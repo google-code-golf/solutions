@@ -1,0 +1,1 @@
+p=lambda g,i=7:g*-i or[*zip(*eval(str(p(g,i-2)).replace('1, ','1,86//i%1')))][::-1]

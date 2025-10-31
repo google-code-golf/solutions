@@ -1,0 +1,1 @@
+p=lambda g:[g:=[[c*(sum(g,n*30).count(c)>38)for*n,c in zip([0]+r,r[1:]*2,r)]for*r,in zip(*g)]for _ in g][1]

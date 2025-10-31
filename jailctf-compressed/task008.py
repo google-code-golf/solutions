@@ -1,0 +1,1 @@
+p=lambda g,x=0:sorted(zip(*x or p([],g)),key=lambda r:max(r)^(8in g.__iadd__(r))*10)

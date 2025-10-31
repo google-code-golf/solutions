@@ -1,0 +1,1 @@
+def p(g,i=1):g[-1][i]=4;g[~i][i]=2;g>g[:i+1]>p(g,i+1);return g

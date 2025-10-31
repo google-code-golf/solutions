@@ -1,0 +1,1 @@
+p=lambda g:[*zip(*[eval('r.pop(0)or r[4],'*4)for*r,in g[9:]or p(g*2)])]

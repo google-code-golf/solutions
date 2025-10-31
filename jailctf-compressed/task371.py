@@ -1,0 +1,1 @@
+p=lambda g,i=0:[[c|(abs((I:=sum(g,[i:=i-2]).index)(1)+I(1,I(1)+1)+i)in(2,0,2*len(r)))*3for c in r]for r in g]

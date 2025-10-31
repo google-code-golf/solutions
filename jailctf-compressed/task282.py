@@ -1,0 +1,1 @@
+p=lambda g:[[*map(max,[0]+r,[c>3for c in r],r[1:]+r)]for*r,in zip(*g[9:]or p(g*2))]

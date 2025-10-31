@@ -1,0 +1,1 @@
+p=lambda g:g[len(g)>>([6,5]*2!=g[1]in g[3:]):]or[*map(p,g)]

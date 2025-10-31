@@ -1,0 +1,1 @@
+p=lambda g,x=2:g*0!=0and[p(r,x:=x-1)or-x%max(g)+1for r in g]
