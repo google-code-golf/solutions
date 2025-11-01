@@ -1,0 +1,1 @@
+exec(f"p=lambda g:[g:=[[x:=y]and[g[y][x]|g[y][[~x,y+2][18-y>x%2*x>y]]{'for y in range(19)]'*3}[5]")

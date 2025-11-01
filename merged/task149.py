@@ -1,0 +1,1 @@
+p=lambda g:g[3:]and[p([*zip(*g[i:i+3])])for i in[0,4,8]]or sum(b"%r/"%g)%5

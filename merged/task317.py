@@ -1,0 +1,1 @@
+p=lambda g:g==5or g and[p(g[1])]*3+p(g[3:])

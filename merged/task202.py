@@ -1,0 +1,1 @@
+p=lambda g:exec("v=p,;g[:]=zip(*[map(min,[i,v][len({*v,*i,0})<3],v:=i)for*i,in g[::-1]]);"*36)or g
