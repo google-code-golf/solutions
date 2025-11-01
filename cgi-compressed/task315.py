@@ -1,0 +1,1 @@
+p=lambda g:[[y&-x%5for x in r for y in s]for r in g for s in g]

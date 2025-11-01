@@ -1,0 +1,1 @@
+p=lambda g:[max(y*[r.count(y)*c.count(y),y]for r in g for*c,y in zip(*g,r))[-1:]*2]*2

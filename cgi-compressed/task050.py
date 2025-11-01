@@ -1,0 +1,1 @@
+p=lambda g:[*map(F:=lambda*r,k=0:[max(c,k:=k^sum(r)*c*6%9%6)for c in r],*map(F,*g))]

@@ -1,0 +1,1 @@
+p=lambda g:eval("[*map(max,g.pop(0),g[5])],"*5)

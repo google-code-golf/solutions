@@ -1,0 +1,1 @@
+p=lambda g:[*zip(*[map(sum(sum(g,[])).__gt__,b"_	___ ")]*3)]

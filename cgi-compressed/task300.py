@@ -1,0 +1,1 @@
+p=lambda g,*G:[r for*r,in zip(*G or p(g,*g))if max(range(1,10),key=sum(g,g).count)in r]

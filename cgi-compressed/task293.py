@@ -1,0 +1,1 @@
+p=lambda g:[[y-x+r[0]or x for x,y in zip(r,g[0])]for r in g]

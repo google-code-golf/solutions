@@ -1,0 +1,1 @@
+p=lambda g,c=0:g*0!=0and[p(l)or(c:=l+80-c>>c&9-l)%2*3for l in g]

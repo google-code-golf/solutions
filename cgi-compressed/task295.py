@@ -1,0 +1,1 @@
+p=lambda g:[P:=g[0]]+[P:=P[:1]+P[:-1]for x in P[2::2]]

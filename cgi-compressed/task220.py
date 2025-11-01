@@ -1,0 +1,1 @@
+p=lambda g:[g:=[[r.pop()or d**4%84%15for d in[0]+r[:0:-1]]for*r,in zip(*g)]for _ in g][3]

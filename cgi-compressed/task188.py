@@ -1,0 +1,1 @@
+p=lambda g:(X:=g[:53%~-len(g)])*(g==X+X)or[*map(p,g)]

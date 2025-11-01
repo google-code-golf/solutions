@@ -1,0 +1,1 @@
+p=lambda g,i=0:[[-j+(j:=j+x)or(1+i*2/(C:=sum(c)))*(i*2%C+i*sum(r)==j*C)for*c,x in zip(*g,r)]for r in g if[i:=i+r[j:=0]]]

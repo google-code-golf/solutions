@@ -1,0 +1,1 @@
+p=lambda g:[[x|3>>x+sum(r[1:-any(c)])for _,*c,_,x in zip(*g,r)]for r in g]

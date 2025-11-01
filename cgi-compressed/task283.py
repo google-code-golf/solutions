@@ -1,0 +1,1 @@
+p=lambda g:g[150:]or[*map(lambda*r,P=0:[P:=x*22**P%77%9for x in r],*p(g*2)[::-1])]

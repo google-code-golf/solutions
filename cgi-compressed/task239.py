@@ -1,0 +1,1 @@
+p=lambda g:[s:=sum(g,[]),*filter(any,zip(*sorted([c:=-s.count(e)]+[e]*-c+[0]*99for e in{*s})))][2:]

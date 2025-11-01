@@ -1,0 +1,1 @@
+p=lambda g,k=-7:k*g or p([[r[3>max(r)in max(g,key=any)]for r in zip(l,[0]+l)]for*l,in zip(*g)],k+1)

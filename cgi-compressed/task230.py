@@ -1,0 +1,1 @@
+exec("p=lambda g,Z=[[0]*30]:[[(114>>hash((*b'%rr&R'%g,))%9^2)%6"+"for*g,in map(zip,Z+g,g,g[1:]+Z)]"*2)

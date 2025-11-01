@@ -1,0 +1,1 @@
+p=lambda g,n=7:g*-n or[*map(lambda*r,b=0:[b:=~0**b&e or n<1for e in r][::-1],*p(g,n-1))]

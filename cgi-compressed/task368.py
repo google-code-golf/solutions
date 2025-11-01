@@ -1,0 +1,1 @@
+p=lambda g,w=0,s=[0]*10:[(y:=0)or[[0,*[a for a in sum(g,[])if a%5],s:=[y:=x and(s[9]or y-(w:=max(w,y)))-~w]+s][y]for x in r]for r in g]
