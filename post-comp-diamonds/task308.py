@@ -1,0 +1,1 @@
+def p(e):s,u=len(e[0]),enumerate;e=sum(e,[]);m=max(e:={e.count(r)<9and f-sum(e*(u==r)for e,u in u(e))//4:r for f,r in u(e)})//s;p=range(-m,m+1);return[[e.get(u*s+r,e[0])for r in p]for u in p]
