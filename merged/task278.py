@@ -1,1 +1,1 @@
-p=lambda g,n=11:-n*g or[[[x|6&y**x,x or 3%-~y,x&3][n//4]for x,y in zip(r,[0]+r)]for*r,in zip(*p(g,n-1))][::-1]
+p=lambda m,k=11:-k*m or p([[[v%9,v|3%-~u,v<<u][k>>2]for u,v in zip([0]+r,r)]for*r,in zip(*m[::-1])],k-1)
