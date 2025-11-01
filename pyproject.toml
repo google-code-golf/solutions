@@ -5,15 +5,27 @@ description = "Google Code Golf Solutions"
 readme = "README.md"
 requires-python = "==3.11.13"
 dependencies = [
+    "blessed>=1.22.0",
     "deflate>=0.8.1",
     "kaggle>=1.7.4.5",
     "multiprocess>=0.70.18",
+    "numpy>=2.3.4",
     "zopfli>=0.2.3.post1",
 ]
 
-
-[tool.ruff]
-exclude = ["solutions", "build"]
-
 [dependency-groups]
 dev = ["ruff>=0.14.3", "ty>=0.0.1a25"]
+
+
+[tool.ruff]
+exclude = [
+    "solutions",
+    "build",
+    "cgi-compressed",
+    "cgi-uncompressed",
+    "jailctf-compressed",
+    "merged",
+    "oxjam-compressed",
+    "oxjam-uncompressed",
+    "post-comp-diamonds",
+]
