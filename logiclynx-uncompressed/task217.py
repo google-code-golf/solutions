@@ -1,0 +1,1 @@
+p=lambda g:g[3:]and p([*zip(*filter(sum,g))])or[[x&y for x in r for y in s]for r in g for s in g]

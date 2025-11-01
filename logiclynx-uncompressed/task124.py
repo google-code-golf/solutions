@@ -1,0 +1,1 @@
+p=lambda g,s=-1,k=3:(o:=[(j//k*s*[0]+g[j%k])[:10]for j in range(10)])*(g==o[:len(g)])or p(g,s+1,2)

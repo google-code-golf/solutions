@@ -1,0 +1,1 @@
+p=lambda g,i=67:-i*g or[(d:=0)or[d:=c&-5>>d or(i<1)*4for c in r]for r in zip(*p(g,i-1)[::-1])]

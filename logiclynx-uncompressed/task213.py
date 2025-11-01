@@ -1,0 +1,1 @@
+p=lambda g:[*zip(*g[len(c:=[y for r in g for y in{*r}if y%5]):]and[c]*len(c)or p([*zip(*g)]))]

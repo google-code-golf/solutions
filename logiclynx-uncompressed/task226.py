@@ -1,0 +1,1 @@
+p=lambda g:exec("g[0][0]=1;g[9][9]=3;g[4|g[4][0]][4|g[0][4]]=2"+12*";g[:]=zip(*(map(max,r,(x%5for x in(5,*r)))for r in g[::-1]))")or g

@@ -1,0 +1,1 @@
+p=lambda g:exec('d,b=sorted(range(10),key=sum(g,[]).count)[7:9]\nfor r in g:\n if{*r}>{d,b}:p=r.index;r[p(d):p(b)]=[d]*(p(b)-p(d))\ng[:]=map(list,zip(*g[::-1]))#'*4)or g

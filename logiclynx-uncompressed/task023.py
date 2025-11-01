@@ -1,0 +1,1 @@
+p=lambda g:(f:=lambda s:s<{0}or any(f(s-p)*[g[t//9].__setitem__(t%9,2+a%b*6)for t in p]for a in(1,9)for b in(a,9)if(p:={m:=min(s),m+a,m+b,m+a+b})<=s))({t for t in range(72)if g[t//9][t%9]})*g

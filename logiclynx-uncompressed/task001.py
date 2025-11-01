@@ -1,0 +1,1 @@
+p=lambda j:[[x&y for x in r for y in s]for r in j for s in j]

@@ -1,0 +1,1 @@
+p=lambda g:0*[exec('b[i]=a[i]'*(a[i-3]==b[i-3]>b[i]<1))for a in g*2+[21*[8]]for i in range(21)for b in g]+g

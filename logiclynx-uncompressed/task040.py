@@ -1,0 +1,1 @@
+p=lambda g,R=range(10):[[g[y][x]and g[-(y>4)][-(x>4)]for x in R]for y in R]

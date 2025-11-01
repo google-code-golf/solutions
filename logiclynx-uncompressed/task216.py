@@ -1,0 +1,1 @@
+p=lambda g:max(map(f:=lambda n:(a:=(s:=(*g,[])[n//20][n%20:]+[0])[:s.index(0)])and[a]+f(n+20),range(400)),key=lambda s:str(s).count('2'))

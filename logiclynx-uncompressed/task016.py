@@ -1,0 +1,1 @@
+p=lambda g:3*[[b'0	'[x]for x in g[0]]]

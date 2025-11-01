@@ -1,0 +1,1 @@
+def p(g):r=range(n:=len(g));return[[max(~x+(n-y-n%4/2>x==y-1),~y,x-n,y-n)%2*3for x in r]for y in r]

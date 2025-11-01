@@ -1,0 +1,1 @@
+p=lambda g:exec("g[:]=map(lambda*r,l=3:[l:=c|2>>c|(l==3>c)for c in r],*g[::-1]);"*8)or g

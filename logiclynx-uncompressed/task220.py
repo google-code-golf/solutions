@@ -1,0 +1,1 @@
+p=lambda g,e=enumerate:[[5*max(sum(r[j-(j>0):j+2],c)for r in g[i-(i>0):i+2])%9for j,c in e(r)]for i,r in e(g)]

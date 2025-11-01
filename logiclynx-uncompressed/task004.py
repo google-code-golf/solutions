@@ -1,0 +1,1 @@
+p=lambda g:[*map(lambda a,b,m=0:[m+v-(m:=v*any(b:=b[1:]))for v in a],g,g[1:]+g)]

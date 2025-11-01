@@ -1,0 +1,1 @@
+p=lambda g,m=max,e=enumerate:[[m(r[:j+1])&m(r[j:])|m(c[:i+1])&m(c[i:])for j,c in e(zip(*g))]for i,r in e(g)]

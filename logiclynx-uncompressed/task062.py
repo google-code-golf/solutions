@@ -1,0 +1,1 @@
+def p(g):r=range(s:=10);f=sum(g,[]);k=sum({*f})-2;i=f.index(2);a=((i//s,i%s)[b:=k in g[i//s]]+f[i+s-9*b]//k)*2%s;return[[(3,k)[g[y][x]!=(g[a+~y][x],g[y][a+~x])[b]]for x in r]for y in r]

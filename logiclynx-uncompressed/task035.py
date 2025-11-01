@@ -1,0 +1,1 @@
+p=lambda g:exec("for r in g:r[r[0]and r.index(8)]=r[0]\ng[:]=map(list,zip(*g[::-1]))\n"*4)or g

@@ -1,0 +1,1 @@
+s=range(6);p=lambda g,n=0:g[r:=n//5][c:=n%5]and[[g[y][x]|g[r+(y<r)][c+(x<c)]*(y-r&x-c&2>0)for x in s]for y in s]or p(g,n+1)

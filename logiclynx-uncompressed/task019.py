@@ -1,0 +1,1 @@
+p=lambda g,e=enumerate:[[c or any(sum((0,*s*2)[j:j+3:2])for s in((),*g*2)[i:i+3:2])*8for j,c in e(r*2)]for i,r in e(g*2)]

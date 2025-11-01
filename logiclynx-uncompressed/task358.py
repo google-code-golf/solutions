@@ -1,0 +1,1 @@
+p=lambda g:exec('s=[*filter(int,a:=max(g,key=sum))]*7;g[g.index(a)]=s[-a.index(s[0]):]+s;g[:]=zip(*g);'*2)or g

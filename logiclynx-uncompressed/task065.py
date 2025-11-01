@@ -1,0 +1,1 @@
+p=lambda g:min(q:=[*zip(*(h:=[(r[:(n:=len(g)>>1)],r[-n:])for r in g])[:n]),*zip(*h[-n:])],key=q.count)

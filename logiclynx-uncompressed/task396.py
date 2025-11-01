@@ -1,0 +1,1 @@
+def p(g):o=min(s:=sum(g,[]),key=s.count);h=len(g[0])+1;b=bytes(o!=i>0for r in g for i in r+[0]);t=b.find(e:=max(b.split(b'\0')));return[[o*(j>0)for j in r[t%h:][:len(e)]]for r in g[t//h:b.rfind(e)//h+1]]

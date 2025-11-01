@@ -1,0 +1,1 @@
+import re;p=lambda g,k=9:-k*g or p(eval(re.sub(r'(?<=(.).{28})0(?=(.{29})*.{28}\1)',r'\1',str(g[::-1]))),k-1)

@@ -1,0 +1,1 @@
+p=lambda g:g and[[6<sum(sum(r[c:c+3])for r in g[:3])for c in(0,4,8)]]+p(g[4:])

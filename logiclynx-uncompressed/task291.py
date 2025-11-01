@@ -1,0 +1,1 @@
+p=lambda g,c=1:len({r.count(c)for r in g})//3*[[c]]or p(g,c+1)

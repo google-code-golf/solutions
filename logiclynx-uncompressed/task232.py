@@ -1,0 +1,1 @@
+p=lambda g:[([0]*r.index(l:=sum(r))+[l,5]*7*l+r)[:len(r)]for r in g]

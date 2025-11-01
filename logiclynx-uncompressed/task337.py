@@ -1,0 +1,1 @@
+p=lambda g:g*0!=0and[*map(p,g)]or g^g%3*g//9*13

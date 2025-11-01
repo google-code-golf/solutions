@@ -1,0 +1,1 @@
+p=lambda j:[[x//2*y for x in r for y in s]for r in j for s in j]

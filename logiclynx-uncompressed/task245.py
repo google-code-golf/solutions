@@ -1,0 +1,1 @@
+import re;p=lambda g,k=9,b=1,r=re.sub:-k*g or p(eval(r('((2, )*)0,',r'0,\1',s:=f'{*zip(*g),}',-b)),k-1,r('2[^)]*3','',s)==s)

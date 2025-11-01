@@ -1,0 +1,1 @@
+p=lambda g,h=lambda q:[*filter(sum,zip(*q))]:h(h(g)*2)

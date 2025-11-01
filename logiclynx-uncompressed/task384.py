@@ -1,0 +1,1 @@
+p=lambda g,n=0:sum(((c,c)*any(c)for c in zip(*n or p(g,g))),())

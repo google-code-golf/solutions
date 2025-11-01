@@ -1,0 +1,1 @@
+import re;p=lambda g,k=19:-k*g or[*zip(*eval(re.sub(r'0(?=.{25}0, (.).{28}\1)',r'\1',str(p(g,k-1)[::-1]))))]

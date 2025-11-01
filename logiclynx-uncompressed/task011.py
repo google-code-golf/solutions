@@ -1,0 +1,1 @@
+r=range(11);p=lambda g:[[[5,g[(e:=2-sum(g[i][j]and-4&i|j//4for i in r for j in r))&12|x>>2][e%4*4|y>>2]][x%4<3>y%4]for y in r]for x in r]

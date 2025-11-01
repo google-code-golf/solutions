@@ -1,0 +1,1 @@
+p=lambda g,k=19,c=1:-k*g or p(eval(t:=(s:=f'{*zip(*g),}').replace((', 5'*(n:=k//2))[2:],(f',{c}'*n)[1:])),k-1,(c+(s>t)*3)%5)

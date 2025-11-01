@@ -1,0 +1,1 @@
+p=lambda g,s="[*zip(*((c%s for c,v in zip(r,(2,*r)))for r in ":eval(s%"%2*c"+s%"|v-1&2"*8+s%"|v&2-c"*47+"g"+"[::-1]))]"*56)

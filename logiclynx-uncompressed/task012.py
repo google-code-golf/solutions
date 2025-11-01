@@ -1,0 +1,1 @@
+p=lambda g,C=enumerate:0*[g[i+o%9-3].__setitem__(x+o%5-3,b[x-o%2])for i,b in C(eval(str(g)))for x,a in C(b)for o in b'RxTz7meSyg_;'*a*b[x-2]]+g

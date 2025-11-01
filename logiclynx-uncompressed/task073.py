@@ -1,0 +1,1 @@
+p=lambda g:g[:1]*3+[g[3],[x*4^5for x in g[2]]]

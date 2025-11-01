@@ -1,0 +1,1 @@
+p=lambda g:[[x>>(sum(t)<4)for*t,x in zip(*g[i-(i>0):i+2],a[1:]+[0],[0]+a,a)]for i,a in enumerate(g)]

@@ -1,0 +1,1 @@
+p=lambda g:[[max(t,key=bool)for t in zip(a[4:],b,b[4:],a)]for a,b in zip(g,g[4:])]

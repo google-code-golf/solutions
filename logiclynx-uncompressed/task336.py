@@ -1,0 +1,1 @@
+p=lambda g,f=lambda g,s=sum:[[r[j]or(0<s(r[:j])<s(r)or s(r)&5>j//5^s(r[:5])&1|4)*8for r in g]for j in range(10)]:f(f(g))

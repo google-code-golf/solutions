@@ -1,0 +1,1 @@
+p=lambda g:[[2&b+~r.pop(0)for b in g.pop(4)]for r in g]

@@ -1,0 +1,1 @@
+p=lambda g,i=9:g*0!=0and[p(max(g[(i:=i-9)%10::10]))for _ in g]or g

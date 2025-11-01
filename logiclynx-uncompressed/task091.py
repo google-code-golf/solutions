@@ -1,0 +1,1 @@
+p=lambda g,n=47:-n*g or p([*zip(*g[(5in g[~(n&1)])-2::-1])],n-1)

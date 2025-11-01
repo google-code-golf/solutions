@@ -1,0 +1,1 @@
+from itertools import*;p=lambda g:exec('g[:]=zip(*(map(max,*v)for k,v in groupby(g,any)if k));'*2)or g

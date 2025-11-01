@@ -1,0 +1,1 @@
+p=lambda g:[*(map(p,g),a:=g[:len(g)//2])[g[:2]<g==a+a]]

@@ -1,0 +1,1 @@
+p=lambda g:max((str(t:=[r[k%7:][:3]for r in g[k//7:][:3]]).count('1'),t)for k in range(49))[1]

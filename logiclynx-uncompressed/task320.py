@@ -1,0 +1,1 @@
+p=lambda g:[*zip(*map(lambda*c:c[:-(s:=sum(c)>>2)|16]+s*(8,),*g))]

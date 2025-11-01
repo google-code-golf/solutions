@@ -1,0 +1,1 @@
+p=lambda g:g[3:]and(g:=sorted((str(x).count('0'),x)for x in zip(*[iter(g)]*3)))[-(g[0]>g[1][:1])][1]or[*zip(*p([*zip(*g)]))]
