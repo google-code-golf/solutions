@@ -1,1 +1,1 @@
-p=lambda g:[(w:=[8]*g.count(max(g,key=any))+g[0])[:3],w[5:2:-1],[0]*3]
+p=lambda g:[[8,(s:=sum(map(max,g))*6)+4&8,-s&8],[0,0,~s&8],[0]*3]
