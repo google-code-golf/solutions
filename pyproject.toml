@@ -5,6 +5,7 @@ description = "Google Code Golf Solutions"
 readme = "README.md"
 requires-python = "==3.11.13"
 dependencies = [
+    "deflate>=0.8.1",
     "kaggle>=1.7.4.5",
     "multiprocess>=0.70.18",
     "zopfli>=0.2.3.post1",
