@@ -63,7 +63,7 @@ def print_matrix(term: Terminal, matrix: list[list[int]]) -> None:
         6: term.on_magenta,
         7: term.on_orange3,
         8: term.on_cyan,
-        9: term.on_darkturquoise,
+        9: term.on_maroon,
     }
 
     for row in matrix:
