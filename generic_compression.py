@@ -2,8 +2,22 @@ import zlib
 import deflate
 import zopfli.zlib
 
-PREFIXES = [b"", b"\n", b"\r", b"\f", b"\n\f", b"\r\f"] + [bytes([c, ne]) for c in b"\t\n\f\r 0123456789#" for ne in b"\n\r"]
-POSTFIXES = [b"", b" ", b"\t", b"\n", b"\r", b"\f", b"#", b";", b"\t ", b" \t", b"\np"] + [b"#" + bytes([n]) for n in range(32, 127)]
+PREFIXES = [b"", b"\n", b"\r", b"\f", b"\n\f", b"\r\f"] + [
+    bytes([c, ne]) for c in b"\t\n\f\r 0123456789#" for ne in b"\n\r"
+]
+POSTFIXES = [
+    b"",
+    b" ",
+    b"\t",
+    b"\n",
+    b"\r",
+    b"\f",
+    b"#",
+    b";",
+    b"\t ",
+    b" \t",
+    b"\np",
+] + [b"#" + bytes([n]) for n in range(32, 127)]
 
 
 def compress_raw(src: bytes, method: str, window: int) -> tuple[bytes, dict]:
@@ -14,7 +28,9 @@ def compress_raw(src: bytes, method: str, window: int) -> tuple[bytes, dict]:
 
     if method == "zopfli":
         iterations = window
-        compressed = zopfli.zlib.compress(src, numiterations=iterations, blocksplitting=False)
+        compressed = zopfli.zlib.compress(
+            src, numiterations=iterations, blocksplitting=False
+        )
         window = -(((compressed[0] >> 4) & 0x0F) + 8)
         compressed = compressed[2:-4]
     elif method == "libdeflate":
@@ -33,7 +49,7 @@ def compress_raw(src: bytes, method: str, window: int) -> tuple[bytes, dict]:
             b_out += b"\\x00" if ch1 in b"01234567" else b"\\0"
         elif ch == 13:
             b_out += b"\\r"
-        elif ch == 92 and ch1 in b"\\\n\"\'01234567NUabfnrtvxu":
+        elif ch == 92 and ch1 in b"\\\n\"'01234567NUabfnrtvxu":
             b_out += b"\\\\"
         else:
             b_out.append(ch)
@@ -54,9 +70,9 @@ def compress_raw(src: bytes, method: str, window: int) -> tuple[bytes, dict]:
         compressed = compressed.replace(b'"', b'\\"').replace(b"\n", b"\\n")
 
     stats = {
-        'method': method,
-        'window': window,
-        'escape_cost': len(compressed) - len_before_escape,
+        "method": method,
+        "window": window,
+        "escape_cost": len(compressed) - len_before_escape,
     }
 
     if window < 15:
@@ -64,13 +80,25 @@ def compress_raw(src: bytes, method: str, window: int) -> tuple[bytes, dict]:
 
     if sum(c > 127 for c in compressed) < 8:
         header = header.replace(b"#coding:L1\n", b"")
-        l = b''
+        l = b""
         for c in compressed:
             l += b"\\x%0.2x" % c if c > 127 else bytes([c])
         compressed = l
-        return header + b"\nexec(zlib.decompress(b" + delim + compressed + delim + (b',%d' % window if window < 15 else b'') + b'))', stats
+        return header + b"\nexec(zlib.decompress(b" + delim + compressed + delim + (
+            b",%d" % window if window < 15 else b""
+        ) + b"))", stats
 
-    return header + b"\nexec(zlib.decompress(bytes(" + delim + compressed + delim + b',"L1")' + (b',%d' % window if window < 15 else b'') + b'))', stats
+    return (
+        header
+        + b"\nexec(zlib.decompress(bytes("
+        + delim
+        + compressed
+        + delim
+        + b',"L1")'
+        + (b",%d" % window if window < 15 else b"")
+        + b"))",
+        stats,
+    )
 
 
 def compress(source: bytes, method: str, window: int) -> bytes:

@@ -18,6 +18,7 @@ DELIMS = [b"'", b'"']
 # Reencode implementation
 # ============================================================================
 
+
 class BitReader:
     def __init__(self, data: bytes) -> None:
         self.stream = io.BytesIO(data)
@@ -274,6 +275,7 @@ def reencode(deflate: bytes, delim: bytes):
 # ============================================================================
 # Golf utils implementation
 # ============================================================================
+
 
 def sanitize(b_in: bytes, delim: bytes) -> bytes:
     b_in = reencode(b_in, delim)

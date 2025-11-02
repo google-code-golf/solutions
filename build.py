@@ -4,6 +4,7 @@ import cgi_compression
 import jailctf_compression
 import generic_compression
 
+
 def main():
     input_dir = Path("solutions")
     output_dir = Path("build")
@@ -19,24 +20,24 @@ def main():
         compression_method = None
         compression_params = None
 
-        match = re.search(r'# compression: (\w+)-(-?\d+)', content)
+        match = re.search(r"# compression: (\w+)-(-?\d+)", content)
         if match:
-            compression_method = 'specific'
+            compression_method = "specific"
             compression_params = (match.group(1), int(match.group(2)))
         else:
-            match = re.search(r'# compression: (\w+)', content)
+            match = re.search(r"# compression: (\w+)", content)
             if match:
                 compression_method = match.group(1)
 
         content = content.split("\n#")[0]
 
         if compression_method:
-            source_bytes = content.encode('latin-1')
-            if compression_method == 'cgi' or compression_method == 'unknown':
+            source_bytes = content.encode("latin-1")
+            if compression_method == "cgi" or compression_method == "unknown":
                 compressed = cgi_compression.compress(source_bytes)
-            elif compression_method == 'jailctf':
+            elif compression_method == "jailctf":
                 compressed = jailctf_compression.compress(source_bytes)
-            elif compression_method == 'specific':
+            elif compression_method == "specific":
                 method, window = compression_params
                 compressed = generic_compression.compress(source_bytes, method, window)
             else:
@@ -47,6 +48,7 @@ def main():
         else:
             with open(output_dir / filename, "w", encoding="latin-1") as f:
                 f.write(content)
+
 
 if __name__ == "__main__":
     main()
