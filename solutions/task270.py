@@ -1,4 +1,4 @@
 import re
-p=lambda g:[g:=eval(re.sub(f'{n}([^(]*)0(?=, {8%n})',r'0\1n',f"{*zip(*g[::-1]),}"))for n in(7,3,3)*8][-1]
+p=lambda g:exec(r'g[::-1]=zip(*eval(re.sub("((3)|7)([^[(]+)0(, (?(2)2|1))",r"0\3\1\4",str(g))));'*8)or g
 # ----------------------------------------------------------------
-# cgi, jailctf
+# post-comp-diamond-himagine the future
