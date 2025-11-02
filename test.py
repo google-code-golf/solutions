@@ -1,0 +1,110 @@
+import argparse
+import copy
+from multiprocessing import Pool, cpu_count
+import os
+from pathlib import Path
+import sys
+import time
+import warnings
+
+from common import Task, load_solution
+
+import numpy as np
+
+TASKS = Path("tasks")
+
+
+def test_task(args):
+    task_num, solutions_dir = args
+    start_time = time.time()
+
+    task = Task.load(task_num, TASKS)
+    module = load_solution(task_num, solutions_dir)
+    p = getattr(module, "p")
+
+    path = solutions_dir / f"task{task_num:03d}.py"
+
+    passed = total = 0
+    for testcase in task.all_testcases():
+        total += 1
+        try:
+            with warnings.catch_warnings():
+                warnings.simplefilter("ignore")
+                input_copy = copy.deepcopy(testcase.input)
+                output = p(input_copy)
+                if np.array_equal(np.array(output), np.array(testcase.output)):
+                    passed += 1
+        except Exception:
+            pass
+
+    elapsed = time.time() - start_time
+    return task_num, passed == total, os.path.getsize(path), elapsed
+
+
+def main():
+    parser = argparse.ArgumentParser(description="Test solutions")
+    parser.add_argument(
+        "tasks", nargs="*", type=int, help="Task numbers (default: all)"
+    )
+    parser.add_argument(
+        "-j", "--jobs", type=int, default=cpu_count(), help="Worker count"
+    )
+    parser.add_argument(
+        "-d",
+        "--directory",
+        type=str,
+        default="merged",
+        help="Solutions directory (default: merged)",
+    )
+    args = parser.parse_args()
+
+    solutions_dir = Path(args.directory)
+    tasks: list[int] = args.tasks or [*range(1, 401)]
+
+    tasks_list = [(task_num, solutions_dir) for task_num in tasks]
+    with Pool(args.jobs) as pool:
+        results = []
+        total = len(tasks_list)
+        completed_tasks = set()
+        for i, r in enumerate(pool.imap_unordered(test_task, tasks_list), 1):
+            if r:
+                results.append(r)
+                task_num, ok, bytes_count, elapsed = r
+                completed_tasks.add(task_num)
+                status = "✓" if ok else "✘"
+                print(
+                    f"\r[{i}/{total}] task{task_num:03d}: {status} {bytes_count}b {elapsed:.2f}s"
+                    + " " * 20
+                )
+
+                # Show pending tasks
+                pending = [t for t, _ in tasks_list if t not in completed_tasks]
+                if pending:
+                    print(
+                        f"Pending: {pending[:20]}{'...' if len(pending) > 20 else ''}"
+                    )
+        print()
+
+    # Sort by time and show slowest tasks
+    results.sort(key=lambda x: x[3], reverse=True)
+
+    print(f"\n{'Task':<12} {'Result':<10} {'Bytes':<8} {'Time':<10}")
+    print("-" * 42)
+
+    ok_count = sum(1 for task_num, ok, bytes_count, elapsed in results if ok)
+    total_bytes = sum(bytes_count for task_num, ok, bytes_count, elapsed in results)
+
+    for task_num, ok, bytes_count, elapsed in results[:10]:
+        status = "✓" if ok else "✘"
+        print(f"task{task_num:03d}  {status:<10}  {bytes_count:<8}  {elapsed:.2f}s")
+
+    print("-" * 42)
+    print(f"Passed: {ok_count}/{len(results)}")
+    print(f"Total bytes: {total_bytes}")
+
+    if ok_count < len(results):
+        sys.exit(1)
+
+
+if __name__ == "__main__":
+    main()

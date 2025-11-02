@@ -1,55 +1,10 @@
-#!/usr/bin/env python3
-
 from __future__ import annotations
 
-from dataclasses import dataclass
-import json
-from pathlib import Path
 import sys
 
+from common import Task, TestCase
+
 from blessed import Terminal
-
-
-@dataclass(frozen=True, slots=True)
-class TestCase:
-    input: list[list[int]]
-    output: list[list[int]]
-
-    @staticmethod
-    def from_dict(data: dict) -> TestCase:
-        return TestCase(data["input"], data["output"])
-
-
-@dataclass(frozen=True, slots=True)
-class Task:
-    train: list[TestCase]
-    test: list[TestCase]
-    arc_gen: list[TestCase]
-
-    def all(self) -> list[tuple[str, TestCase]]:
-        examples = []
-        for i, testcase in enumerate(self.train):
-            examples.append((f"Train {i + 1}", testcase))
-        for i, testcase in enumerate(self.test):
-            examples.append((f"Test {i + 1}", testcase))
-        for i, testcase in enumerate(self.arc_gen):
-            examples.append((f"ARC-Gen {i + 1}", testcase))
-        return examples
-
-    @staticmethod
-    def from_dict(data: dict) -> Task:
-        train = [TestCase.from_dict(tc) for tc in data["train"]]
-        test = [TestCase.from_dict(tc) for tc in data["test"]]
-        arc_gen = [TestCase.from_dict(tc) for tc in data.get("arc-gen", [])]
-        return Task(train, test, arc_gen)
-
-    @staticmethod
-    def load(task_num: int) -> Task:
-        task_filename = f"task{task_num:03d}.json"
-        task_path = Path("tasks") / task_filename
-        with open(task_path) as f:
-            task_data = json.load(f)
-        return Task.from_dict(task_data)
 
 
 def print_matrix(term: Terminal, matrix: list[list[int]]) -> None:
