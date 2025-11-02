@@ -1,0 +1,1 @@
+p=lambda m,k=271:-k*m or p([[r.pop()or sum({*u%8*sum(m,[-u-8])})for u in[0]+r[:0:-1]]for*r,in zip(*m)],k-1)

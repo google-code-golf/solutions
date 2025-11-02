@@ -1,0 +1,1 @@
+p=lambda m:[[min(a:=sum(m*3+m[1:6]*2,[]),key=a.count)]]

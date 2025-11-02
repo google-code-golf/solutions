@@ -1,0 +1,1 @@
+p=lambda m:2*[2*[v or 8*any(c)for*c,v in zip(*m,r)]for r in m]

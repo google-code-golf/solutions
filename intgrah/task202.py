@@ -1,0 +1,1 @@
+p=lambda m,k=39:-k*m or[r:=m[0]]*0+p([*zip(*[map(min,2%len({*r+s,0})*s+r,r:=s)for s in m][::-1])],k-1)

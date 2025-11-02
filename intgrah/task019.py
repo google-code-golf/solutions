@@ -1,0 +1,1 @@
+p=lambda m,k=7:-k*m or p([[(r.pop()%16or u//16*8)|16*(8!=u%16>0<k)for u in[0]+r[:0:-1]]for*r,in zip(*m+k//6*m)],k-1)

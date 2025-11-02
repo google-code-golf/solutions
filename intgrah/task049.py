@@ -1,0 +1,1 @@
+p=lambda m:[t for r in m if(t:=[*filter(min(a:=sum(m,[0]*99),key=a.count).__eq__,r)])]

@@ -1,0 +1,1 @@
+p=lambda m,k=3:-k*m or p([*zip(*m[:(i:=str(m).index('8')//32):-1],map(lambda*s:max({*s}-{8})or max(s),*m[:i+1]),*[[0]*10]*i)],k-1)

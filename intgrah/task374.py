@@ -1,0 +1,2 @@
+p=lambda m,k=39,j=5:-k*m or p([*zip(*(s:=eval(str(m).replace(k//4*"5, ",k//4*"16%j,"))))][::-1],k-1,j+(s<m))
+# p=lambda m,k=39,j=7:-k*m or p([*zip(*(s:=eval(str(m).replace(k//4*"5, ",k//4*"22%j,"))))][::-1],k-1,j-(s<m))

@@ -1,0 +1,1 @@
+p=lambda m:[x for r in m if(x:=[r[x+[d:=2+(len(m)>6),-d][x>=d]]for x,v in enumerate(r)if v<1])]

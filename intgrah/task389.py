@@ -1,0 +1,1 @@
+p=lambda m:[[sum({*sum(m,[-5])})*(v==5)for v in r]for r in m]

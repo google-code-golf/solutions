@@ -1,0 +1,1 @@
+p=lambda m:[[sum({a,b}&{min(f:=sum(m,[]),key=f.count)})for b in m[0]]for*_,a in m]

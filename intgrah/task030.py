@@ -1,0 +1,1 @@
+p=lambda m:[[r[x]%2+(a:=r*9)[x+(I:=sum(m,m).index)(1)-I(4)]%2*4+a[x+I(1)-I(2)]%2*2for x in range(10)]for r in m]

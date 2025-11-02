@@ -1,0 +1,1 @@
+p=lambda m,k=19,j=99:-k*m or p([*zip(*[[v and[1+min(map(c:=(f:=sum(m,m[0][:0])).count,f))//c(v),max(*u,v,j:=j-1)][k>0]for*u,v in zip([0,*q],q,r)]for q,r in zip([[0]*10]+m,m)])][::-1],k-1,j)

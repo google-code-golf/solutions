@@ -1,0 +1,1 @@
+p=lambda m,k=15:-k*m or p([[(v:=r.pop())*(v-u-8!=k&12)or(u*sum(r)>3<k)*8for u in[0]+r[:0:-1]]for*r,in zip(*m)],k-1)

@@ -1,0 +1,1 @@
+p=lambda m,k=2:-k*m or p([[*map(min,*r)]for r in zip(m,zip(*m),m[:2]+m[::-1])],k-1)

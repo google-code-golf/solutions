@@ -1,0 +1,1 @@
+p=lambda m,*k:[*zip(*[g:=k or p(m,*m),a:=g[:(w:=len(g)//2)]][w>1!=a==g[w:]])]

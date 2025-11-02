@@ -1,0 +1,1 @@
+def p(m):R=range(len(m));*_,r,s=sorted(m);c=max(r);return[[c*(max(abs(m.index(r)-y),abs((b:=r.index(c))-x))%(b-s.index(c))<1)for x in R]for y in R]

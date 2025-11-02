@@ -1,0 +1,1 @@
+p=lambda m:(m:=sorted({*map(f:=(s:=sum(zip(*m),())).count,s)})[-2])*[[*{c:0for c in s if f(c)==m}]]

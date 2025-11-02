@@ -1,0 +1,1 @@
+p=lambda m:[[n^84%n%3*13for n in k]for k in m]

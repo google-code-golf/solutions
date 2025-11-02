@@ -1,0 +1,1 @@
+p=lambda m:[(a:=[*filter(int,sum(zip(*m),())),0,0,0])[:3],a[5:2:-1],a[6:9]]

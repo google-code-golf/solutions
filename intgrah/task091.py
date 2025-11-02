@@ -1,0 +1,1 @@
+p=lambda g,z=46:~z*g or p([*zip(*g[(5in g[z%2-2])-2::-1])],z-1)

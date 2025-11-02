@@ -1,0 +1,2 @@
+p=lambda m,k=3:-k*m or[exec("x//=3;w=[*m[i][x::-1],0].index(0)\nfor I in range(i-w+1,i+w):m[I]=m[I][:x]+m[I][x:x+1]*(len(m)-x)")for i in range(len(m))if~(x:=str(m[i]).find("2, 0"))]*0+p([*zip(*m[::-1])],k-1)
+# TODO: regex

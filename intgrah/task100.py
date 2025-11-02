@@ -1,0 +1,1 @@
+p=lambda m:[[max({*sum(m,[])}-{0},key=lambda v:max(r.count(v)for r in m)*sum(v in r for r in m))]*2]*2

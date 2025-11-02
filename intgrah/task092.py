@@ -1,0 +1,2 @@
+p=lambda m,*k:[[v or max({*r[x:]}&{*r[x::-1]})for x,v in enumerate(r)]for r in zip(*k or p(m,*m))]
+# import re;p=lambda m,k=0:eval(re.sub(r"([1-9])[0-9, ]+\1",lambda s:re.sub("0",s[1],s[0]),str([*zip(*k or p(0,m))])))

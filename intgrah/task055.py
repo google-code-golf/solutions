@@ -1,0 +1,1 @@
+p=lambda m,k=0:[[v or b""[3*k+b]-1for v in r if~(b:=b+v%7)]for r in m if(b:=0,k:=k+len({*r})%2)]

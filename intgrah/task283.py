@@ -1,0 +1,1 @@
+p=lambda m:[m:=[[r.pop()%-12%(6-any(r[-1:]))for _ in m]for*r,in zip(*m)]for _ in m][3]

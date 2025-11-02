@@ -1,0 +1,1 @@
+p=lambda m:eval("[[m "+"for m in m[1::2]for _ in'@'*4]"*2)

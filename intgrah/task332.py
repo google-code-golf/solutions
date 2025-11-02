@@ -1,0 +1,1 @@
+p=lambda m:[[v*.6**(i+len(r)&1)for i,v in enumerate(r)]for r in m]

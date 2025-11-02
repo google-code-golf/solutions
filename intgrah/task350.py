@@ -1,0 +1,1 @@
+p=lambda m,*k:[[v or(1in{*r[:x]}&{*r[x:]})*8for x,v in enumerate(r)]for r in zip(*k or p(m,*m))]

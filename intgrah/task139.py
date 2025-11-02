@@ -1,0 +1,1 @@
+p=lambda m:5//len(m)*[[v or 7*any(c)*any(r)for*c,v in zip(*m,r)]for r in m]or p(m[:4])+p(m[4:])

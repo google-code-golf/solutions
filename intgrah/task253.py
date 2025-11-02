@@ -1,0 +1,1 @@
+def p(g):z=filter;d,c,b,a=sorted([t for c in range(9)if(t:=[*z(f:=lambda x:c+1in x,zip(*z(f,zip(*g))))])],key=lambda x:str(x).find("0"));return[x+y for x,y in zip(a+c,b+d)]

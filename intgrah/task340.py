@@ -1,0 +1,1 @@
+p=lambda m,k=6,y=0:~k*m or p([[[r,r[:-1]+[a]][a in r[1:]],r[:2]+[0]*(len(r)-3)+r[-1:]][k<3<(y:=y+1)+1<len(m[0])]+[a]for*r,a in zip(*m[::-1])],k-1)

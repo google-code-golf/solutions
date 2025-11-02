@@ -1,0 +1,1 @@
+p=lambda g:[[[e:=-e|c,5][e<0]for c in r]for r in g if[e:=0]]

@@ -1,0 +1,1 @@
+p=lambda m:m*0!=0and[p(r+m.pop(4))for r in m]or(m<1)*2

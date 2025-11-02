@@ -1,0 +1,1 @@
+p=lambda m,*a:[a:=b for b in zip(*a or p(*m))if(a!=b)*any(b)]

@@ -1,0 +1,1 @@
+p=lambda m,*k:[[1^7&9-r[i]%3>>r[i-1]+r[i-8]for i in range(9)]for r in zip(*k or p(m,*m))]

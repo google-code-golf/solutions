@@ -1,0 +1,1 @@
+p=lambda m,k=23,j=9:-k*[*zip(*[iter(([8]+[0]*(n:=len({*sum(m,[])})-1))*n)]*n)][:n]or p([[v and max(u,[v,j:=j+1][v<9])for u,v in zip([0]+r,r)]for*r,in zip(*m[::-1])],k-1)

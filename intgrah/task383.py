@@ -1,0 +1,1 @@
+p=lambda m:[m:=[[*map([{0:(b:=(f:=[*filter(int,r[:1]+r+r)]+r)[1]),b:f[0]},{}][f[0]==b].get,r,r)]for*r,in zip(*m[::-1])]for _ in m][3]

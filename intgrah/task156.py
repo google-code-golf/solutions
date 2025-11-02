@@ -1,0 +1,1 @@
+p=lambda m,k=223,j=0:-k*m or p([[v and[4>>u*3or v,sorted({*(f:=sum(m,[]))}-{0},key=f.count).index(v)+1,max(u,[v,j:=j+5][v<5])][k//75]for u,v in zip([0]+r,r)]for*r,in zip(*m[::-1])],k-1)

@@ -1,0 +1,1 @@
+p=lambda g:[[[v,4][0x8002c8026>>x%12*3+i&1]for x,v in enumerate(g[i])]for i in(0,1,2)]

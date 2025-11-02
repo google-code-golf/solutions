@@ -1,0 +1,1 @@
+def p(m):f=sum(m,[]);a=[f[f.index(8)-i:][:3]for i in(14,1,-12)];a[1][1]=max(a[0]);return a

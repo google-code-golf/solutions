@@ -1,0 +1,1 @@
+p=lambda m:[[a*3^-b%5for a,b in z]for z in map(zip,m,m[5:])]

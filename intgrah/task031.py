@@ -1,0 +1,1 @@
+p=lambda m,*k:[*zip(*filter(any,k or p(*m)))]

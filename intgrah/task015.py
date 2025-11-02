@@ -1,0 +1,1 @@
+p=lambda m,k=7:-k*m or p([[r.pop()%9|36*(k>0)%(6^-[0,*r][-1])%13for _ in m]for*r,in zip(*m)],k-1)

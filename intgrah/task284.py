@@ -1,0 +1,1 @@
+p=lambda f,e=1:-e*f or p([*map(list,zip(*next((exec("j,J=[a for a,n in enumerate(n)if n];m=j+J>>1;n[j:J]=[n[j]]*(m-j+1)+[n[J]]*(J-m-1)\nfor s in f[a-2:a+3]:s[m-1:m+3]=n[m-1:m+3]\nfor s in f[a-1:a+2]:s[m:m+2]=[0]*2")or f for a,n in enumerate(f)if len({*n})>2),f)))],e-1)

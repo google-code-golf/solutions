@@ -1,0 +1,2 @@
+import re;p=lambda m:[m:=eval(re.sub(r"((0, )+)(([^0], )+)((?!\4)[^0], )0",r"*[\5]*len([\1]),\3\5 0",str([*zip(*m[::-1])])))for _ in m][3]
+# import re;p=lambda m:[m:=eval(re.sub(r"0(, [^0])((?!\1), [^0])+(, 0)+",lambda s:re.sub(s[3],s[1],s[0]),str([*zip(*m[::-1])])))for _ in m][3]

@@ -1,0 +1,1 @@
+p=lambda m:[[v|3>>v+sum(c)*sum(r[1:-1])for _,*c,_,v in zip(*m,r)]for r in m]

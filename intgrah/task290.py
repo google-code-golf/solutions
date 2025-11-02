@@ -1,0 +1,1 @@
+p=lambda m:[[sum({*sum(m,[-v])})for v in r if v]for r in m if any(r)]

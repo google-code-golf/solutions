@@ -1,0 +1,1 @@
+p=lambda m:max(a for s in sum(m,[])if{*(a:=[[v for*c,v in zip(*m,r)if s in c][1:-1]for r in m if s in r])[0]}=={s})[1:-1]

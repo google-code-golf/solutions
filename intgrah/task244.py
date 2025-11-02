@@ -1,0 +1,1 @@
+p=lambda m:[[p,int][c:=b*0==0](m:=b)for b in m if b!=m][::2|-2*c]

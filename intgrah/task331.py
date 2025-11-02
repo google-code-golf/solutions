@@ -1,0 +1,1 @@
+p=lambda m,k=6:eval(str(~k*m or[*zip(*p(m,k-2))][::-1]).replace("1, 0","1,8+k%~9%-7"))

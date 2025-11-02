@@ -1,0 +1,1 @@
+def p(m):s=sum(m,[]);a,b,_=sorted({*s},key=s.count);return[m:=[m:=[[c or a for c in r]for r in zip(*m)if b in r],[[t:=[a]*len(m[0]),*m],[*m,t]][m[1].count(b)<3]][len(m)<3]for _ in m][-1]

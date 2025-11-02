@@ -1,0 +1,1 @@
+p=lambda m:[[v*2for v in r]for r in m+m[m[0]==m[3]:][2:5]]

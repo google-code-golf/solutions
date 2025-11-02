@@ -1,0 +1,1 @@
+def p(g):d=range(n:=len(g)-4);return[[g[-(i*2//n)][-(j*2//n)]*(g[i+2][j+2]>0)for j in d]for i in d]

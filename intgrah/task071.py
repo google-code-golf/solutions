@@ -1,0 +1,1 @@
+p=lambda m,*t:[[r[[(t:=t*any(t)or r).index(c:=max(t))-t[::-1].index(c)+~x,x][r[x]in t]]for x in range(16)]for r in m]

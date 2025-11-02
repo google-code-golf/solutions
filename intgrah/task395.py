@@ -1,0 +1,1 @@
+p=lambda m:[[2&b-9+r.pop(0)for b in m.pop(3)]for r in m]

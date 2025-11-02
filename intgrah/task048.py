@@ -1,0 +1,1 @@
+p=lambda m,k=73:~k*[[8-8*('2'in str(m))]]or p([[v%8and 1&k+(k:=k&~1)or-v**u%-~v for u,v in zip([0]+r,r)]for*r,in zip(*m[::-1])],k-2)

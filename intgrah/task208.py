@@ -1,0 +1,1 @@
+def p(z):g=z;g=[m for m in zip(*g)if min(sum(z,[]),key=sum(z,[]).count)in m];g=[m for m in zip(*g)if min(sum(z,[]),key=sum(z,[]).count)in m];e=len(g)-2;f=len(g[0])-2;[exec("m[c-1:c+f+1]=n")for p in range(21)for c in range(21)if[m[c:c+f]for m in z[p:p+e]]==e*[f*[0]]for m,n in zip(z[p-1:],g)];return z

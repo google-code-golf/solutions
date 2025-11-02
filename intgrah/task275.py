@@ -1,0 +1,1 @@
+def p(m):n=min(len(m),len(m[0]));Q=[r[:n]for r in m[:n]],[r[-n:]for r in m[-n:]];P,C=Q[::1|-('8'in str(Q[0]))];return[[v*c/8for v in s for c in r]for s in P for r in C]

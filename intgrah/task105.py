@@ -1,0 +1,1 @@
+p=lambda m,k=7,s=2:-k*m or p([r*(s+r.count(0)>len(r))or[max(*c,u*w)and(s:=4)-(v|2)for c,u,v,w in zip(m,[0]+r,r,r[2:]+[0,0])]for*r,in zip(*m)][::-1],k-1)

@@ -1,0 +1,1 @@
+p=lambda m,d=0,i=0:m[0]==m[-1]and[[max(max(m[y::-[9,9,d:=[d,2*y-d][a:=any(r)]][i:=i+a]]))]*len(r)for y,r in enumerate(m)]or[*zip(*p([*zip(*m)]))]

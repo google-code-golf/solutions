@@ -1,0 +1,1 @@
+p=lambda m:[*zip(*[L:=[a|b for a,*_,b in m if a|b]]*(n:=len({*L}))*(n>2)or p(zip(*m)))]

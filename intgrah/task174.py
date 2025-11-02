@@ -1,0 +1,1 @@
+p=lambda m,k=1:((a:=[c for c in zip(*[r for r in m if k in r])if k in c])==a[::-1])*[*zip(*a)]or p(m,k+1)

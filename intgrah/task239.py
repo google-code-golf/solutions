@@ -1,0 +1,1 @@
+def p(m,i=0):f=sum(m,[]);k=f.count;return[*zip(*[[c]*k(c)+i*(i:=9)*[0]for c in sorted({*f},key=k)[::-1]])]

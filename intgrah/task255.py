@@ -1,0 +1,1 @@
+p=lambda z,a=99:-a*z or[b:=[[b:=[*k,b:=max({*z[0]}-{3})].index(b)-1,f:=[*k,3].index(3)][0<b-f<12]*(9<b)for k in z],[b:=[(a/4<b)*min(z+(k+z<6)*b,b)for z,b in zip([99]+b,b)][::-1]for k in range(8)]]*0+p([*zip(*[[3]*z+[*k[z:]]for k,z in zip(z,b)])][::-1],a-1)
