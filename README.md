@@ -1,5 +1,7 @@
 # Google Code Golf 2025 Solutions
 
+To build the compressed solutions, run `python build.py`.
+
 Base solutions sourced from:
 
 - Code Golf International: https://github.com/Seek64/NeurIPS-Code-Golf-2025/
