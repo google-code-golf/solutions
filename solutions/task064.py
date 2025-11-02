@@ -1,0 +1,3 @@
+p=lambda g,n=-7:n*g or p([[P:=[x:=r.pop(),P][r.count(max({*r*P*(g[0].count(x)>3),n}-{x,P}))>2]for _ in g]for*r,in zip(*g)if[P:=0]],n+2)
+# ----------------------------------------------------------------
+# cgi

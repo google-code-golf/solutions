@@ -1,0 +1,3 @@
+def p(g):f=1;m=[R for r in zip(*g)if any(R:=[x*f*(f:=f^(x==4)or(g:=g+[x])>g)for x in r])];return[z:=[4,*[0]*len(m),4],*[[a:=g[15],*r[::a in m[0]or-1],g[-2]]for*r,in zip(*m)if any(r)],z]
+# ----------------------------------------------------------------
+# post-comp-diamonds

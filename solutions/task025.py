@@ -1,0 +1,3 @@
+p=lambda g,N=0:[g:=[[any(min(g)+[I:=(x:=r.pop())in r,A:=all(c)])*x|N+(N:=A*I*x)for c in g[::-1]]for*r,in zip(*g)]for _ in g][3]
+# ----------------------------------------------------------------
+# cgi

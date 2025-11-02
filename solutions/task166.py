@@ -1,0 +1,3 @@
+p=lambda g:[[e+(c>[e]*99<l)*2for*c,e in zip(*g,l)]for l in g]
+# ----------------------------------------------------------------
+# cgi, importitertools

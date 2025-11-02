@@ -1,0 +1,3 @@
+p=lambda g:[*map(F:=lambda*l,c=0:[l.count(e)>1and(c:=c^e)or e for e in l],*map(F,*g))]
+# ----------------------------------------------------------------
+# cgi, oxjam

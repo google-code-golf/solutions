@@ -1,0 +1,3 @@
+p=lambda g:[[*map(max,*(r*max(-a^-b for a,b in zip(r,t))+t for t in g))]for r in g]
+# ----------------------------------------------------------------
+# logiclynx
