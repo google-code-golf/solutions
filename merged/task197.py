@@ -1,1 +1,0 @@
-p=lambda g:[[*map({}.setdefault,g[1],r)]for r in g]

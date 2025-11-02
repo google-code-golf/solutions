@@ -1,1 +1,0 @@
-p=lambda g,G=0,*s:[s:=[r.pop()|-y%15for y in s[1:]]+r for r in(G or p(g,g))[::-1]][::-1]

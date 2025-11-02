@@ -1,1 +1,0 @@
-p=lambda g,n=-79:n*g or p([*zip(*[g,h:=[*map(max,g,i:=(g*3)[n%-21::-1])]][40in map(str(i+6*h).count,str(h))])],n+1)

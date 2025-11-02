@@ -1,1 +1,0 @@
-p=lambda g:[g:=[y|z or x for x,y,z in zip([0]+g,r,c)]for*c,r in zip(*g,g)]

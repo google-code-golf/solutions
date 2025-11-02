@@ -1,1 +1,0 @@
-p=lambda i,s=[],k=3:-k*i or p([*zip(*i+s)],i[::~0],k-1)

@@ -1,1 +1,0 @@
-p=lambda g,*r,i=0:[x|max(g[i:])&max(g[:(i:=i+1)])for x in r]or[*map(p,g,*map(p,zip(*g),*g))]

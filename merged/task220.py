@@ -1,1 +1,0 @@
-p=lambda g,i=3:g*-i or p([[r.pop()or[0,*r][-1]**4%84%15for r in g]for r in g],i-1)

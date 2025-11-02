@@ -1,1 +1,0 @@
-p=lambda g:[[L[0]or(r>g[0]<L[-max(r[5:])%9:][:5])*7for*L,in zip(r,*g)]for r in g]

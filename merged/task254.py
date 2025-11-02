@@ -1,1 +1,0 @@
-p=lambda g:[[(sum(g[-sum(c)//5])|5)%sum(g[8])*x%3for*c,x in zip(*g,r)]for r in g]

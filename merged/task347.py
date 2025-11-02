@@ -1,1 +1,0 @@
-p=lambda g:[[6^6>>x+r.pop(3)for x in r]for r in g]

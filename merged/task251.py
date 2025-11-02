@@ -1,1 +1,0 @@
-p=lambda g,i=31:g*-i or p([[r.pop()&~4**[0,*r][-1]or i>30for r in g]for _ in g],i-1)

@@ -1,1 +1,0 @@
-p=lambda g,i=7,k=0:g*-i or p([[c^k-~(k:=c)&(2in max(g,key=any))*2for c in r]for*r,in zip(*g)],i-1)

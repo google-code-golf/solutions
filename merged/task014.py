@@ -1,1 +1,0 @@
-p=lambda g:[p(zip(r,*g))or r[0]for r in[*g]if[*{*r}][2:]]

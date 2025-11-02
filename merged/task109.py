@@ -1,1 +1,0 @@
-p=lambda a,s=0:a*0!=0and(b:=[*map(p,a,[a[l:=len(a)//2]]*l)])+b[::~0]or a%~a&s

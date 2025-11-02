@@ -1,1 +1,0 @@
-p=lambda*g:min(g,key=g.count)if g[3:]else[*map(p,*g,*[h[len(h)//2+1:]for h in g])]
