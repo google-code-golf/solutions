@@ -1,6 +1,7 @@
 # Google Code Golf 2025 Solutions
 
 Base solutions sourced from:
+
 - Code Golf International: https://github.com/Seek64/NeurIPS-Code-Golf-2025/
 - jailctf merger: https://github.com/jailctf-merger-goog-golf/golf
 - ox jam! 🎤🐂🎸🐂🎷🐂🥁🐂🎹🐂: https://github.com/xsot/google-code-golf-2025/
@@ -9,3 +10,4 @@ Base solutions sourced from:
 - import itertools: https://github.com/Natanaelel/GoogleCodeGolf2025/
 - lv1.dev: https://github.com/lv1-dev/google-code-golf-2025/
 - biz
+- camjam: https://github.com/intgrah/golf
