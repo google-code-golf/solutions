@@ -1,1 +1,0 @@
-p=lambda g:[[c:=[max(j and c,*g[0][j:],key=bool),x][x!=5]for j,x in enumerate(r)]for r in g]

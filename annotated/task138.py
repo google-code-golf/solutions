@@ -1,1 +1,0 @@
-p=lambda g,k=35:-k*g or p([[g:=[e,g][l[0]==g>e<1<9>k]for e in l[::-1]]for*l,in zip(*g[0in g[0]:])],k-1)

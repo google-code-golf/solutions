@@ -1,1 +1,0 @@
-p=lambda g,v=0:g*0!=0and[*map(p,g,b'\n'*7)]or-g%v

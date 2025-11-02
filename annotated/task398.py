@@ -1,1 +1,0 @@
-def p(g):g,=g;r=~g.count(0)%6*5*[0];return[r:=r[1:]+[c]for c in g+r[5:]]

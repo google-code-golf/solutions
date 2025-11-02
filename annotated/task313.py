@@ -1,1 +1,0 @@
-p=lambda g,u=[]:g*-1*-1or[*map(p,g[u>[]:2--len(u)//11]*10,g)]

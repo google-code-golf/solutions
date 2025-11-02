@@ -1,1 +1,0 @@
-p=lambda g,w=2:[[0,max,p][w](g:=r,-2)for r in g if g!=r][::w]

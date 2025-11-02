@@ -1,1 +1,0 @@
-p=lambda g:[*zip(*map(lambda*r:r[:-(k:=r[::-1].index(max(r,key=sum(g[::-1],g).index)))]+k*(max(r[-k:]),)+r,*g))]

@@ -1,1 +1,0 @@
-p=lambda m,k=1:[*{r.count(k)for r in m},[k]][3:]or p(m,k+1)

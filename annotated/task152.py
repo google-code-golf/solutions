@@ -1,1 +1,0 @@
-p=lambda g:g*-1*-1or[*map(p,g+g[::-1])]

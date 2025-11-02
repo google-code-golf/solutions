@@ -1,1 +1,0 @@
-p=lambda g:[[92%(4-(2in r)+x)for x in g[0]]for r in g]

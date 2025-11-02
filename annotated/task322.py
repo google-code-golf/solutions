@@ -1,1 +1,0 @@
-p=lambda g:g and[*p(g[:-1]),[*map(max,*g*2)]]

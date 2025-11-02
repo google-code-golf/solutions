@@ -1,1 +1,0 @@
-p=lambda g:g[90:]or p(g+[*zip(*map(map,[min]*30,p(g[:30]+g),g[:2]+g[::-1]))])

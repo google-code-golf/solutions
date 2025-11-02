@@ -1,1 +1,0 @@
-p=lambda g:g*-1*-1or g and[p(g[0])]*3+p(g[1:])

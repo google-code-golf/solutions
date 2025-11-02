@@ -1,1 +1,0 @@
-p=lambda g,n=0:[g:=[r.pop()or 1in g!=x>0and~-sum({*g})for x in g]for r in(n or p(g,g))[::-1]]

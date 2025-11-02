@@ -1,1 +1,0 @@
-p=lambda g:[(r[:6]*2+r*2)[:-12]for r in g]

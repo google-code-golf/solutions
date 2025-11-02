@@ -1,1 +1,0 @@
-p=lambda g:[[[2,e][c>[0]*99<l]for*c,e in zip(*g,l)]for l in g]

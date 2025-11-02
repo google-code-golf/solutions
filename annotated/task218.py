@@ -1,1 +1,0 @@
-p=lambda g,*h:[*{r:0for r in zip(*h or p(*g))if any(r)}]

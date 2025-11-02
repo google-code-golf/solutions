@@ -1,1 +1,0 @@
-p=lambda g,*a:sum([any(x)*2*[x]for*x,in zip(*a or p(*g))],[])

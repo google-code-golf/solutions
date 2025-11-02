@@ -1,1 +1,0 @@
-p=lambda g:[[(a:=g[0][:4+any(g[4])]*3)[i]]*i+a[i:10]for i in range(10)]

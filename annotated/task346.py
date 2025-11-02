@@ -1,1 +1,0 @@
-p=lambda a:[[min(b:=sum(a[1:-1],a[3]),key=b.count)]]

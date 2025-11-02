@@ -1,1 +1,0 @@
-p=lambda g:[(c:=1)*[((c:=-j^-c%7%3)>1)*3for j in i]for i in g]
