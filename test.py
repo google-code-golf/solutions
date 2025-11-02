@@ -37,8 +37,7 @@ def test_task(args):
         except Exception:
             pass
 
-    elapsed = time.time() - start_time
-    return task_num, passed == total, os.path.getsize(path), elapsed
+    return task_num, passed == total, os.path.getsize(path)
 
 
 def main():
@@ -69,15 +68,14 @@ def main():
         for i, r in enumerate(pool.imap_unordered(test_task, tasks_list), 1):
             if r:
                 results.append(r)
-                task_num, ok, bytes_count, elapsed = r
+                task_num, ok, bytes_count = r
                 completed_tasks.add(task_num)
                 status = "✓" if ok else "✘"
                 print(
-                    f"\r[{i}/{total}] task{task_num:03d}: {status} {bytes_count}b {elapsed:.2f}s"
+                    f"\r[{i}/{total}] task{task_num:03d}: {status} {bytes_count}b"
                     + " " * 20
                 )
 
-                # Show pending tasks
                 pending = [t for t, _ in tasks_list if t not in completed_tasks]
                 if pending:
                     print(
@@ -85,20 +83,17 @@ def main():
                     )
         print()
 
-    # Sort by time and show slowest tasks
-    results.sort(key=lambda x: x[3], reverse=True)
+    print(f"\n{'Task':<7}  {'Result':<8}  {'Bytes':<8}")
+    print("-" * 28)
 
-    print(f"\n{'Task':<12} {'Result':<10} {'Bytes':<8} {'Time':<10}")
-    print("-" * 42)
+    ok_count = sum(ok for _, ok, _ in results)
+    total_bytes = sum(bytes_count for _, _, bytes_count in results)
 
-    ok_count = sum(1 for task_num, ok, bytes_count, elapsed in results if ok)
-    total_bytes = sum(bytes_count for task_num, ok, bytes_count, elapsed in results)
-
-    for task_num, ok, bytes_count, elapsed in results[:10]:
+    for task_num, ok, bytes_count in results[:10]:
         status = "✓" if ok else "✘"
-        print(f"task{task_num:03d}  {status:<10}  {bytes_count:<8}  {elapsed:.2f}s")
+        print(f"task{task_num:03d}  {status:<8}  {bytes_count:<8}")
 
-    print("-" * 42)
+    print("-" * 28)
     print(f"Passed: {ok_count}/{len(results)}")
     print(f"Total bytes: {total_bytes}")
 
