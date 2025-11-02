@@ -1,1 +1,0 @@
-def p(g):v=str(g).count("0");i=2;return[(x*(9-(i:=i+1)//3*v)+[0]*99)[:v*3]for x in g*v]

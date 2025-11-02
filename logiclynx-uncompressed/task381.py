@@ -1,1 +1,0 @@
-p=lambda g:0*[exec('k=p=0\nwhile 2in r[k:]:p=r[k]=r[k]or(p>1)*9;k+=1')for r in g[1:9]]+g

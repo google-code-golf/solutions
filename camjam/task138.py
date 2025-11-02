@@ -1,1 +1,0 @@
-p=lambda m,k=103:-k*m or p([[u*(u==r[0]<74>k)|r.pop()for u in[0]+r[:0in m[0]:-1]]for*r,in zip(*m)],k-1)

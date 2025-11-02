@@ -1,1 +1,0 @@
-p=lambda g,R=range(11):[[5*(g[y][x]==5)or max(g[Y%3*4|y%4][Y&12|x%4]*(g[Y%3*4|y//4][Y&12|x//4]==4)for Y in R)for x in R]for y in R]

@@ -1,1 +1,0 @@
-p=lambda g:exec('g[:]=zip(*g[2>max(g[0]):][::-1]);'*20)or eval(str(g).replace(*'10'))

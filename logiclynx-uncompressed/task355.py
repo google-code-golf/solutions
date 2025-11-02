@@ -1,1 +1,0 @@
-p=lambda g:[[sorted({*(f:=sum(g,[]))},key=lambda b:f.count(b)-sum(b in r for r in g for c in zip(*g)if b in c))[1]]]

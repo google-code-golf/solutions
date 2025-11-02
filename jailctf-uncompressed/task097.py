@@ -1,1 +1,0 @@
-p=lambda g,z=[[0]*99]:g[3:]and[p(i)for*i,in map(zip,g[1:]+z,g,z+g)]or(sum(l:=sum(g,()))>l[4])*l[4]

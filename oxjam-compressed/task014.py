@@ -1,1 +1,0 @@
-p=lambda i,*I:[w for*w,r in zip(*I or p(zip(*i),*i),i)if[*{*r}][2:]]

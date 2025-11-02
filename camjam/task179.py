@@ -1,1 +1,0 @@
-p=lambda m:[*zip(*m)]

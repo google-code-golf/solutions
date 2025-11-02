@@ -1,1 +1,0 @@
-p=lambda m:[m:=[*zip(*{2,3}in map(set,m)!=7<len({*str(a:=m[:str(m).index('2')//32])})and(a+a[::-1]+[[3]*10]*2)[:10]or eval(str(m).replace(*"03")))][::-1]for _ in m][7]

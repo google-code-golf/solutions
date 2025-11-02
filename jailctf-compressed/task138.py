@@ -1,1 +1,0 @@
-p=lambda g,k=59:g*-k or p([[x]+[[r.pop(),x][k-9<x in r]for _ in r*1]for*r,x in zip(*g[0in g[0]:])],k-1)

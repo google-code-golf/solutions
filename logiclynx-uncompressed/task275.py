@@ -1,1 +1,0 @@
-def p(g):n=len(g)%7%3+3;d=[r[-n:]for r in g[:n]],g[-n:];c=8in max(d[0]);return[[x*y/8for x in r[:n]for y in s[:n]]for r in d[c]for s in d[~c]]

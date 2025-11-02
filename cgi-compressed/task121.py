@@ -1,1 +1,0 @@
-def p(g):w=sum(g,g);g=[w[w.index(8)+i-99:][:3]for i in b"Ubo"];g[1][1]=max(g[0]);return g

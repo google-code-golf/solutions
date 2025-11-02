@@ -1,1 +1,0 @@
-p=lambda m,*k:[[v|sum({*s[x::-3]}&{*s[x::3]})for x,v in enumerate(r)]for*r,s in zip(*k or p(zip(*m),*m),m)]

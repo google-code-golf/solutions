@@ -1,1 +1,0 @@
-p=lambda i,x=0:[[a*(x==(x:=a)not in i[0])for a in n][1:]for*n,in zip(*[a for a in x or p(i,i)if{*a}-{*i[0]}])]

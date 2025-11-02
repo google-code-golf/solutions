@@ -1,1 +1,0 @@
-p=lambda g:[[k:=max(g[c&7]),*[c%3*k]*8,k]for c in b':B:BB??O?O']

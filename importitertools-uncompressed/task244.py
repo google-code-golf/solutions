@@ -1,1 +1,0 @@
-p=lambda g:[r[::(l:=~g.index(min(g,key=set)))]for r in g][::-l]

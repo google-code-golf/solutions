@@ -1,1 +1,0 @@
-p=lambda g,*x:[*zip(*filter(sum,[[q&r for q in a[::3]for r in b]for a in x[::3]for b in x]or p(*g)))][::3]

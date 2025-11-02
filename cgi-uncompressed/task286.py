@@ -1,1 +1,0 @@
-p=lambda g,n=43:g*-n or[*map(lambda*r,x=0:[x:=y or sum({*x%8*sum(g,[-x-8])})for y in r[::-1]],*p(g,n-1))]

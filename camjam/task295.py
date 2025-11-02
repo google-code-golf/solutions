@@ -1,1 +1,0 @@
-p=lambda m:m*(len(m)*2==len(r:=m[-1]))or p(m+[[r[0],*r[:-1]]])

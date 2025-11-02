@@ -1,1 +1,0 @@
-p=lambda g:[r[r.index(c):][:d(c)//4+1]for r in g if(c:=min(a:=sum(g,[]),key=(d:=a.count)))in r]

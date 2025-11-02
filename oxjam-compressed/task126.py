@@ -1,1 +1,0 @@
-p=lambda a:a[:-1]+[[4*(0<sum(c)in c)for c in zip(*a)]]

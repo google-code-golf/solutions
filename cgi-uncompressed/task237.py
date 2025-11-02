@@ -1,1 +1,0 @@
-p=lambda g,P=0:[[*[(P:=P or x for x in r+[P])][P:=0]]for*r,_ in g]

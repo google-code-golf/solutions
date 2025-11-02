@@ -1,1 +1,0 @@
-p=lambda g,i=-2:[[c%7*g[-((i:=i+2)>(L:=len(r))*L)][i//L%-2]for c in r][2:-2]for r in g][2:-2]

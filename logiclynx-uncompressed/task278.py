@@ -1,1 +1,0 @@
-import re;p=lambda g,k=3:-k*g or p(eval(re.sub('0(?=(.{%d}.{,9})?..2..2)'%(len(g)*3-7),'3',f'{*zip(*g[::-1]),}')),k-1)

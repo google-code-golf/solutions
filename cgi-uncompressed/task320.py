@@ -1,1 +1,0 @@
-p=lambda g:[*zip(*map(lambda*r:r[:-(k:=sum(r)//4)]+k*(8,)+r,*g))]

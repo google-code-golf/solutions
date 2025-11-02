@@ -1,1 +1,0 @@
-p=lambda g,k=3:-k*g or p(eval(str([*zip(*g[::-1])]).replace('3, 2','8,0')),k-1)

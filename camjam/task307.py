@@ -1,1 +1,0 @@
-p=lambda m:sum([2*[sum(zip(r,r),())]for r in m],[])

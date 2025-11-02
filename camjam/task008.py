@@ -1,1 +1,0 @@
-p=lambda m,k=3,y=0:-k*m or p([*zip(*([r for r in m if'8'in str(m[(y:=y+1):])or any(r)]+[[0]*len(m[0])]*11)[len(m)-1::-1])],k-1)

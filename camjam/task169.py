@@ -1,1 +1,0 @@
-p=lambda m,k=15:-k*m or p([[v and v-[1/4,v>u>0and v-u,v==3>=u>0,u>0][k>>2]for u,v in zip([0]+r,r)]for*r,in zip(*m[::-1])],k-1)

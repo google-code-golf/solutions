@@ -1,1 +1,0 @@
-p=lambda g,i=67:g*-i or p([[r.pop()%sum(r[-1:],4)or i//67*4for r in g]for r in g],i-1)

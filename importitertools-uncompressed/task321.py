@@ -1,1 +1,0 @@
-p=lambda g:[[r.pop(0)or x|r[4]for x in r[10:]]for r in g]

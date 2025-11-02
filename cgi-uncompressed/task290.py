@@ -1,1 +1,0 @@
-p=lambda g,*u:[sum({*u},r*-1)or p(r,*sum(g,r))for r in g if[r]>g]

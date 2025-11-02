@@ -1,1 +1,0 @@
-def p(g):s=sum(g,g);a=[c:=s[s.index(8)-r:][:3]for r in[14,1,-12]];a[1][1]=max(c);return a

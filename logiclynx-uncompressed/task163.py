@@ -1,1 +1,0 @@
-p=lambda g,R=range(11):[[5*(g[y][x]==5)or(y^(t:=sum(g,[]).index(4))//11%4*4<3>x^t%11%4*4)*g[t//44*4|y&3][t%11&-4|x&3]for x in R]for y in R]

@@ -1,1 +1,0 @@
-p=lambda g,x=0:[[*map(min,r,map(max,[0]+r,r[1:]+[0]))]for*r,in zip(*x or p(g,g))]

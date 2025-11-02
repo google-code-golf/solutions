@@ -1,1 +1,0 @@
-p=lambda g:(w:=g+[*zip(*g)][::-1])+[k+[*w.pop()][::-1]for*k,in w*1]

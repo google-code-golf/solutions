@@ -1,1 +1,0 @@
-p=lambda a,i=2:[p(b,4)for*b,in map(zip,a,a[i:])]or max(max(a))

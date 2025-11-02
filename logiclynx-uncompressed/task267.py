@@ -1,1 +1,0 @@
-p=lambda g:[[g[6][i>[j]]for j in i]for i in g]

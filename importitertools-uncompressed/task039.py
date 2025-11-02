@@ -1,1 +1,0 @@
-f=filter;p=lambda g:[*zip(*[*f(any,zip(*f(any,g)))][:3])][:3]

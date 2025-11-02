@@ -1,1 +1,0 @@
-def p(g,n=1):t=sum(g,[]);c=0;return{v:=t[n+i-5]for i in b''if t[i-5]and(c:=c+1)}-{v-c%t.count(v)}and p(g,n+1)or eval(str(g).replace(*f'{v}5'))

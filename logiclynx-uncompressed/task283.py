@@ -1,1 +1,0 @@
-p=lambda g,z=[[0]*10]:[[a*sum(n)//8%5for*n,a in zip(r[1:]+[0],[0]+r,*m,r)]for*m,r in zip(z+g,g[1:]+z,g)]

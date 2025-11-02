@@ -1,1 +1,0 @@
-p=lambda g:[[-c&[2,h>(s:=sorted({*zip(*g)}))[-2]][h>s[1]]for h,c in zip(zip(*g),r)]for r in g]

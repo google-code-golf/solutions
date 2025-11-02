@@ -1,1 +1,0 @@
-p=lambda m,b=0:[(a:=0)or[a:=a|v for v in r]+[b:=a or b]for*r,_ in m]

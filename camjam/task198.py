@@ -1,1 +1,0 @@
-p=lambda g,k=99:-k*g or[[b or(a==4or(r.count(0)<9)*(k<2))*4or(k>98)*3for a,b in zip((0,*r),r)]for r in zip(*p(g,k-1)[::-1])]

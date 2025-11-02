@@ -1,1 +1,0 @@
-p=lambda g:[[c*b/4for c,b in zip(b''*7,r)]for r in g]

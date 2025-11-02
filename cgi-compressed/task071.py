@@ -1,1 +1,0 @@
-p=lambda g,R=0:[[x*r[i:=i%16-1]and g for x in r]for r in g if[i:=(R:=R or r[::-1].index(g:=max(r))*15+r.index(g))]]

@@ -1,1 +1,0 @@
-p=lambda g,i=10:[([8]*min(i:=~-i%(w:=(x:=len(l))*2-2),w-i)+[1]+[8]*x)[:x]for l in g]

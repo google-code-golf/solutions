@@ -1,1 +1,0 @@
-p=lambda m:[[[0,*r][x]*any(s[x:])|v>>sum(s[x+1:])for x,v in enumerate(r)]for r,s in zip(m,m[1:]+m)]

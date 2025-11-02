@@ -1,1 +1,0 @@
-p=lambda i:[i:=[*zip(*map(max,i,i[:10]+i))][::~0]for _ in i][7]

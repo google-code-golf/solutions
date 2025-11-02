@@ -1,1 +1,0 @@
-p=lambda g:[(r*10)[::10|len({*r})]for r in g]

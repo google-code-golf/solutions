@@ -1,1 +1,0 @@
-p=lambda g:g and[sum(zip(*g[:1]*3),())]*3+p(g[1:])

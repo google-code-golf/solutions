@@ -1,1 +1,0 @@
-p=lambda g,i=8:[x*0!=0and p(x,i:=i+x[0]%5)or 9967%(i:=i+x)*i%7>>x|x for x in g]

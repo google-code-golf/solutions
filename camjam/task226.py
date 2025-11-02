@@ -1,1 +1,0 @@
-p=lambda m,k=1:[[e or k*(x==k+k%1/2)for e in r if[x:=x+[*zip(*m)].count((e,)*10)%3/2]]for r in m if[x:=1,k:=k+m.count(r[:1]*10)%3/2]]

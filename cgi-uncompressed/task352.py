@@ -1,1 +1,0 @@
-p=lambda g:[g:=[[r.pop()or[0]<r[-1:]<[3]for _ in g]for*r,in zip(*g)]for _ in g][3]

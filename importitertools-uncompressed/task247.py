@@ -1,1 +1,0 @@
-p=lambda g:(m:=max(map(f:=(s:=sum(zip(*g),())).count,{*s}-{0})))*[[c for c in{}.fromkeys(s)if f(c)==m]]

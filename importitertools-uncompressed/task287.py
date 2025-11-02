@@ -1,1 +1,0 @@
-p=lambda g:[[4+(x-4|y-4)for x,y in zip(a,g.pop()[::-1])]for a in g*1]

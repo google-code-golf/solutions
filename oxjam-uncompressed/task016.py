@@ -1,1 +1,0 @@
-p=lambda m:[[109//i&12%i+7for i in m[0]]]*3

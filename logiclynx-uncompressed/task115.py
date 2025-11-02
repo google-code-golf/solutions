@@ -1,1 +1,0 @@
-p=lambda g:([*zip(k:=[*{}.fromkeys(sum(g,[]))])],[k])[k[1]in g[0]]

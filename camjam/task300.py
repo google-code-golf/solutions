@@ -1,1 +1,0 @@
-p=lambda m,*k:[r for r in zip(*k or p(m,*m))if max(set(f:=sum(m,[]))-{0},key=f.count)in r]

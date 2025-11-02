@@ -1,1 +1,0 @@
-def p(a):I=[a+a for a in a+a];return[[[I[x][y]|I[a-b+y][a+b+n+~x]|I[a+a+n+~x][b+b+n+~y]|I[a+b+n+~y][b-a+x]for y in range(10)]for x in range(10)]for n in range(10)for b in range(10)for a in range(10)if all(all(a[b:b+n])for a in I[a:a+n])][-1]

@@ -1,1 +1,0 @@
-p=lambda g:[(q:=sum(g,g))[q.index(5)+c:][:3]for c in b'	']

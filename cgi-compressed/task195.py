@@ -1,1 +1,0 @@
-p=lambda g:[[c&d for c in a for d in b]for a in g*any(g[0])for b in g]or p([*zip(*filter(any,g))][::3])

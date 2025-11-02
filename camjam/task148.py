@@ -1,1 +1,0 @@
-p=lambda m,*C:m[4][0]and[((C:=[c:=8in r,*C])*c and[2,*[8]*~-r.index(8),4]+9*[0]or r)[:len(r)]if r[0]else[r,[8]*~-len(r)+[2]][r[-1]>0<C.pop()]for r in m]or[r[::-1]for r in p([r[::-1]for r in m])]

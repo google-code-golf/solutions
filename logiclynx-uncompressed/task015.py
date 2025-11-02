@@ -1,1 +1,0 @@
-import re;S=re.sub;p=lambda g,k=7:-k*g or p(eval(S('0(?=.{31}2)','4',S('0, 1','7,1',f'{*zip(*g[::-1]),}'))),k-1)

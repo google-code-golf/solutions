@@ -1,1 +1,0 @@
-p=lambda g:[[(w:=[*filter(int,g[0]*9)])[x]]*x+w[x:10]for x in range(10)]

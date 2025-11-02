@@ -1,1 +1,0 @@
-p=lambda m:[m:=[[r.pop()or 0<[0,*r][-1]<3for _ in m]for*r,in zip(*m)]for _ in m][3]

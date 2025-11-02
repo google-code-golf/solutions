@@ -1,1 +1,0 @@
-p=lambda g,i=-1:[[sum({*sum(g*x,[i:=i+1])})-i-x or p(c*2,i//len(g))|p(r*98,i)for*c,x in zip(*g,r)]for r in-i*g]or g[i+1]|g[i-1]or g.count(0)%-len(g)%3*(g[i+2]|g[i-2])

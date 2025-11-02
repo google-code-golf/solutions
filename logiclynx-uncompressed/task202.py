@@ -1,1 +1,0 @@
-p=lambda g:len({0,*g[0]})>2and[*zip(*p([*zip(*g)]))]or[[*map(min,r,*filter({*r}.issubset,g))]for r in g]

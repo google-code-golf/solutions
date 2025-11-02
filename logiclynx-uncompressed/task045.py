@@ -1,1 +1,0 @@
-p=lambda g:[r[:r[0]==r[9]]*10or r for r in g]

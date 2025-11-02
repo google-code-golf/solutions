@@ -1,1 +1,0 @@
-p=lambda m:[[a[x]|a[x+5]or b[x]or b[x+5]for x in range(4)]for a,b in zip(m,m[5:])]

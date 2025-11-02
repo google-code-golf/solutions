@@ -1,1 +1,0 @@
-p=lambda g,i=23:g*-i or[[q:=[c|8-c&q,c|-c&~q%3,c%4][i//8]for c in g]for g[::-1]in zip(*p(g,i-1))if(q:=8)]

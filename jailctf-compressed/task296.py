@@ -1,1 +1,0 @@
-p=lambda g,h=[0]*9,*a:[*map([p,max][a>()],g,g[-3:],h,h[4:])]

@@ -1,1 +1,0 @@
-p=lambda m:[[c[y]or(1in[c[y:(Y:=c.index(5))],c[Y:y]][y>Y])+2*(2in[c[:y],c[y:]][y>Y])for c in zip(*m)]for y in range(10)]

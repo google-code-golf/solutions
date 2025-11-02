@@ -1,1 +1,0 @@
-p=lambda m:[*zip(*map(lambda*c:[*filter(int,c)]+[0]*10,*m))]

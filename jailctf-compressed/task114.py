@@ -1,1 +1,0 @@
-p=lambda g,v=1:g*0!=0and[v*p(g[0],0),*map(p,g),v*p(g[-1],0)]or g

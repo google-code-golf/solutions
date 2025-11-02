@@ -1,1 +1,0 @@
-p=lambda g,r=range(6):[[g[y-(b:=g[2][0]%3)*3][x-(a:=g[0][2]%3)*3]*g[y//3+b-2][x//3+a-2]/3for x in r]for y in r]

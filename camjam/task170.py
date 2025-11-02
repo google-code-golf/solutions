@@ -1,1 +1,0 @@
-def p(n):i=sum(n,[]);e=max({*i}-{0},key=i.count);i=n;i=[n for n in zip(*i)if n.count(e)>2];i=[n for n in zip(*i)if n.count(e)>2];f=len(i)//len(n:=[[*filter(int,n)][-4:]for n,i in zip(n,n[1:])if{*n,*i}-{0,e}][1:]);return[[n/e*i for n,i in zip(n,i[::f])]for n,i in zip(n,i[::f])]

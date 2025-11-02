@@ -1,1 +1,0 @@
-def p(g):_,o,p={}.fromkeys(sum(g,[]));return[[[(p,o)[x>_],x][r.count(o)^3>1<c.count(o)^3]for*c,x in zip(*g,r)]for r in g]

@@ -1,1 +1,0 @@
-def p(g,i=55):*_,b,c=sorted(range(10),key=sum(g,g).count);return-i*g or[[[x:=r.pop(),a][x==c!=b in r]for a in[c]+r[:0:-1]]for*r,in zip(*p(g,i-1))]

@@ -1,2 +1,0 @@
-E=enumerate;p=lambda g:max([((c:=sum(m:=[[[v,6][i<=y<=I>i>=0<J>=x>=j]for x,v in E(r)]for y,r in E(g)],[]).count)(1)*9+c(5)*9+c(6),m)for i,r in E(g)for j,_ in E(r)for I,_ in E(g)for J,_ in E(r)])[1]
-# p=lambda g:eval("max([n:=len(g)],[m:=len(g[0])],*[[(c:=sum(b:=[[[g[y][x],6][i<=y<=I>0<J>=x>=j]@m)]@n)],[]).count)(1)*9+c(5)*9+c(6),b]@n)@m)@i+1,n)@j,m)])[1]".replace("@","for %s in range(")%(*"xyijIJ",),{"g":g})

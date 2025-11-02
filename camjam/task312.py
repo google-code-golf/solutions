@@ -1,1 +1,0 @@
-p=lambda m:[[v%~v&r[0]for v in r]for r in m]

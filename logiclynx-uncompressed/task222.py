@@ -1,1 +1,0 @@
-p=lambda g,r=range(16):min((str(L:=[[v*(b<=j<d)*({*i[b:d]}=={v})for j in r]for i in g]).count('0'),L)for v in r for b in r for d in r)[1]

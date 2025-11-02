@@ -1,1 +1,0 @@
-p=lambda g,h=lambda g:[(s:=0,r,[v+3*s*(s:=s^v//8)for v in r])[~s]for r in zip(*g)]:h(h(g))

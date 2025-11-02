@@ -1,1 +1,0 @@
-p=lambda m:[*zip(*[c[:-(a:=sum(c)//4)]+a*[8]+c for*c,in zip(*m)])]

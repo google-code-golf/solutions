@@ -1,1 +1,0 @@
-p=lambda g:[g[~g.index(r)][~r.index(1)::-1][:5]for r in g if 1in r]

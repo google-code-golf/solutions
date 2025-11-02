@@ -1,1 +1,0 @@
-p=lambda g:[*eval('zip(*[*filter(sum,'*2+'g)]))][:3])')][:3]

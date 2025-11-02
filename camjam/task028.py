@@ -1,1 +1,0 @@
-p=lambda m:[[a:=max(m[y>>4]),*8*[y&a],a]for y in b"/ /  ppp"]

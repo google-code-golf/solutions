@@ -1,1 +1,0 @@
-p=lambda g:max((all(F:=sum(S:=[t[n>>8&7:~n&15]for t in g[n>>12:~n>>4&15]],[]))*F.count(2),-n,S)for n in range(6**6))[2]

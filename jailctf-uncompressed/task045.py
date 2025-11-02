@@ -1,1 +1,0 @@
-p=lambda g:[10*i[:i[0]==i[9]]or i for i in g]

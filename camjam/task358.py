@@ -1,1 +1,0 @@
-p=lambda m,k=23:-k*m or p([[*map(max,r,r[:6-12//len({*r,0})]+r)]for r in zip(*m[::-1])],k-1)

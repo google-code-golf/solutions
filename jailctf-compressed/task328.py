@@ -1,1 +1,0 @@
-p=lambda g,E=enumerate:[[(S:=sum(sorted((x*x+y*y,~max(x*x,y*y)%2*v)for y,r in E(g,-Y)for x,v in E(r,-X)if v),()))[1]*(S[0]<S[2])for X,V in E(R)]for Y,R in E(g)]

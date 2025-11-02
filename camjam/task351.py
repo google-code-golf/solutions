@@ -1,1 +1,0 @@
-p=lambda m:[a for r in[*m]if(a:=m.pop()[~[*r,3].index(3)::-1][:5])]

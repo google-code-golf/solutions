@@ -1,1 +1,0 @@
-p=lambda g:[[r[j-2+w%~(j<3)-w//7]for j in range(w)if r[j]<1]for r in g if(w:=len(g))*0in r]

@@ -1,1 +1,0 @@
-p=lambda g,h=lambda x:[*{k:0for k in zip(*x)if max(k)}]:h(h(g))

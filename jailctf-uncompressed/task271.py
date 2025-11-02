@@ -1,1 +1,0 @@
-p=lambda g:g[3:]and max([str(l:=p(i)).count('1'),l]for*i,in map(zip,g,g[1:],g[2:]))[1]or g

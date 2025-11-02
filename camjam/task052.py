@@ -1,1 +1,0 @@
-p=lambda m:[[len({*r})%2*5]*3for r in m]

@@ -1,1 +1,0 @@
-p=lambda m:m[:2]+[*zip(*len(m[0])*m[:1])]*2

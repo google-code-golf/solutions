@@ -1,1 +1,0 @@
-p=lambda g:g*0!=0and[*map(p,sum(zip(g,g),()))]or g

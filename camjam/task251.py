@@ -1,1 +1,0 @@
-p=lambda m,k=30:[[r.pop()&2+any(r[-1:])or k<0for _ in m]for*r,in zip(*-k*m or p(m,k-1))]

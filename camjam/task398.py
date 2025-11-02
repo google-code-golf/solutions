@@ -1,1 +1,0 @@
-def p(m):k=25-5*m[0].count(0);return[(([0]*~-k+m[0])*2)[i:i+k]for i in range(k)]

@@ -1,1 +1,0 @@
-p=lambda g,i=23:g*-i or[[r.pop()or p*(3in r)for p in[0]+r[:0:-1]]for*r,in zip(*p(g,i-1))]

@@ -1,1 +1,0 @@
-p=lambda g,c=1:((f:=lambda g:[r for r in zip(*g)if c in r])(k:=f(g))==f(k[::~0]))*f(k)or p(g,c+1)

@@ -1,1 +1,0 @@
-p=lambda g,i=-7:g*i or[[i:=c*6**i%10for c in[0]+r][:0:-1]for*r,in zip(*p(g,i+1))]

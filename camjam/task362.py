@@ -1,1 +1,0 @@
-def p(m):b=str(m).count("5");return[r[b:]+r[:b]for r in m[-b:]*2+m[b:-b]]

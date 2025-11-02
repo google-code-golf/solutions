@@ -1,1 +1,0 @@
-p=lambda f:[(e:=[f[a-n//3][i-n%3]for n in range(9)])==e[::-1]*any(e[:sum((f[c-n//3][m-n%3]==e[n])<<3*(n==4)for n in range(9))//8*4]*e[4])==exec('for n in range(9):f[c-n//3][m-n%3]=e[n]')for c in range(len(f))for a in range(len(f))for m in range(len(f[0]))for i in range(len(f[0]))]and f

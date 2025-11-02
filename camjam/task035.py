@@ -1,1 +1,0 @@
-p=lambda m,k=3:-k*m or p([r[exec("r[r.index(r[0]and 8)]=r[0]")::-1]for*r,in zip(*m)],k-1)

@@ -1,1 +1,0 @@
-p=lambda g:[*zip(*[r[r.count(r[-1]):]+r for r in zip(*g)])]

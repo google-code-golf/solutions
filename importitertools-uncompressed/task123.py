@@ -1,1 +1,0 @@
-p=lambda g:[[(q:=[*filter(int,g[0]*9)][:10])[i]]*i+q[i:]for i in range(10)]

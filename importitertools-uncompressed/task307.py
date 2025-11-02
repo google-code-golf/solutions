@@ -1,1 +1,0 @@
-p=lambda g:sum(([sum(zip(r,r),())]*2for r in g),[])

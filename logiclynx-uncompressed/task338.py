@@ -1,1 +1,0 @@
-p=lambda g:[(k:=0)or[3>>b&-(k:=b|(0<k<3+b))for b in r]for r in g]

@@ -1,1 +1,0 @@
-p=lambda g,i=3:-i*g or p([t[:(j:=t[3]<2)]+t[j:j+7][::2-len({*t})|1]+t[j+7:]for t in zip(*g[::-1])],i-1)

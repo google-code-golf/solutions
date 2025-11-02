@@ -1,1 +1,0 @@
-p=lambda m:[r[:3]for r in zip(*filter(any,m[::-1]))if any(r)][:3]

@@ -1,1 +1,0 @@
-def p(g):d,i=str(g).count('0'),0;return[(r*(9+(i:=i-1)//3*d)+[0]*21)[:3*d]for r in g*d]

@@ -1,1 +1,0 @@
-p=lambda g:[[hash((*zip(*g),)[c-4:c]*214)%9]*3for c in b'	']

@@ -1,1 +1,0 @@
-p=lambda m,k=7:-k*m or p([[[v,sum(s:={*r+c})-u][k<1<len(s)]for c,v in zip(m,r)]for*r,in zip(*m)if(k<4)*len({*r})<4<r.count(u:=max(f:=sum(m,m),key=f.count))],k-1)

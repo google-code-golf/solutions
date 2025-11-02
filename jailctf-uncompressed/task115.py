@@ -1,1 +1,0 @@
-p=lambda g,x=0:[*zip(*map({}.fromkeys,x or p(g,g)))]

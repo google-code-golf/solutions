@@ -1,1 +1,0 @@
-p=lambda m,k=19,j=9:-k*m or p([[v and-~[max(u,[v,j:=j+1][v<9]),sum(m,m).count(v)==6][k<1]for u,v in zip([0]+r,r)]for*r,in zip(*m[::-1])],k-1)

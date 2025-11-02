@@ -1,1 +1,0 @@
-p=lambda m,k=79:eval(str(-k*m or[*zip(*p(m,k-1))][::-1]).replace("1, 0","1,1"))

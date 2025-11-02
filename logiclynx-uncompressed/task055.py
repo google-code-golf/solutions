@@ -1,1 +1,0 @@
-p=lambda g,C=586768:[(c:=C,C:=C>>r[0])and[x|7>>x&(c:=c>>x%5)for x in r]for r in g]

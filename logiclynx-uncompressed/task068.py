@@ -1,1 +1,0 @@
-p=lambda g:[*zip(*[(7172>>abs(j-(h:=sum(g,[])).index(m:=min(h,key=h.count)))&2|m*(h[j]==m)for j in range(100))]*10)]

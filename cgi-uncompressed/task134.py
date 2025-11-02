@@ -1,1 +1,0 @@
-p=lambda g,y=1:[(s:=[y*(0<x!=y)for*c,x in zip(*g,r)if{*c}-{0,y}])[::(n:=len(s)//3)]for r in g if{*r}-{0,y}][::n]*(f"0, {y}, 0"in"%r"%g)or p(g,y+1)

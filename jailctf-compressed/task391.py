@@ -1,1 +1,0 @@
-p=lambda g:[*zip(sorted({*(d:=sum(g,[]))},key=d.count)[2::-1])]

@@ -1,1 +1,0 @@
-p=lambda g:exec('a=str(g).find("2")>>5;g[::-1]=zip(*~-a*[[0]*10],map(max,*g[:a]),*g[a:]);'*4)or g

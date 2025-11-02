@@ -1,1 +1,0 @@
-p=lambda g,x=0:[[c|(x:=x^c)for c in r]for r in g]

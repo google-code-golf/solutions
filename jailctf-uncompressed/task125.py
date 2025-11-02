@@ -1,1 +1,0 @@
-p=lambda g,i=87,q=8:g*-i or[[[12%c,q//c*c,-(q&(q:=c)%3)%5][i//42]or c for c in g]for g[::-1]in zip(*p(g,i-1))]

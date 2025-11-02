@@ -1,1 +1,0 @@
-def p(g):*z,=zip(*g);*b,=map(sum,z);y,Y,*_=map(b.index,filter(int,b+b));b[y:2*Y-y]*=8;return g[12:]and[*zip(*p(z))]or[b[:len(z)]]*len(g)

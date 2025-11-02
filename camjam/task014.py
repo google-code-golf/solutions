@@ -1,1 +1,0 @@
-p=lambda m:[[v for*c,v in zip(*m,r)if len({*c})>2]for r in m if len({*r})>2]

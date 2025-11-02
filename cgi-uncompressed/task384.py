@@ -1,1 +1,0 @@
-p=lambda g,*k:[e for*e,in zip(*k or p(*g))for _ in"  "*any(e)]

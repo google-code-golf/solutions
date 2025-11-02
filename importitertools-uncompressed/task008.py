@@ -1,1 +1,0 @@
-p=lambda g,k=35:-k*g or p([*zip(g.pop((any(g[y:=g.index(max(g,key=max))-1])<1<y)*y),*g)][::-1],k-1)

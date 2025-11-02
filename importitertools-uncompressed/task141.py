@@ -1,1 +1,0 @@
-def p(g):R=range(len(g));return[[max((v:=g[Y]+g[0])[x+Y-y]|v[x+y-Y]for Y in R)for x in R]for y in R]

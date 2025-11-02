@@ -1,1 +1,0 @@
-p=lambda i:[[*map(max,*[s[t:t+3]for t in range(121)if(s:=sum(i,[]))[t-x]==5])]for x in b'mx\n']

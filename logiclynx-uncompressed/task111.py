@@ -1,1 +1,0 @@
-p=lambda g:[(h:=sum(g,[]))[h.index(5)+i:][:3]for i in b'	']

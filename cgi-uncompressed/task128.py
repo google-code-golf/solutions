@@ -1,1 +1,0 @@
-p=lambda g:[*zip(*map(lambda*c:c[c.count(c[-1]):]+c,*g))]

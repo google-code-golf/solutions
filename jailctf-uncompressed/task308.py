@@ -1,1 +1,0 @@
-def p(g,x=1,y=0):a=sum(g,[]);z=min(map(set,g));r=range(1-x,x);return[[sum([y:=c for c in{*a}-z if c==a[sum(y*(x==c)for y,x in enumerate(a))//4+i*len(g[0])+j]]or z)for j in r]for i in r]*(y>0)or p(g,x+1)

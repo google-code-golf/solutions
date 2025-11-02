@@ -1,1 +1,0 @@
-p=lambda m,*k:[[max(r[x],s[x-3]&s[x-5])for x in range(8)]for*r,s in zip(*k or p(zip(*m),*m),m)]

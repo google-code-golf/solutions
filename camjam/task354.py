@@ -1,1 +1,0 @@
-p=lambda g,k=9:-k*g or p([[z[1]and(sum({*z}-{5})or 5)for z in zip(g[0],r,r[1:]+[0])][::-1]for r in g],k-1)

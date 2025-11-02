@@ -1,1 +1,0 @@
-p=lambda g,i=67:-i*g or p([[4-4%(0**i|b or~a%9)for a,b in zip([4]+r,r)]for*r,in zip(*g[::-1])],i-1)

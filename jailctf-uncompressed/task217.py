@@ -1,1 +1,0 @@
-p=lambda g:[*eval('filter(sum,zip(*'*2+f'[[x&b{(" for %s in %s"*2+"]")*2}))))'%(*"xxbyxgy",g))]

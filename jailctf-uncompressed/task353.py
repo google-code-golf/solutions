@@ -1,1 +1,0 @@
-p=lambda g:exec("g[:]=zip(g.pop(-~[*map(max,g[:-2]),4].index(4)),*g[::-1]);"*4)or g

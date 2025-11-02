@@ -1,1 +1,0 @@
-p=lambda g:exec('g[:]=zip(*g[sum(g[0])<1:][::-1]);'*44)or[[c and g[0][0]for c in r[1:-1]]for r in g[1:-1]]

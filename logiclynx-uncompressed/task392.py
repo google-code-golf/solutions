@@ -1,1 +1,0 @@
-p=lambda g,R=range(10):[o for s in(2,3)for r in R for c in R if len({*zip(a:=sum(g,[]),sum(o:=[[max(2+i-r-s,r-i,2+j-c-s,c-j)%s%2*max(a)or 5for j in R]for i in R],[]))})<4][0]

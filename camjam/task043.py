@@ -1,1 +1,0 @@
-p=lambda m:[[u+r[-1]&2+r.pop(0)for u in m[0]]for*r,in m]

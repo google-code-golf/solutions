@@ -1,1 +1,0 @@
-p=lambda g,i=23:g*-i or[[*map(max,r,14%-len({*r,0})%5*[0]+r)]for*r,in zip(*p(g,i-1)[::-1])]

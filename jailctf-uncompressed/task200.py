@@ -1,1 +1,0 @@
-p=lambda g,t=5:[(x[:g[9].index(c:=max(g[9]))]+[c,t,c,t:=any(x)*5]*9)[:10]for x in g]

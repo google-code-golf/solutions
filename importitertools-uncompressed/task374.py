@@ -1,1 +1,0 @@
-p=lambda g,k=19:-k*g or p([*zip(*eval(str(g).replace(a:=k//2*'5, '+'5',a.replace('5','len({*str(g)})**2%7'))))],k-1)

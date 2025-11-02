@@ -1,1 +1,0 @@
-p=lambda m,k=23:-k*m or p([[r.pop()or(3in r)*u for u in[0]+r[:0:-1]]for*r,in zip(*m)],k-1)

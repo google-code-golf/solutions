@@ -1,1 +1,0 @@
-p=lambda g:max([{*str(v:=[[*map(max,j[i%7:],k[i%9:]+k)][:3]for j,k in zip(g[i%8:][:3],g[i%11:]+g)])}^{'0'},v]for i in range(5544))[1]

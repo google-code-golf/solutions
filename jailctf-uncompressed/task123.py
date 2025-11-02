@@ -1,1 +1,0 @@
-p=lambda g,R=range(10):[[g[max(x,y)%(4+all(g[0]))][0]for x in R]for y in R]

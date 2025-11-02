@@ -1,1 +1,0 @@
-p=lambda g,i=0:[[[((m:=max(q:=[sorted((sum(g*2,g)[b:b+32]*3)[::11])for b in b'7;?cgk']))==q[i//44*3+i%11//4])*m[8],5,i:=i+1][c==5]for c in r]for r in g]

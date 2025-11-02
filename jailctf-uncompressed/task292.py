@@ -1,1 +1,0 @@
-p=lambda g,h=0:g*0!=0and[*map(p,g,b''*9)]or h*g%9

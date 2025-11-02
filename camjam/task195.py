@@ -1,1 +1,0 @@
-p=lambda m,k=1:-k*[[a&b for a in r for b in s]for r in m for s in m]or p([*zip(*filter(any,m))][::3],k-1)

@@ -1,1 +1,0 @@
-p=lambda g,l=2:l//len(r:=g[0])*g or g+p([r[:1]+r[:-1]],l+2)

@@ -1,1 +1,0 @@
-p=lambda m:[*zip(sorted({*(f:=sum(m,[]))},key=f.count)[2::-1])]

@@ -1,1 +1,0 @@
-p=lambda g,u=0:eval((G:=f"{*zip(*u or p(g,g)),}")[:(w:=G.rfind("1")+G.find("1")>>1)-3]+"3,"*3+G[w+5:])

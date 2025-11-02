@@ -1,1 +1,0 @@
-p=lambda i:i*-1*-1or-~min(map(i.count,i))*[p(i[0])]

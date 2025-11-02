@@ -1,1 +1,0 @@
-p=lambda g,i=31:-i*g or p([[r[x-x*(r[0]in(i<4)*r[x:])]for x in range(len(r))]for r in zip(*g[0in g[0]:][::-1])],i-1)

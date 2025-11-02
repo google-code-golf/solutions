@@ -1,1 +1,0 @@
-p=lambda g:g[30:]or p([(q:=0)or[q:=c%~c&(a or q)or c for a,c in zip(g[0],r)][::-1]for r in g]*2)

@@ -1,1 +1,0 @@
-p=lambda x:x*-1and x^84%x%3*13or[*map(p,x)]

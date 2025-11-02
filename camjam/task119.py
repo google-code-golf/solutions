@@ -1,1 +1,0 @@
-import re;p=lambda m,k=39:-k*m or p(eval(re.sub("0(?=.{40}[38].{40}[238])","3",str([*zip(*m[::-1])]))),k-1)

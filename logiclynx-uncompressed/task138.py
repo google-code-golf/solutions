@@ -1,1 +1,0 @@
-p=lambda g,i=7:-i*g or p((g[1:],[r[:1]*(k:=i>4or bytes(r).rfind(r[0]))+r[k:]for r in zip(*g[::-1])])[h:=all(g[0])],i-h)

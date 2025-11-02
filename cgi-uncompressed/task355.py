@@ -1,1 +1,0 @@
-p=lambda g,n=95:[[n%16]]*(sum(v!=n%16in{*r}&{*c}for r in g for*c,v in zip(*g,r))==n>>4)or p(g,n-1)

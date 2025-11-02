@@ -1,1 +1,0 @@
-p=lambda g:g*0!=0and[g:=[p(r),r][g!=r]for r in g]

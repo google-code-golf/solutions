@@ -1,1 +1,0 @@
-p=lambda g:sum(max(g))>9and[*zip(*p([*zip(*g)]))]or g[-2-len(g)%2:][:2]+g[:-2]

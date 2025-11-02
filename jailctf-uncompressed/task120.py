@@ -1,1 +1,0 @@
-p=lambda g,x=[],z=0:g*0!=0and[*map(p,g,[g]+x+g,(z or g)[1:]+[g]*9)]or[g,8][x==z==g>0]

@@ -1,1 +1,0 @@
-p=lambda g,a=[],i=1:g and p(g,a:=max(g.pop(),[y|-max(a[-3%(i:=i+1):i:2])%15for y in a]))+[a]

@@ -1,1 +1,0 @@
-p=lambda g:[[s:=r[0]]and[c|4-c&~(s:=s+c)%6for c in r]for r in g]

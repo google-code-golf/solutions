@@ -1,1 +1,0 @@
-p=lambda m:[a[:1]*5+[5%6**b]+5*[b]for*a,b in m]

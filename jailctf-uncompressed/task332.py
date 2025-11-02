@@ -1,1 +1,0 @@
-p=lambda g:[[-r.pop(0)*7**len(r)%8for x in r*1]for r in g]

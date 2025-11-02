@@ -1,1 +1,0 @@
-p=lambda g,r=range:[[max((all(z:=sum([r[i%15:][:3]for r in g[i%14:][:3]],[0])[-9:]),hash((y//3,x//3,72729396,*[a!=5for a in z])),z)for i in r(210))[2][y%3*3+x%3]for x in r(9)]for y in r(9)]

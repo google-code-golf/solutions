@@ -1,1 +1,0 @@
-p=lambda g:[[(8in{*c,hash(c)%3673}&{*r})*2-3%~c[0]for c in zip(r,*g)]for r in g]

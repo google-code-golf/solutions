@@ -1,1 +1,0 @@
-p=lambda g,i=0:g*0!=0and[*map(p,g,b''*9)]or i*g%7

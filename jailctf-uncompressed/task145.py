@@ -1,1 +1,0 @@
-p=lambda g,k=6,i=1,q=0:~k*g or p([[q:=[i:=i<<9,(c>(l:=sorted({*sum(g,r)}))[-2])+(c==l[1])*8,2,c%511,0,c|q,0][179%(k-7)+c%~c]for c in[0]+r][:0:-1]for*r,in zip(*g)],k-1)

@@ -1,1 +1,0 @@
-p=lambda g,*r:[*map(max,r,(g[:2]==g[6:])*3*g[:3]+g)]or[*map(p,g,*map(p,zip(*g),*g))]

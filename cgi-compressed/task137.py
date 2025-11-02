@@ -1,1 +1,0 @@
-def p(g):R=range(len(g));c,d=[(i,a:=j)for j in R for i in R if g[i][j]][1];return[[g[c][d-max(i-c,j-d,c-i,d-j)%(a-d)]for j in R]for i in R]

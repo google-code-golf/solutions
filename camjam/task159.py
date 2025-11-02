@@ -1,1 +1,0 @@
-p=lambda m,*k:[*zip(a:=[2]*29,*[r for r in k or p(m,*m)if{*r}-{0,2}for _ in sum(m,m).count(2)//12*[0]],a)]

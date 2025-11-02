@@ -1,1 +1,0 @@
-p=lambda i,*w:i*0!=0and[*map(p,i,[i]+i,i[1:]+[i],*w)]or i or(8in w[:2])*(8in w[2:])

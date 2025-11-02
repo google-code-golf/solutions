@@ -1,1 +1,0 @@
-p=lambda g:0*[exec('x=10\nwhile x:k=u[x]*r[x-1]and r.index(5,x)-x;r[x:x+k]=[k+5]*k;x-=1')for u,r in zip(g,g[1:])]+g

@@ -1,1 +1,0 @@
-def p(g):n=len(g);a=sum(g,[]).index(0);w=g[r:=a//n].count(0);return[h[a%n:][:w]for h in g[:n^1][r-n//7-2:]+g][:w]

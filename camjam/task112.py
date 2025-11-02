@@ -1,1 +1,0 @@
-p=lambda m,*k:((a:=(g:=[*zip(*k or p(m,*m))])[:sum(g,g[0]).index(3)//len(g[0])])+a[::-1]+g[::-1])[:len(g)]

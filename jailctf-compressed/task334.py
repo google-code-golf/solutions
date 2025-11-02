@@ -1,1 +1,0 @@
-p=lambda g:[[0,0,5,0,5,5,5][c//max(max(g))&5:][:3]for c in b'yfs']

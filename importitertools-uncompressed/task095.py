@@ -1,1 +1,0 @@
-p=lambda g,b=0:[g:=[[b%4|(b:=a)for a in r]for r in zip(*g[::-1])]for _ in g][3]

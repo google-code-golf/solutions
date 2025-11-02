@@ -1,1 +1,0 @@
-p=lambda m:[r[::-1]for r in m[::-1]]

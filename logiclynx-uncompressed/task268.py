@@ -1,1 +1,0 @@
-def p(g):(a,c),*_,(b,d)=[(i,j)for i in range(len(g))for j in range(len(g))if g[i][j]];return[*zip(*p([*zip(*g[::-1])]))][::-1]if g[a][c+2]else[[g[i][j]|4*((b>i)*(c+(a>=i)<j<d-(a>=i))|(a>=i)*(j in(a+d-2-i,i+c+2-a)))for j in range(len(g))]for i in range(len(g))]

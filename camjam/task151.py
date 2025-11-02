@@ -1,2 +1,0 @@
-def p(m):m[y:=m.index(max(m))][x:=m[0].index(max(m[0]))-1],_,m[y][x+2]=m[y-1][x:x+3]=m[y+1][x:x+3]=4,4,4;return m
-# import re;p=lambda m:eval(re.sub(r"(0, [1-9], 0)(.{%d})[1-9](.{5}).(.{%d})\1"%(n:=len(m)*3-5,n),r"4,4,4\2 4\3 4\4 4,4,4",str(m)))

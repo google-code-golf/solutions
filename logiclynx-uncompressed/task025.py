@@ -1,1 +1,0 @@
-p=lambda g:any(m:=(*map(min,*g),0))*[[m[x+(0<m[-~x]in r[:x])-(0<m[x-1]in r[x:])]for x in range(len(r))]for r in g]or[*zip(*p([*zip(*g)]))]

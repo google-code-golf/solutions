@@ -1,1 +1,0 @@
-p=lambda g:[[3>>v+r.pop(4)for v in r[:3]]for r in g]

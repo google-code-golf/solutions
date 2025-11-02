@@ -1,1 +1,0 @@
-p=lambda g:g and[[v|any(j[1:4])*max(g[2]+g[3])&(g[1]<=g[0]is r)+v-1for*j,v in zip(*g,r)]for r in g][:5]+p(g[5:])

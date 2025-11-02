@@ -1,1 +1,0 @@
-p=lambda g:(s:=lambda s:[r for r in zip(*s)if{*r}&({*g[0]}^{*g[-1]})])(s(g))

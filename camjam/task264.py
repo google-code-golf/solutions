@@ -1,2 +1,0 @@
-E=enumerate
-def p(m):a=sorted([X for i,r in E(m[:-2])for j,e in E(r[:-2])if min(sum(X:=[r[j:j+3]for r in m[i:i+3]],[]))],key=lambda m:b':=>C6IFOJ'.index(sum(6+i*(e!=5)for i,e in E(sum(m,[])))));return[sum(r,[])for i in[0,3,6]for r in zip(*a[i:i+3])]

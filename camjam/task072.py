@@ -1,1 +1,0 @@
-p=lambda m:[[3*(a!=b)for a,b in i]for i in map(zip,m,m[7:])]

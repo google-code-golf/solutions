@@ -1,1 +1,0 @@
-p=lambda g,*G:[*zip(a:=[2]*99,*[r for*r,in G or p(g,*g)for c in g[::3]if c.count(2)==2if{*r}-{0,2}],a)]

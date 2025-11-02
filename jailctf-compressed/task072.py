@@ -1,1 +1,0 @@
-p=lambda g,h=[]:g*0!=0and[*map(p,g,h+g[7:])]or-(g^h)%5

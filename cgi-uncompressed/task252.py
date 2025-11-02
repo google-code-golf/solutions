@@ -1,1 +1,0 @@
-p=lambda g,y=4:g*0!=0and[p(r)or(y:=-y)%(r+4)for r in g]

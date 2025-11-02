@@ -1,1 +1,0 @@
-p=lambda m:3in map(sum,m)and m[:len(m)&-2][-2:]+m[:-2]or[*zip(*p([*zip(*m)]))]

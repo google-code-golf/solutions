@@ -1,1 +1,0 @@
-k=0;p=lambda g:exec("k+=1;g[i][j]=min(g[j:=k%31%30][i:=k%30],g[i][1-j^(j<2)]);"*2093)or g

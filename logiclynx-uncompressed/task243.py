@@ -1,1 +1,0 @@
-p=lambda g:exec('g[::-1]=zip(*[map(max,r,[a==1for a in[0]+r])for*r,in g]);'*80)or g

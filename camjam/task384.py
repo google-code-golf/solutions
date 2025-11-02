@@ -1,1 +1,0 @@
-p=lambda m,*k:[*filter(any,zip(*sum(zip(*k*2or[p(0,m)]*2),())))]

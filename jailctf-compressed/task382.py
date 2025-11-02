@@ -1,1 +1,0 @@
-p=lambda g,i=9:~i*(h:=[*zip(*g[::1|(Q:=i%3%-2)])])or p((h[2in g[Q]]<(o:=h[0]))*[o:=[2][:r[0]]+[c&8for c in o]for r in h]or h,i-1)

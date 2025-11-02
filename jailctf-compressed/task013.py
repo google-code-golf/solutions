@@ -1,1 +1,0 @@
-p=lambda g,i=-1:g[13:]and[len(r)*[max(max(g[(i:=i+1)::sum(x:=[*map(g.index,g)])*2-max(x)*4]))]for r in g]or[*zip(*p([*zip(*g)]))]

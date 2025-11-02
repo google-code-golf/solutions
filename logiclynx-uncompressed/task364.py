@@ -1,1 +1,0 @@
-p=lambda g,i=28,h=30*[0]:i and p(zip(*[h:=[[c.bit_count()*5%14%9,u|c|(u*l>0)*4<<i%4][i*c>c]for u,c,l in zip(h,r,(0,*r))]for r in g][::-1]),i-1)or[*g]

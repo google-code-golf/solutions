@@ -1,1 +1,0 @@
-def p(n):i=sum(n,e:=[]);r=[e];[(r:=[r+[(n,e)]for r in r for n in range(45)if i[n]<1],e:=[])for n in range(16)if e==(e:=e+[r for r in range(n,150,15)if(15>n)&i[r]])>[]];return max([*zip(*[((any(r-i+min(n)in n*(i%15-r%15<6)for i,n in n)|i[r]%5)%3for r in range(150))]*15)]for n in r)

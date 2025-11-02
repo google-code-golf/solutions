@@ -1,1 +1,0 @@
-p=lambda g,a=0:[[max(r[:x])for x in range(1,len(r))]+[a:=max(r)or a]for r in g]

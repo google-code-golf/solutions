@@ -1,1 +1,0 @@
-p=lambda i:[i:=[[x.pop()or[0]<x[-1:]<[3]for _ in i]for*x,in zip(*i)]for _ in i][3]

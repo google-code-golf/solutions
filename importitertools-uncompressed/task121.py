@@ -1,1 +1,0 @@
-p=lambda g:[a:=(f:=sum(g,g))[(k:=f.index(8))-14:k-11],[f[k-1],max(a),f[k+1]],f[k+12:k+15]]

@@ -1,1 +1,0 @@
-p=lambda m,k=3,*s:-k*m or p([*zip(*[[s:=r[:r[0]==2]+[*[v&8for v in s or m[0]],2][r[-1]==2:][:len(r)]for*r,in m],m]["8"in str(m[1:])])][::-1],k-1)

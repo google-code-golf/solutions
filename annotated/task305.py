@@ -1,0 +1,1 @@
+p=lambda g:[(9*[*{*r}-{0}])[g.index(r):][:16]for r in g]

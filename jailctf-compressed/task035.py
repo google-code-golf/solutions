@@ -1,1 +1,0 @@
-p=lambda g:[r[::-1]for*r,in zip(*g[70:]or p(g*2))for r[r[0]and r.index(8)]in[r[0]]]

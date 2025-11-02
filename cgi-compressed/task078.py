@@ -1,1 +1,0 @@
-p=lambda g:[*zip(*map(lambda*c:sorted(c,key=1 .__gt__),*g))]

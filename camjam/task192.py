@@ -1,2 +1,0 @@
-p=lambda m,k=7:-k*m or p([[[v|16*(1+k%2)*((c:=max({*(f:=sum(m,[]))}-{0},key=f.count))==u!=v),c*(v>48or v==c)][k<4]for u,v in zip([0]+r,r)]for*r,in zip(*m[::-1])],k-1)
-# import re;p=lambda m,k=7:-k*m or p(eval(re.sub(r"[^0](?=, ([^0]).{%d}\1)"%(len(m)*3-2),r"\1",str([*zip(*m[::-1])]))),k-1)

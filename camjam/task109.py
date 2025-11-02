@@ -1,1 +1,0 @@
-p=lambda m:eval(f"[[m and {m[0][n:=len(m)//2]}"+f"for m in m[:{n}]+m[{n}-1::-1]]"*2)

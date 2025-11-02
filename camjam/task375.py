@@ -1,3 +1,0 @@
-def p(m,i=0):
-	for r in m:r[i]=r[~i]=0;i+=1
-	return m

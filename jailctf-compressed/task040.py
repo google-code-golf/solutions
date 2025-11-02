@@ -1,1 +1,0 @@
-p=lambda g,i=50:[[c%~c&g[(i:=i-1)>>9][~i//5%-2]for c in r]for r in g]

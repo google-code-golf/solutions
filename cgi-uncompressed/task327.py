@@ -1,1 +1,0 @@
-p=lambda g,P=[0]*3:[P:=[*map(max,r+[0]*3,[0]+P*2)]for r in g+[P]*3]

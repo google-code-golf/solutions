@@ -1,1 +1,0 @@
-p=lambda g,k=1199:(q:=-k*g)or p([q:=[c%~c&[max(c,*d,k:=k-1),1+(min(w:=sum(g,[]),key=w.count)==c)][k<99]for*d,c in zip([0]+q+r,q+r,r)]for*r,in zip(*g[::-1])],k)

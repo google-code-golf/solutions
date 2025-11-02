@@ -1,1 +1,0 @@
-p=lambda m:[(a:=sum(m,[]))[i+a.index(5):][:3]for i in b"	"]

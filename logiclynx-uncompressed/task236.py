@@ -1,1 +1,0 @@
-p=lambda g:[[3*x^-y%5for x,y in z]for z in map(zip,g,g[5:])]

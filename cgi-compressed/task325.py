@@ -1,1 +1,0 @@
-p=lambda g,k=400,*a:[a:=a[-1:]+a[:-1]for _ in(k<0)*a]or p([[a:=c and max(c,a,k:=k-1)for c in[0]+r]for*r,in zip(*g[::-1])],k,*-2%len({*sum(g,[])})*[0],8)

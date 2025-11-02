@@ -1,1 +1,0 @@
-import re;p=lambda g,k=43:-k*g or p(eval(re.sub('(1[^)]*)0(?=[^)]*1)',r'\1 8',f'{*zip(*g),}')),k-1)

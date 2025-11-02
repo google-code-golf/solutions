@@ -1,1 +1,0 @@
-t=0,1,2;p=lambda g:[[5*(r==[0,c,2-c][len({*str(g)})%5])for c in t]for r in t]

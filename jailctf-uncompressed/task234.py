@@ -1,1 +1,0 @@
-p=lambda g:exec('c={0};g[:]=zip(*(g[:1]*99+[j for*j,in g if(c:=c|{*j})-{sum(j),0}])[:~len(g):-1]);'*4)or g

@@ -1,1 +1,0 @@
-p=lambda g,z=0,x=0:[[(l:=c|x%~(x:=x^c)+x)*(z!=l%3)for c in r]for r in zip(*z or p(g,g))]

@@ -1,1 +1,0 @@
-p=lambda g,i=0:[[sum({m:=max(a:=max(g,key=any))}&{v,r[a.index(m)-a[::-1].index(m)-(i:=i+1)&15]})for v in r]for r in g]

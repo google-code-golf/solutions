@@ -1,1 +1,0 @@
-p=lambda g,i=7:g*-i or p([[r.pop()//~[0,*r][-1]*~0**i%3for r in g]for r in g[0]*1],i-1)

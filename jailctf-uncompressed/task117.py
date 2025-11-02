@@ -1,1 +1,0 @@
-p=lambda g,x=0,k=1:(len({*zip(sum(g:=[*zip(*x or p(g,g))],()),s:=sum(h:=[*map(max,g,(a:=g[::-1])[k:]+a)],()))})<5in map(s.count,s))*h or p(g,x,k-1)

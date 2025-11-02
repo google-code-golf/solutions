@@ -1,1 +1,0 @@
-e=enumerate;p=lambda g:[[(S:=sorted(~max(X:=(x-i)**2,Y:=(y-j)**2)%2*c|X+Y<<4for x,r in e(g)for y,c in e(r)if c))[0]%16*(S<[S[1]-9])for j,_ in e(g)]for i,_ in e(g)]

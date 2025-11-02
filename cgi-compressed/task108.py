@@ -1,1 +1,0 @@
-p=lambda g:g*0!=0and[*map(p,(g*8)[2:]*5)][9::20]or g

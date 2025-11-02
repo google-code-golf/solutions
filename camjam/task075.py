@@ -1,2 +1,0 @@
-R=range(9)
-p=lambda m:[m[y][:4]+[m[y-y%3+1][x-x%3+5]*m[y%3][x%3]for x in R]for y in R]

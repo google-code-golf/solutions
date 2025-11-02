@@ -1,1 +1,0 @@
-import re;x=1,1,1;p=lambda g,f=lambda g:eval(re.sub(r'(0, 0, 0)(.{55})\1(.{55})\1',r'*x\2*x\3*x','%s'%g)):f(f(g))

@@ -1,1 +1,0 @@
-p=lambda g:[[109//x&84%x+7for x in g[0]]]*3

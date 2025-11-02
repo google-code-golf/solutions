@@ -1,1 +1,0 @@
-p=lambda m:[[v/4for v in r]for r in[m.pop()]+m]

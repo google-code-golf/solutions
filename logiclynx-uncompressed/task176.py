@@ -1,1 +1,0 @@
-p=lambda g:[[c|m>>i%12&4for i,c in enumerate(g[m&3])]for m in(896,261,8206)]

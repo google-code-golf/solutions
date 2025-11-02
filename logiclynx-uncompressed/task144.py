@@ -1,1 +1,0 @@
-p=lambda g:[[3>>max(k)for k in r]for r in map(zip,g,g[5:])]

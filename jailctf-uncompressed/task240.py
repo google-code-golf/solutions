@@ -1,1 +1,0 @@
-p=lambda g,i=0:[[*map(max,y[:(i:=i+1):-1],y[:i]+y[i:i+2]*9)]+y[i::-1]for*y,in zip(*g[1197:]or p(g*2))]

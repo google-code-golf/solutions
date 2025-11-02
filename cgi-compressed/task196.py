@@ -1,1 +1,0 @@
-p=lambda g,n=51:-n*g or p([*map(lambda*r,x=4:[[(y|2&x%3-y)%(n+4),y|x&4-y,x:=y][n>4]for y in r],*g[::-1])],n-1)

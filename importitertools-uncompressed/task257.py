@@ -1,1 +1,0 @@
-p=lambda g:[[u[j]|u[j+5]or d[j]or d[j+5]for j in range(4)]for u,d in zip(g,g[5:])]

@@ -1,1 +1,0 @@
-def p(m,y=2):z=str(m).count('0');return[(r*(9-(y:=y+1)//3*z)+[0]*21)[:z*3]for r in m*z]

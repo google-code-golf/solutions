@@ -1,1 +1,0 @@
-p=lambda m:m[:2]+m[::3]+[[4*x^5for x in m[2]]]

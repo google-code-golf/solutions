@@ -1,1 +1,0 @@
-p=lambda g:[[M]*r.count(M)for r in g if(M:=min({*(s:=sum(g,[]))}-{0},key=s.count))in r]

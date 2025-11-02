@@ -1,1 +1,0 @@
-p=lambda m:[[v*x/4for x,v in zip(b""*9,r)]for r in m]

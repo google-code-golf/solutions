@@ -1,1 +1,0 @@
-p=lambda g:3*g[:1]+[g[3],[5^n*4for n in g[2]]]

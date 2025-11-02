@@ -1,1 +1,0 @@
-import re;p=lambda g,k=7:-k*g or p(eval(re.sub('(2%s)0((,%s)*%s)5'%(('..'*[1,14][k>3],)*3),r'\1 5\2 0',f'{*zip(*g[::-1]),}')),k-1)

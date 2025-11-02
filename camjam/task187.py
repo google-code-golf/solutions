@@ -1,1 +1,0 @@
-p=lambda m,k=55:-k*m or p([[r.pop()or([3,*r][-1]==3)*3|2>>k*2for _ in m]for*r,in zip(*m)],k-1)

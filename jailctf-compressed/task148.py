@@ -1,1 +1,0 @@
-p=lambda g,L=0:[[L:=L<<any(r)*2|(8in r),x:=1]and[7<<((x:=x>r.pop(0))-any(r)<L>>sum(g,g).count(2)&1)&8>>c%7for c in r*1]for*r,in g]

@@ -1,1 +1,0 @@
-p=lambda i,n=2,*t:t*(t==t[:5])or p(i,n+1,*zip(*[x for x in[i,t][n%2]if n//2in x]))

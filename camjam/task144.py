@@ -1,1 +1,0 @@
-p=lambda m:m*0!=0and[p(r+m.pop(0))for r in m[-4:]]or 3>>m

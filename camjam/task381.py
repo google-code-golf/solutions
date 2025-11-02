@@ -1,1 +1,0 @@
-p=lambda g:[[r[j]or(2in{*g.index(r)%9*r[:j]}&{*r[j:]})*9for j in range(10)]for r in g]

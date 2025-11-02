@@ -1,1 +1,0 @@
-p=lambda g:[[x+2*(x<8in r)*(hash((*c,))%709==8or 8in c)for*c,x in zip(*g,r)]for r in g]

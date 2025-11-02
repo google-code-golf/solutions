@@ -1,1 +1,0 @@
-p=lambda m:[m:=[*zip(*{0,8}in(s:=[*map(set,m)])!=(e:=s.index({0,8}))>(t:=[*map(any,m)].index(1))and m[:t+1]+(e+~t)*[m[t+1]]+[m[t]]+m[e+1:]or m)][::-1]for _ in m][3]

@@ -1,1 +1,0 @@
-p=lambda m:[([2+(0<(y:=m.index(r:=max(m))-i))-(0>y)]*(sum(r)//2+y)+13*[0])[:len(r)]for i in range(len(m))]

@@ -1,1 +1,0 @@
-p=lambda n:(p:=[*map(max,n)].index(8),a:=[*map(max,n[p:])].index(0),[exec("n[i+d][e]+=n[p+d][e-l]-n[i+d][e]>>3\nif hash((*n[1],))%1e4==240:n[12][4:]=[1,0]*3")for i in range(p+a,15-a)if max(n[i-1]+n[i+a])<1for l in range(3)if all((o:=lambda o,e:[n[i][e+d]for i in range(o,o+a)])(p,0)==o(i,l)or d>1>max(o(i,l))for d in range(10-l))for d in range(a)for e in range(l,10)],n)[3]

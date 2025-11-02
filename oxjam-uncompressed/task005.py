@@ -1,1 +1,0 @@
-def p(i):g=max((len(n:=[(n,f)for n in range(21)for f in range(21)if i[n][f]==e]),n)for e in range(21)[1:])[1];return[[max(((a-l*r,e-l*o)in g)*i[n+r][f+o]for n,f in g for r in[-4,0,4]for o in[-4,0,4]for l in range(21)[1:])for e in range(21)]for a in range(21)]

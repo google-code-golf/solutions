@@ -1,1 +1,0 @@
-p=lambda g,i=0:g*-1and g%5+5or[p(g[i^(i:=i+1)**3%4])for _ in g]

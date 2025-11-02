@@ -1,1 +1,0 @@
-p=lambda m:[[max({*r[x:x+3]}-{5})for x in(0,3,6)]for r in m[::3]]

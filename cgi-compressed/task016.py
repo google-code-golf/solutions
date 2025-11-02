@@ -1,1 +1,0 @@
-p=lambda g:[[x**10%95%18^4for x in g[0]]]*3

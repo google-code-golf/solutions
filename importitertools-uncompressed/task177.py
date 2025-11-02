@@ -1,1 +1,0 @@
-p=lambda g:[t[::-1]for r in g if(t:=[*filter(int,r)])]

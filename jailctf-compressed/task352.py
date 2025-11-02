@@ -1,1 +1,0 @@
-p=lambda g,i=3:g*-i or p([[r.pop()or[0]<r[-1:]<[3]for r in g]for r in g[0]*1],i-1)

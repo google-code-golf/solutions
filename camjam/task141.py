@@ -1,1 +1,0 @@
-p=lambda m:(R:=range(len(m)))and[[(abs(m.index(r:=max(m))-y)==abs(r.index(c:=max(r))-x))*c for x in R]for y in R]

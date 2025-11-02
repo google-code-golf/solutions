@@ -1,1 +1,0 @@
-p=lambda g,*s:[4in r and(s:=r*(s!=r),r)[1]or[2*any(s[:i])*any(s[i+1:])for i in range(10)]for r in g]

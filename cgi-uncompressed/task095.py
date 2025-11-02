@@ -1,1 +1,0 @@
-p=lambda g:g[99:]or[eval("r.pop()|r[-1]%4,"*9)for*r,in zip(*p(g*2)*2)]

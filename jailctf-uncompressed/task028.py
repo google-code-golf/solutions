@@ -1,1 +1,0 @@
-p=lambda g:[[c:=max(g[x%15]),*[x&c]*8,c]for x in b'/ /  ppp']

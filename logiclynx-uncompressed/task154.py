@@ -1,1 +1,0 @@
-p=lambda g,n=3:-n*g or[r[:(j:=2>r[3])]+r[j:j+7][::1|-(5in r[:3])]+r[j+7:]for r in zip(*p(g,n-1)[::-1])]

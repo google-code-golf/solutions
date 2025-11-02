@@ -1,1 +1,0 @@
-p=lambda n,r=range(10):[[(a:=max(max(n)),5)[min((f-b)**2|(m-s)**2for b in r for s in r if n[b][s])%(3-(f', {a}, 0'*2in'%r'%n))]for m in r]for f in r]

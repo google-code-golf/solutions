@@ -1,1 +1,0 @@
-p=lambda g:[d*[c]for i in g if(d:=i.count(c:=min(q:=sum(g,[0]*99),key=q.count)))]

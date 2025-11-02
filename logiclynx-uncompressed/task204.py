@@ -1,1 +1,0 @@
-p=lambda g:[exec("m=a[x:].index(1);a[x:x+m]=[m%2*5+2]*m")for a in g for x,v in enumerate(a,1)if-v%3>a[x-2]*x]*0+g

@@ -1,1 +1,0 @@
-p=lambda g,E=enumerate:[[d%2+7&-(d<g.count(g[0])-i>-d)for d,_ in E(r,-g[0].index(7))]for i,r in E(g)]

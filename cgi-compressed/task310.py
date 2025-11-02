@@ -1,1 +1,0 @@
-p=lambda g,h=0:[r for*r,in zip(*h or p(g,g))if{*r}-({*g[0]}&{x[0]for x in g})]

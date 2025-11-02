@@ -1,1 +1,0 @@
-p=lambda g:g[exec('g[:]=zip(*map(max,g,g[10:]+g[9:10]+g));'*4):]

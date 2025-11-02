@@ -1,1 +1,0 @@
-p=lambda*m:[[p,min][r*0==0](r,s)for r in m[0]for s in m[-1]]

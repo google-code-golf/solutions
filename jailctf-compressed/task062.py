@@ -1,1 +1,0 @@
-p=lambda g,c=1:(g[:11]+(k:=[[c or 3for c in r]for r in zip(*g[990:]or p(g*2))if(c:=c-(g!={3}&(g:={*r})==g^{2}))])+k[::-1])[~9:]

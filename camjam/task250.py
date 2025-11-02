@@ -1,1 +1,0 @@
-p=lambda m:[m:=[*zip(*m[:(i:=str(m).index('2')>>5)-1:-1],map(max,*m[:i]),*~-i*[min(m)])]for _ in m][3]

@@ -1,1 +1,0 @@
-p=lambda m,k=27:-k*m or p([[r.pop(0)|sum({*c}&{*r}|{u}&{*r})for c,u in zip(m,[0]+r)]for*r,in zip(*m)][::-1],k-1)

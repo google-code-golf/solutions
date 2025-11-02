@@ -1,1 +1,0 @@
-p=lambda g:[[c*sum(g[x.index(c)])&7for*x,c in zip(*g,r)]for r in g]

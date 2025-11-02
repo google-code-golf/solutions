@@ -1,1 +1,0 @@
-p=lambda g,t=11,e=4:-t*g or p([(n:=0)or[n:=[-v.bit_count()%7,v|n|(v<6)*(e:=e*2)][t*v>0]for v in C]for C in zip(*g[::-1])],t-1)

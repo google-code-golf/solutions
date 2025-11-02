@@ -1,1 +1,0 @@
-p=lambda m,*k:[[a,max(r),b]for a,*r,b in zip(*k or p(m,*m))]

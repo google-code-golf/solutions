@@ -1,1 +1,0 @@
-S=b'';p=lambda g:[[g[r][c]&1for c in S]for r in S]

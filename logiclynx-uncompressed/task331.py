@@ -1,1 +1,0 @@
-p=lambda g:[g:=eval(f'{*zip(*g[::-1]),}'.replace('0, 1',c+',1'))for c in'8627'][3]

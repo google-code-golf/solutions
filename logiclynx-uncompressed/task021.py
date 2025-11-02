@@ -1,1 +1,0 @@
-p=lambda g:g*-1*-1or[p(g[0])]*-~min(map(g.count,g))

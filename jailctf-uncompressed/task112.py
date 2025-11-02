@@ -1,1 +1,0 @@
-p=lambda g:exec("h=g[::-1]*2;g[:]=zip(*map(max,g,h[2*~[*map(max,g)].index(3):]+h));"*2)or g

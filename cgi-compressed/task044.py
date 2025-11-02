@@ -1,2 +1,0 @@
-from re import*
-p=lambda o,n=X:-n*o or p(eval([o:="%s"%o,sub(x:=str(n%S),"0","|n%S".join(s:=split("(?<=5.{28}5..%s)(?=..5.{28}5)"%sub(x,"0)(",sub("[^%s]"%x,".",o)).strip("."),o)))][s.count("")%2]),n-1)

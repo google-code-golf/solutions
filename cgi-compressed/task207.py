@@ -1,1 +1,0 @@
-p=lambda g:min(l:=[[r[i%4:i%6]for r in g[i%7:i%9]]for i in b"8wP;"],key=l.count)

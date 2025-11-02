@@ -1,1 +1,0 @@
-p=lambda m,c=0:[[v|(c:=c^v)for v in r]for r in m]

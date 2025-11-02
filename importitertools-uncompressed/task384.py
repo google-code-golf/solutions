@@ -1,1 +1,0 @@
-p=lambda g:[g:=sum([[x]*2for*x,in zip(*g)if 4in x],[])for _ in g][1]

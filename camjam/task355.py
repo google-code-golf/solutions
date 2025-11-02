@@ -1,1 +1,0 @@
-p=lambda m:[[max(sum(m,[]),key=lambda k:(s:=sum(v!=k for r in m for*c,v in zip(*m,r)if{k}&{*r}&{*c}))*(s<6))]]

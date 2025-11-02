@@ -1,1 +1,0 @@
-p=lambda m,a=0,k=3:-k*a or[a:=a or eval(str(m)),[exec("c=r[j:].index(0)-2-r[j-1];s[j-c:j]=[v]*c;s[j]=max({*sum(m,[])}-{0,v})")for r,s in zip(m,a)for j in range(len(m))if(v:=r[j])]]*0+p(*[[*map(list,zip(*x))][::-1]for x in(m,a)],k-1)

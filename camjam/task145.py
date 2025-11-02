@@ -1,1 +1,0 @@
-p=lambda m,k=75,j=0:-k*m or p([[v&2or k and max(u,v or(j:=j+4))or min(C:=[*map(c:=(f:=sum(m,[])).count,{*f}-{0,2})])//c(v)*8+c(v)//max(C)for u,v in zip([2]+r,r)]for*r,in zip(*m[::-1])],k-1)

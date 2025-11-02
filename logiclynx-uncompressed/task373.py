@@ -1,1 +1,0 @@
-p=lambda g:(t:=min(zip(*g))*3,t[::-1])

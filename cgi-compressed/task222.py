@@ -1,1 +1,0 @@
-p=lambda g:[g:=[[x*(2*f"{x}, "in"%s"%r!=sum(g,g).count(x)>8)for x in r]for*r,in zip(*g)]for _ in g][3]

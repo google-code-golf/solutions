@@ -1,2 +1,0 @@
-import re
-def p(s):n={0:(m:=max(s:=re.sub(', ','',str(s+[*zip(*s)])),key=s.count),2)}|{(e:=len(re.findall(r+r+'([^]+)'+r+']+)'+r+'|$',s+s[::-1])[0]))-len(max(re.findall(r+'+',s)))*~(e>0)>>1:(r,e-1>>1)for r in{*s}-{m,*'([]+)'}};return[[int([m,*n[max(abs(r),abs(e))]][n[max(abs(r),abs(e))][1]<min(abs(r),abs(e))])for r in range(-max(n),max(n)+1)]for e in range(-max(n),max(n)+1)]

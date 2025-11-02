@@ -1,1 +1,0 @@
-p=lambda g:exec("b,a,c,*_=[y for y,r in enumerate(g)if max(r)];x=a-b>1;g[c:c+x]*=c-b;g[b:a*x]*=0;g[:]=zip(*g[::-1]);"*4)or g

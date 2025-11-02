@@ -1,1 +1,0 @@
-p=lambda g,d=[0]*10:g[30:]or[d:=[r.pop()or(y%2==(5in(g:=g+d)))*y%5for y in d]for r in p(g*2)[::-1]]

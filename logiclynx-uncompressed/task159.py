@@ -1,1 +1,0 @@
-p=lambda g:(t:=[2for r in g if 2in r],*([2,*r,2]for r in zip(*[c for c in zip(*g)if-3&max(c)for _ in t[2::3]])if-3&max(r)for _ in t[2::3]),t)

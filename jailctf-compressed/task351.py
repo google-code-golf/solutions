@@ -1,1 +1,0 @@
-p=lambda g:[s[~r.index(3)::-1][:5]for r in g*1if 3in[s:=g.pop()]+r]

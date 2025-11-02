@@ -1,1 +1,0 @@
-p=lambda g:[[sum({*r[c:c+3]}-{5})for c in(0,3,6)]for r in g[::3]]

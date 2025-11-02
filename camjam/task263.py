@@ -1,1 +1,0 @@
-def p(m):h=len(m);s=[str(m[i:i+3]).count("0")for i in range(0,h,3)];return(h>3)*m[3*s.index(min(s,key=s.count)):][:3]or[*zip(*p([*zip(*m)]))]

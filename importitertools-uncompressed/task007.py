@@ -1,1 +1,0 @@
-p=lambda g:[*zip(*[(max(sum(g,[])[i::3])for i in[0,1,2]*17)]*7)]

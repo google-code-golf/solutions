@@ -1,1 +1,0 @@
-p=lambda g:[i[6:]for i in g[:3]]

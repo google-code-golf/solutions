@@ -1,1 +1,0 @@
-p=lambda g:[[r[b>[f]+b]for*r,f in zip(a,[0]+a,[0]+b)]for a,b in zip(g,g[1:]+g)]

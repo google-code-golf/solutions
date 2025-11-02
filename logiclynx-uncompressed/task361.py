@@ -1,1 +1,0 @@
-def p(g):z=[(i//10,i%10,v)for i,v in enumerate(sum(g,[]))if v];a,b=max(p:=[(x+j,y-i)for i,j,w in z for x,y,v in z if 1>w^v<i^x|j^y],key=p.count);exec('for i,j,v in z:'+'g[i][j]=v;i,j=a-j,b+i;'*4);return g

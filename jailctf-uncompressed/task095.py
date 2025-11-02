@@ -1,1 +1,0 @@
-p=lambda g:exec(f"g[:]={'[r.pop()or[0]<r[-1:]for r in g],'*9};"*4)or g

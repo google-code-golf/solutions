@@ -1,1 +1,0 @@
-p=lambda g,*x,q=():[z for r in zip(*x or p(*g))if(q:=(*map(max,(z:=q)*any(r)+r,r),))<z]+[q]

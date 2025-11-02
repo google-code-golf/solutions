@@ -1,1 +1,0 @@
-p=lambda m:[(i//2*[0]*(d:=~-sum(map(any,zip(*m[:6])))//3)+m[i%(3-(m[0]!=m[3]or d>0))])[:10]for i in range(10)]

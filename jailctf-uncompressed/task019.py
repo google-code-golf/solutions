@@ -1,1 +1,0 @@
-p=lambda g,h=[],z=[[0]*9]:g*0!=0and[*map(p,g*2,map(zip,(h:=([*h]or g)*2)[1:]+z,z+h))]or g|8&g-any(max(h))

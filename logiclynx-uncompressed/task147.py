@@ -1,1 +1,0 @@
-import re;p=lambda g,k=3:-k*g or p(eval(re.sub('3, [38]|8, 3','8,8',f'{*zip(*g),}')),k-1)

@@ -1,1 +1,0 @@
-p=lambda g:[*map([p,bool][0in g],(g*6)[3:]*3)][7::18]

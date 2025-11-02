@@ -1,1 +1,0 @@
-p=lambda g:[[i%7,i%6,i%11]for i in b" M~M~MM"[max(max(g))::3]]

@@ -1,1 +1,0 @@
-def p(g):q=sum(g,[]);return*filter(any,zip(*sorted([[c]*q.count(c)+99*[0]for c in{*q}],key=len)[::-1])),

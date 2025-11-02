@@ -1,1 +1,0 @@
-p=lambda g:[[8>>x+r.pop(0)for x in r[4:]]for r in g]

@@ -1,1 +1,0 @@
-p=lambda g,h=0:[[c or sum({*r[:i]}&{*r[i:]})for i,c in enumerate(r)]for r in zip(*h or p(g,g))]

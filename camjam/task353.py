@@ -1,1 +1,0 @@
-p=lambda m,k=3:-k*m or p([*zip(m.pop(max([*map(max,m)].index(4)-1,0)),*m)][::-1],k-1)

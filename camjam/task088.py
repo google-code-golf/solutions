@@ -1,1 +1,0 @@
-p=lambda m,k=47:-k*m or p([[v and m[0][0]or v for v in r]for r in zip(*m[any(k//4*m[-1])-2::-1])],k-1)

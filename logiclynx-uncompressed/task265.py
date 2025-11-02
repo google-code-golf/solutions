@@ -1,1 +1,0 @@
-p=lambda g:0*[exec('t=5,*map(max,a,b);j=17\nwhile j:\n if t[j]|t[j+1]<=t[j:=j-1]&4:a[j:j+2]=b[j:j+2]=2,2')for a,b in zip(g,g[1:])]+g

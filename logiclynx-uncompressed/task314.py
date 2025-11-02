@@ -1,1 +1,0 @@
-p=lambda g,r=range(8):[[max((x:=g[i])[j],g[i-3][j]&g[i-5][j],x[j-3]&x[j-5])for j in r]for i in r]

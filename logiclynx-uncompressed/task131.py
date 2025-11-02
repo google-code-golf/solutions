@@ -1,1 +1,0 @@
-p=lambda g:(l:=len(g))<6and[*zip(*p([*zip(*g)]))]or(g[:g.index(r:=(h:=[*filter(any,g)])[0])]+h+[[8]*len(r)]+g[:1]*l)[:l]*(2in r)or p(g[::-1])[::-1]

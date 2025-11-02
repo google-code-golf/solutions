@@ -1,1 +1,0 @@
-p=lambda g,x=[],z=0:g*0!=0and[*map(p,g,(x+g)[:6]*3,g[5::6]*9)]or(x>g)*z|g

@@ -1,1 +1,0 @@
-p=lambda m,k=155,a=0,j=0:-k*m or p([[[a,v,min(u,v,v*(j:=j-9))][a<1or v in{0,a}or k//52]for u,v in zip([0]+r,r)]for*r,in zip(*m[::-1])if max({*(f:=sum(m,[])),-1}-{0,a},key=f.count)in r or k//52!=1],k-1,a or min(f,key=f.count))

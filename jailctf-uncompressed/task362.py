@@ -1,1 +1,0 @@
-def p(g):i=g.count(g[0]);return[r[i:]+r[:i]for r in g[-i:]*2+g[i:-i]]

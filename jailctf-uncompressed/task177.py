@@ -1,1 +1,0 @@
-p=lambda g,*a:[*filter(sum,zip(*a or p(*g)[::-1]))]

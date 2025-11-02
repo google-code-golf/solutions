@@ -1,1 +1,0 @@
-p=lambda m:max([[r[i%7:][:3]for r in m[i//7:][:3]]for i in range(49)],key=lambda a:(str(a).count('1'),a))

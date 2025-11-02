@@ -1,1 +1,0 @@
-p=lambda g,i=1:eval(f'(g==g[::-1])*(g:=[x for x in zip(*g)if {i}in x]),'*4)[3]or p(g,i+1)

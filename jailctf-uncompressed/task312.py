@@ -1,1 +1,0 @@
-p=lambda g:[[j%~j&i[0]for j in i]for i in g]

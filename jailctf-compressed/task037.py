@@ -1,1 +1,0 @@
-p=lambda g,x=0:[[sum({*(l:=sum(g,[x:=x+1]))[x:0:-9]+l[x::-11]}&{*l[x::9]+l[x::11]})for c in g]for r in g]

@@ -1,1 +1,0 @@
-p=lambda a,n=-13:n*a or p([[c|-d%15for c,d in zip(a.pop(0),[0]+b)][::~0]for*b,in a[1:]]+a,n+1)

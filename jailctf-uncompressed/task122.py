@@ -1,1 +1,0 @@
-p=lambda g:[*map(p,g*('3, 0'in'%s'%max(g)))]or g[-2:][::len(g)%-2|1]+g[:-2]

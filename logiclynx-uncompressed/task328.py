@@ -1,1 +1,0 @@
-def p(g):r=range(len(g));return[[(s:=sorted((sum(t:=[abs(y-i),abs(x-j)]),~max(t)%2*v)for i in r for j in r if(v:=g[i][j])))[0][1]*(s<[s[1][:1]])for x in r]for y in r]

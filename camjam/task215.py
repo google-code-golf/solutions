@@ -1,1 +1,0 @@
-p=lambda m:[*filter(any,m[6:]+m*7)][:len(m)]

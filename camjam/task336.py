@@ -1,2 +1,0 @@
-p=lambda m:[m:=[[a:=[*r,5].index(5)//4]*0+[v|8&v-((a:=a+v%8)==5)for v in r]for r in zip(*m[::-1])]for _ in m][3]
-# import re;p=lambda m,k=3:-k*m or p(eval(re.sub("5(, [08]){6,}|5[0, ]+5",lambda s:re.sub(*"08",s[0]),str([*zip(*m[::-1])]))),k-1)

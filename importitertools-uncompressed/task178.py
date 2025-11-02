@@ -1,1 +1,0 @@
-p=lambda g,i=0:[i*(g:=x)or p(x,1)for x in g if x!=g]

@@ -1,1 +1,0 @@
-def p(g):T=sum(V:=max(g))//2;S=T-~g.index(V);return[[((S:=0-2%~S)-T|8)//9+2]*S+r[S:]for r in g]

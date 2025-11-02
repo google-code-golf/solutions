@@ -1,1 +1,0 @@
-p=lambda m,k=47:-k*m or p([[(v:=r.pop())-[8*(v>8>k),(v-16)*(u>9>v)][8>k>3]|2&8>>u*(k>8in[v]+r)for u in[0]+r[:0:-1]]for*r,in zip(*m)],k-1)

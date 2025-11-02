@@ -1,1 +1,0 @@
-p=lambda a,q=3:a*-1and 5+a%5or a[1:]and[p(a[1])]*q+p(a[2:],4-q)

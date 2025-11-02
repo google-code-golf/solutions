@@ -1,1 +1,0 @@
-def p(g,i=0):t=2*len(g[i<9==p(g,i+1)])-2;g[~i][min(i%t,-i%t)]=1;return g

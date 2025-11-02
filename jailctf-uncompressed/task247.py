@@ -1,1 +1,0 @@
-p=lambda g,k=9:(r:=[*{x:0for x in sum(zip(*g),())if sum(g,g).count(x)==k}])and[r]*k or p(g,k-1)

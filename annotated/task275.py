@@ -1,0 +1,1 @@
+def p(g):R=len(g+g[0])//3;r=range(-R*R,0);return[[sum(g[u%R-t][v%R-t]//8*g[u//R+t][v//R+t]for t in(0,R))for v in r]for u in r]

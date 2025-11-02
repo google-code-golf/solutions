@@ -1,1 +1,0 @@
-p=lambda m,*a:[a:=b for b in zip(*a or p(m,*m))if a!=b]

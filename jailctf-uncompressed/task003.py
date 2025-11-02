@@ -1,1 +1,0 @@
-p=lambda g:[[y*2for y in x]for x in g+g[g[2]==g[5]:][2:5]]

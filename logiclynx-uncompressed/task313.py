@@ -1,1 +1,0 @@
-p=lambda g:[(g[1:(n:=len(g))//12+3]*7)[:n]for g in g[:2]*10][:n]

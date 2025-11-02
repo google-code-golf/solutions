@@ -1,1 +1,0 @@
-import re;p=lambda g,k=7:-k*g or[*zip(*eval(re.sub('0(?=, 8.{19}8)','1',str(p(g,k-1)[::-1]))))]

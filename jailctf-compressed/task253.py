@@ -1,1 +1,0 @@
-p=lambda g,R=range(4):[[max(map(min,a:=sum(g,[]),a[i<2or~j//2%14:],a[13+(i^j>1)|i*j%-3:]),key=bool)for j in R]for i in R]

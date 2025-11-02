@@ -1,1 +1,0 @@
-p=lambda g:exec('*_,a,b,c=map(g.index,filter(any,g));g[:]=zip(*(g,g[:a]+(c-a)*[g[a]]+[g[b]]+g[c+1:])[b<a<c][::-1]);'*4)or g

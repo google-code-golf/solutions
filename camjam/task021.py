@@ -1,1 +1,0 @@
-p=lambda m,*r:m*-1*-1or[p(r:=s)for s in m if r!=s][::2]

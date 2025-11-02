@@ -1,1 +1,0 @@
-p=lambda g:[[r[0]-c+d[0]or c for c,d in zip(r,zip(*g))]for r in g]
