@@ -1,0 +1,1 @@
+p=lambda g,i=0:i*[*zip(*filter(sum,g))]or p(p(g,2),1)

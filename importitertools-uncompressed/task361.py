@@ -1,0 +1,1 @@
+p=lambda r:[[[max(r[(a+[x-b,o-a,b+m-x,a+m-o][l%4])%10][(b+[a+m-o,x-b,o-a,b+m-x,][l%4])%10]for l in range(10))for x in range(10)]for o in range(10)]for m in(2,1)for a in range(10)for b in range(10-m)if all(all(x[b:b+m+1])for x in r[a:a+m+1])][0]

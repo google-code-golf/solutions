@@ -1,0 +1,1 @@
+p=lambda g,k=3:-k*eval(str(g).replace(*"03"))or p([*zip(*(g[:1]*2+(S:=g[:max(i*({*g[i]}=={0,2})*any(g[i-1])for i in range(10))or 10])+S[::-1])[~9:])],k-1)

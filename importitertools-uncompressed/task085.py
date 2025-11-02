@@ -1,0 +1,1 @@
+p=lambda g,*a:[*zip(*[[c*((a:=[*a,c]).count(c)%6<5)for c in r]for r in zip(*g)])]

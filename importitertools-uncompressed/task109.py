@@ -1,0 +1,1 @@
+p=lambda g:(a:=[(t:=[c and r[l:=len(g)//2]for c in r][:l])+t[::-1]for r in g][:l])+a[::-1]

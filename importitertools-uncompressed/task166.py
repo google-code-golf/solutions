@@ -1,0 +1,1 @@
+p=lambda g:[[v+(r>[v]*99<c)*2for*c,v in zip(*g,r)]for r in g]

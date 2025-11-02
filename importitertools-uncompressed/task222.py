@@ -1,0 +1,1 @@
+p=lambda g:[g:=[[(b in(a,c))*b*(sum(g,g).count(b)>4)for a,b,c in zip([0]+r,r,r[1:]+[0])]for*r,in zip(*g)]for _ in g][3]

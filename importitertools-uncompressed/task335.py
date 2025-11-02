@@ -1,0 +1,1 @@
+p=lambda g:[g:=[[v|4*any(r[:j])*(k in max(g[j:]))for j,v in enumerate(r)]for r in zip(*g)][::-1]for k in[2,8]*2][3]

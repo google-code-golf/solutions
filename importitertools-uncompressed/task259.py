@@ -1,0 +1,1 @@
+p=lambda g,i=23:-i*g or p([[c*(c>1)for c in r]for r in zip(*g[any(g[-1])-2::-1])],i-1)

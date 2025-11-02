@@ -1,0 +1,1 @@
+p=lambda g:[g:=[[a*(a==b!=c)for a,b in zip(r,r[1:])]for r in zip(*[r for r in g if{*r}-{0,c}])]for c in[max(g[0])]*2][1]

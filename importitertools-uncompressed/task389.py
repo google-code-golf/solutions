@@ -1,0 +1,1 @@
+p=lambda g:[[sum({*sum(g,r)}-{c,5})for c in r]for r in g]

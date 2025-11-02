@@ -1,0 +1,1 @@
+p=lambda g:(a:=[*{}.fromkeys(g[0])])[1:]and[a]or[*zip(*p([*zip(*g)]))]

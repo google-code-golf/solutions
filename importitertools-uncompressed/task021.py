@@ -1,0 +1,1 @@
+p=lambda g:len(g[g.count(a:=g[0])-1:])*[a*(a*0==0)or p(a)]

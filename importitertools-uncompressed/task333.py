@@ -1,0 +1,1 @@
+p=lambda g:[g:=[[r[j]or(3in r[:j])*max(r[j:])for j in range(10)]for r in zip(*g[::-1])]for _ in g][3]

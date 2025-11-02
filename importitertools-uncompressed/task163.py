@@ -1,0 +1,1 @@
+p=lambda g,R=range(11):[[5*(3in(x%4,y%4))or(y//4==(k:=sum(g,[]).index(4))%11%4)*g[k//44*4+x%4][k%11//4*4+y%4]*(x//4==k//11%4)for y in R]for x in R]

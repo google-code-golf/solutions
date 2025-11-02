@@ -1,0 +1,1 @@
+def p(g):c=*filter(abs,map(max,*g)),0,0,0;return c[:3],c[5:2:-1],c[6:9]

@@ -1,0 +1,1 @@
+p=lambda g:[g:=[g:=r for r in zip(*g)if r!=g]for _ in g][1]

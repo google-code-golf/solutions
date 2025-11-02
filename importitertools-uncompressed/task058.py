@@ -1,0 +1,1 @@
+def p(g):d=2-len(g)%2;o=[[3]*d]*d;return[o:=[[3]*(l:=len(o)),[0]*~-l+[3],*zip(*o[::-1])]for _ in g][~d]

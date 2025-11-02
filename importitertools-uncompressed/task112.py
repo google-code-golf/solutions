@@ -1,0 +1,1 @@
+p=lambda g:[g:=[*zip(*(g[:(i:=[3in r for r in g].index(1))+1]+g[i::-1]+g[-1:]*99)[:len(g)])]for _ in g][1]

@@ -1,0 +1,1 @@
+p=lambda g:3>len({*g[0],0})and[*zip(*p([*zip(*g)]))]or[[c-c*((c,0)in zip(max(g),r))for c in r]for r in g]

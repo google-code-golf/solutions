@@ -1,0 +1,1 @@
+p=lambda g:[(r[:r.index(a:=max(r))]+[a,a%~a%6]*9)[:len(r)]for r in g]

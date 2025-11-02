@@ -1,0 +1,1 @@
+p=lambda g:[[max(range(1,10),key=lambda x:max(c:=[r.count(x)for r in g])*(10-c.count(0)))]*2]*2

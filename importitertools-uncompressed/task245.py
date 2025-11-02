@@ -1,0 +1,1 @@
+p=lambda g,k=7:-k*g or p([*zip(*[[[x,x%2*x|y%3][2in max(g,key=any)]for y,x in t]for t in map(zip,g[-1:]+g,g)])],k-1)

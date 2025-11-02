@@ -1,0 +1,1 @@
+p=lambda g,i=7,a=1:-i*g or p([[x-x*(a<3<5!=x)or(a==3<i)*max({*sum(g,[])}-{5})for x in r]for r in zip(*g[::-1])if(a:=a+(a>1or 5in r))],i-1)

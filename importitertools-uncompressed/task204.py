@@ -1,0 +1,1 @@
+p=lambda g,a=0,d=0:[[c|0**c*(a:=9&c-a>b)*(d:=c and(r[j+1:]+r).index(1)%2*5+2or d)for j,b,c in zip(range(99),[0]+r,r)]for r in g]

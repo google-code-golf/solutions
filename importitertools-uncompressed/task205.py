@@ -1,0 +1,1 @@
+def p(g):C=max(a:=sum(g,g),key=a.count);[g:=[*zip(*g[1-(f"{C}, "*5in f"{g[0]}"):][::-1])]for _ in g*8];return[[[v,D:=sum({*sum(g,())})-C][D in r+c]for*c,v in zip(*g,r)]for*r,in g]

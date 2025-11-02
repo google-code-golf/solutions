@@ -1,0 +1,1 @@
+p=lambda g:3>(w:=len(g)//2)and[*zip(*p([*zip(*g)]))]or 8in g[0]+g[1]and p(g[w:]+g[:w])or[[x*y/8for x in a for y in b]for a in g[:w]for b in g[w:]]

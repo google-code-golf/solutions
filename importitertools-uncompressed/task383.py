@@ -1,0 +1,1 @@
+p=lambda g:[[[v,[B:=max(a:=sum(g,r),key=bool),sum({*a})-B][v<1]][1<r.count(B)<4or 1<c.count(B)<4]for*c,v in zip(*g,r)]for r in g]

@@ -1,0 +1,1 @@
+p=lambda g:[(x:=0)or[x-(x:=x-c)or(x%3==r[0])*4for c in r]for r in g]

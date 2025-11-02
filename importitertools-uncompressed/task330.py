@@ -1,0 +1,1 @@
+p=lambda g,k=23,l=0:-k*g or p([[a and[a%2<<(l:=l+1)or a|b,1+(a.bit_count()==6)][k<1]for a,b in zip(r,[0]+r)]for*r,in zip(*g[::-1])],k-1)

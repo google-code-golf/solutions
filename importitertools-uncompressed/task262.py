@@ -1,0 +1,1 @@
+p=lambda g:[[3-y&~x+y]*3for x,y,z in g]

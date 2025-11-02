@@ -1,0 +1,1 @@
+p=lambda g,c=0:[[-b+(b:=b+x)or(b+c<1)+2*(2*b==z)*(2*c==s)+3*(b==z)*(c==s)for x in r]for r in g if[c:=c+r[b:=0],z:=sum(r),s:=sum(min(zip(*g)))]]

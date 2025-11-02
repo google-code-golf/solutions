@@ -1,0 +1,1 @@
+p=lambda g,k=99:-k*g or p(eval(str([*zip(*g[::-1])]).replace(f'3, {1+k%9}','8,8')),k-1)

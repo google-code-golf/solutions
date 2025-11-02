@@ -1,0 +1,1 @@
+p=lambda g,i=7,a=1:-i*g or p([[1%a*x or i//4*2*sorted(r)[-4]**(a^2)for x in r]for r in zip(*g[::-1])if(a:=a+(1in r)+1%a)],i-1)

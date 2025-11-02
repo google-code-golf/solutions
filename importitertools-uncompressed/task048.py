@@ -1,0 +1,1 @@
+p=lambda g,k=71:-k*[[8-8*('2'in str(g))]]or p(eval(str([*zip(*g[::-1])]).replace(*'21',k>70).replace(f'{2<<k%3}, 1','1,1')),k-1)

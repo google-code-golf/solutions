@@ -1,0 +1,1 @@
+p=lambda g,k=99:-k*[[max(g[0])*(v>0)for v in r[1:-1]]for r in g[1:-1]]or p([*zip(*g[1-any(g[0]):][::-1])],k-1)

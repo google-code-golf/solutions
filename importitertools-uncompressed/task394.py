@@ -1,0 +1,1 @@
+p=lambda g:[max(g[g.index(r)%(w:=122%len(g))::w])[r.index(0):][:r.count(0)]for r in g if 0in r]

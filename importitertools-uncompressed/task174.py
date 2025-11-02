@@ -1,0 +1,1 @@
+p=lambda g:max(f(a)for x in sum(g,g)if(a:=(f:=lambda g:[r for r in zip(*g)if x in r])(f(f(g))))==a[::-1])

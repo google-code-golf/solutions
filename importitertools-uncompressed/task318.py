@@ -1,0 +1,1 @@
+p=lambda g:[[x*3|-y%5for x,y in r]for r in map(zip,g,g[5:])]

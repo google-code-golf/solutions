@@ -1,0 +1,1 @@
+def p(g):_,a,b={*sum(g,[])};a,b,*_=(a,b,a)[f"0, {a}, 0"in str(g):];n=len(g:=[r for r in g if a in r])//3;return[[b*(x==a)for*c,x in zip(*g,r)if a in c][::n]for r in g[::n]]

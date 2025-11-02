@@ -1,0 +1,1 @@
+p=lambda g,k=35,l=2,q=[0]*30:-k*g or p([[((q:=r)*k<q)*x.bit_count()*5%23%7or x and x|(a*d and k>>5<<(l:=l+1)or d)for a,x,d in zip([0]+r,r,q)]for*r,in zip(*g[::-1])],k-1,l)

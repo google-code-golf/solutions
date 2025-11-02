@@ -1,0 +1,1 @@
+def p(g):a,b=zip(*[(l:=[s[y%5*3:][:3]for s in g[y//5*3:][:3]],sum(l,l).count(0))for y in range(25)]);return a[b.index(min(b,key=b.count))]

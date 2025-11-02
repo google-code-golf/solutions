@@ -1,0 +1,1 @@
+p=lambda g:[[*map(max,[3**(y<(i:=g.index(m:=max(g))))]*(i+sum(m)//2-y)+[0]*99,r)]for y,r in enumerate(g)]

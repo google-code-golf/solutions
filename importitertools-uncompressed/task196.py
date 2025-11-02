@@ -1,0 +1,1 @@
+p=lambda g,k=55:-k*g or p([[(b<1<a<3)*2+(k<7>2>b>a%3)*3or b-2*(k<1<b<3)for a,b in zip([2]+r,r)]for*r,in zip(*g[::-1])],k-1)

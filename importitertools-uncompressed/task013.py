@@ -1,0 +1,1 @@
+def p(g):i,j,*_=map(g.index,filter(any,g+g));return g[19:]and[[max(r)]*len(r)for r in g[:i]+g[i:j*2-i]*9][:len(g)]or[*zip(*p([*zip(*g)]))]

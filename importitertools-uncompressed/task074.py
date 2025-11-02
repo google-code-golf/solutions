@@ -1,0 +1,1 @@
+p=lambda g:[g:=[[max({*x,0}-{9})for x in zip(c,r,[0,0]+r[::-1])]for*c,r in zip(*g,g)]for _ in g][2]

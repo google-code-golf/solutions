@@ -1,0 +1,1 @@
+def p(g):e=range(len(g));a,Y,_=map(g.index,filter(f:=max,g));m=f(g[a]);return[[m>>f(y-Y,Y-y,abs(x-g[Y].index(m)))%(Y-a)*9for x in e]for y in e]

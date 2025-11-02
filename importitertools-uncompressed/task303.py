@@ -1,0 +1,1 @@
+p=lambda g:[[[2,c][any(r)*any(s)]for*s,c in zip(*g,r)]for r in g]

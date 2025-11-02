@@ -1,0 +1,1 @@
+p=lambda g:[[5*(i==j*5%len({*str(g)})%3)for j in[6,5,4]]for i in[0,1,2]]

@@ -1,0 +1,1 @@
+p=lambda g,R=range(10):[[g[i][j]or g[~j+(sum((g[~j][i]-g[-j][i])*g[i][j]for i in R for j in R)<0)][i]*2for j in R]for i in R]

@@ -1,0 +1,1 @@
+*Z,p=[0]*10,lambda g:[[v*5%-~sum(a)>>1for*a,v in zip([0]+y,y[1:]+[0],*r,y)]for*r,y in zip(Z+g,g[1:]+Z,g)]

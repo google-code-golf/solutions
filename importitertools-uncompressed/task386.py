@@ -1,0 +1,1 @@
+p=lambda g:[[3>>x+r.pop(0)for x in r[4:]]for r in g]

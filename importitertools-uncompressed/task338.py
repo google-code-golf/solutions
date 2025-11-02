@@ -1,0 +1,1 @@
+p=lambda g:[[(g:=g==b**c)*3>>c for b,c in zip([0]+r,r)]for r in g]

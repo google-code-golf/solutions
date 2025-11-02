@@ -1,0 +1,1 @@
+def p(y):e=sum(y,[]);i,p,k,a=e=sorted({*e},key=e.count);return[[[n,e[n!=e[~any(o in map(set,e)for e in[y,[*zip(*y)]]for o in[{i,k},{p,a}])]]][n in[k,a]and any({(n+[0]*99)[r+o-z],(n+[0]*99)[r+z-o]}&{i,p}for o,n in enumerate(y))]for r,n in enumerate(n)]for z,n in enumerate(y)]

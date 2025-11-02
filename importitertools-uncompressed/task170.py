@@ -1,0 +1,1 @@
+def p(g):*g,=filter(any,g);R=range(n:=sum(a:=[*map(bool,g[-1])]));m=sum(b:=[*map(any,zip(*g[:-n]))])//n;return[[g[i*m][b.index(1)+j*m]and g[i-n][j+a.index(1)]for j in R]for i in R]

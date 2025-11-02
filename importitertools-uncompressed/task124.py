@@ -1,0 +1,1 @@
+p=lambda g:[(i//2*[0]*(g[m:=2+(g[1]==g[4])].index(a:=max(g[0]))-g[0].index(a))+g[i%m])[:10]for i in range(10)]

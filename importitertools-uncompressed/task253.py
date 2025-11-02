@@ -1,0 +1,1 @@
+R=0,1,2,3;p=lambda g:[[c*(x*y%3<1)for x in R for c in{*sum(g,[])}if(f:=lambda a:[r for r in zip(*a)if c in r])(f(g))[y<2][x<2]<c]for y in R]

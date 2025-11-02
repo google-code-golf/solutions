@@ -1,0 +1,1 @@
+p=lambda g:[g:=[*{}.fromkeys(filter(any,zip(*g)))]for _ in g][1]

@@ -1,0 +1,1 @@
+def p(g):w=sum(g,g).count(0);R=range(w*3);return[[g[y%3][x%3]*(y//3*w+x/3<9-w)for x in R]for y in R]

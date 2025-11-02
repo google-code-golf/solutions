@@ -1,0 +1,1 @@
+p=lambda g:[[sum({*sum(g,r)})-x for x in r if x]for r in g if any(r)]

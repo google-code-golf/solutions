@@ -1,0 +1,1 @@
+p=lambda g,k=271:-k*g or p([[b or a%8and sum({*sum(g,r)})-a-8for a,b in zip([0]+r,r)]for*r,in zip(*g[::-1])],k-1)

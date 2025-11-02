@@ -1,0 +1,1 @@
+def p(g):n=len({*g[4],0});i=g[2][1]>0;j=g[1][2]>0;R=range(n*5);return[[g[r//n][c//n]or((r-c==n*(i-j))|(r-~c==n*(i+j+2)))*2for c in R]for r in R]

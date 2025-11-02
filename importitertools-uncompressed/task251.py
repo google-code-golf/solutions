@@ -1,0 +1,1 @@
+p=lambda g,k=71:-k*g or p([[b&~(a<1)or k>70for a,b in zip([0]+r,r)]for*r,in zip(*g[::-1])],k-1)

@@ -1,0 +1,1 @@
+p=lambda g:[g:=[[x or max({*r[:j],0}&{*r[j:]})for j,x in enumerate(r)]for r in zip(*g)]for _ in g][1]

@@ -1,0 +1,1 @@
+p=lambda g,k=71:-k*g or p([[9*(k+b<1)+(0<b<a<k<24)*8or b-b*(a<1<b>8)for a,b in zip([0]+r,r)]for*r,in zip(*g[::-1])],k-1)

@@ -1,0 +1,1 @@
+p=lambda g:[M[1:-1]for v in sum(g,[])if{*(M:=[r[1:-1]for r in zip(*[c for c in zip(*g)if v in c])if v in r])[0]}=={v}][0]

@@ -1,0 +1,1 @@
+*z,p=0,lambda g:[z+g[0]+z,*[r[:1]+r+r[-1:]for r in g],z+g[-1]+z]

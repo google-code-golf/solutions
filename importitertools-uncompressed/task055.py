@@ -1,0 +1,1 @@
+p=lambda g,c=0:[[-b+(b:=b+x)or(336&b*87)%7for x in r]for r in g if[b:=(c:=c+r[0]%5)]]

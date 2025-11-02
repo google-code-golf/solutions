@@ -1,0 +1,1 @@
+p=lambda g:[g:=[(l:=len({*r})-1)>1and[max(r[x%l::l])for x in range(len(r))]or r for r in zip(*g)]for _ in g][1]

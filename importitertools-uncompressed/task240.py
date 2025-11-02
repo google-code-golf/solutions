@@ -1,0 +1,1 @@
+p=lambda g:[g:=[*zip(*[r[:i+2]+[r[i+2]|g[i+2][i],0]*(8-i)+[r[i]|r[~i]]+r[-i:]for i,(*r,)in zip(range(8),g)]+g[8:])][::-1]for _ in g][8]

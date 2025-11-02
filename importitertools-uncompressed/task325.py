@@ -1,0 +1,1 @@
+p=lambda g,k=31,l=0:k and p([[[a and b|a,1<<(l:=l+1)][a==8]for a,b in zip(r,[0]+r)]for*r,in zip(*g[::-1])],k-1)or(r:=range(len({*sum(g,[])})-1),[[8*(i==j)for j in r]for i in r])[1]

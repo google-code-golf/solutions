@@ -1,0 +1,1 @@
+def p(g):a,=g;n=25-5*a.count(0);return[((~-n*[0]+a)*2)[i:i+n]for i in range(n)]

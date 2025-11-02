@@ -1,0 +1,1 @@
+def p(g):B=min(a:=sum(g,[]),key=a.count);[g:=[*zip(*([[0]*9]*(len(g:=g[max(g[0])in(0,B):])<3>0in g[0])+g)[::-1])]for _ in a];return[[c or B for c in r]for r in g]

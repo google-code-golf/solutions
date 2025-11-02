@@ -1,0 +1,1 @@
+p=lambda g:max((all(s:=sum(m:=[x[k%19:][:k//361%19]for x in g[k//19%19:][:k//6859]],g))*s.count(2),len(s),m)for k in range(19**4))[2]

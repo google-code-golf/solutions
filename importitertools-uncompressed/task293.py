@@ -1,0 +1,1 @@
+p=lambda g:[[(b,a+r[0]-b)[a*r[0]>0]for a,b in zip(g[0],r)]for r in g]

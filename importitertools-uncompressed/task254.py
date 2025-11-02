@@ -1,0 +1,1 @@
+p=lambda g:[[v and 5//sum(t:=g[-sum(c)//5])+2*(t==g[8])for*c,v in zip(*g,r)]for r in g]

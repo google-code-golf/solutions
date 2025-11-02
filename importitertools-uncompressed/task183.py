@@ -1,0 +1,1 @@
+def p(g):R=range(len(g)-4);return[[g[y+2][x+2]/8*g[(y*2in R)-1][(x*2in R)-1]for x in R]for y in R]

@@ -1,0 +1,1 @@
+p=lambda g:[[a:=max(g[y-y%5+2])]*(5&y%7<1)*10or[a,*[0]*8,a]for y in range(10)]

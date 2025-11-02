@@ -1,0 +1,1 @@
+p=lambda g:[[x-x*j%2*2for j,x in enumerate(r,len(r))]for r in g]

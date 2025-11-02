@@ -1,0 +1,1 @@
+*Z,p=[0]*9,lambda g:[[c>>1-any(a)for*a,c in zip([0]+r[2],r[2][1:]+[0],*r)]for r in zip(Z+g,g[1:]+Z,g)]

@@ -1,0 +1,1 @@
+p=lambda g:sum([(f:=str(g).count("2")//12)*[sum([f*[v]for*c,v in zip(*g,r)if{*c}-{0,2}],[2])+[2]]for r in g if{*r}-{0,2}],a:=[[2]*(f*3+2)])+a

@@ -1,0 +1,1 @@
+p=lambda g:[g:=[*zip(*({*(a:=[*filter(any,g)])[0]}=={2}and(g[:g.index(a[0])]+a+[[8]*5]+g[:1]*99)[:len(g)]or g)[::-1])]for _ in g][3]

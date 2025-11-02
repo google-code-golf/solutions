@@ -1,0 +1,1 @@
+p=lambda g:[[min(S:=sum(g[1:7]+g[1:],[]),key=S.count)]]

@@ -1,0 +1,1 @@
+p=lambda g:[[*map(max,*g[:y]*2)]for y in[1,2,3]]

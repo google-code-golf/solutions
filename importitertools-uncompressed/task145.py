@@ -1,0 +1,1 @@
+p=lambda g,k=79,l=3:-k*g or p([[[k*a.bit_count()or(a==max(s:=sum(g,r)))+(a==min({*s}-{1}))*8+(a<2)*2,0**a<<(l:=l+1)or[b|a,2][a<3]][k>1]for a,b in zip(r,[0]+r)]for*r,in zip(*g[::-1])],k-1)

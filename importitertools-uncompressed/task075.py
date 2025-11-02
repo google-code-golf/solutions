@@ -1,0 +1,1 @@
+p=lambda g,R=range(9):[g[i][:4]+[g[i%3][j%3]*g[i-i%3+1][j-j%3+5]for j in R]for i in R]

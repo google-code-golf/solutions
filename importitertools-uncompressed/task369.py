@@ -1,0 +1,1 @@
+p=lambda g,k=3:-k*g or p([[0**k*~14//~a.bit_count()or a|b*(a>5)or 3<<(k:=k+4)for a,b in zip(r,[0]+r)]for*r,in zip(*g[::-1])],k-1)

@@ -1,0 +1,1 @@
+p=lambda g,i=19:-i*g or p([[b*(a==5)or a for a,b in zip(r,11**(i>16)*r[:1]+r)]for r in zip(*g[::-1])],i-1)

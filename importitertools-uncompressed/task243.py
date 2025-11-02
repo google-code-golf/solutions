@@ -1,0 +1,1 @@
+p=lambda g,k=79:-k*g or p(eval(str([*zip(*g[::-1])]).replace('0, 1','1,1')),k-1)

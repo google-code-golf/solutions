@@ -1,0 +1,1 @@
+p=lambda g:[*zip(*(r[:20-(k:=r[::-1].index(max({*r}-{d:=[*filter(int,sum(g,r))][-1]})))]+k*[d*(d in r[~k:])]for*r,in zip(*g)))]

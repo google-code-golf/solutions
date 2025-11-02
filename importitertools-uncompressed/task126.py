@@ -1,0 +1,1 @@
+p=lambda g:g[:-1]+[[sum(map(bool,r))%2*4for r in zip(*g)]]

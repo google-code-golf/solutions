@@ -1,0 +1,1 @@
+p=lambda g:[[3>>a+b for a,b in x]for x in map(zip,g,g[5:])]

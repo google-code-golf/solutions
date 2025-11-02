@@ -1,0 +1,1 @@
+p=lambda g:[g:=[r for*r,in zip(*g)for _ in{*sum(g,a)}-{0}]for a in g][1]

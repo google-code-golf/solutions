@@ -1,0 +1,1 @@
+p=lambda g:max((all(s:=sum(m:=[x[t&7:][:t>>6&7]for x in g[t>>3&7:][:t>>9]],g))*s.count(2),len(s),m)for t in range(4096))[2]

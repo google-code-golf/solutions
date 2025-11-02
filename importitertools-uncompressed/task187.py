@@ -1,0 +1,1 @@
+p=lambda g,k=71:-k*g or p([[c|3*(p*c==6)or 2for p,c in zip([3]+r,r)]for*r,in zip(*g[::-1])],k-1)

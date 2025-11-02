@@ -1,0 +1,1 @@
+p=lambda g:[g:=[[x-2*(x*str(g[j-1:j+2]).count('1')in(48,88))for j,x in enumerate(r)]for r in zip(*g)]for _ in g][1]

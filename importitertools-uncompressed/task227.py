@@ -1,0 +1,1 @@
+p=lambda g:[[~a+b&2for a,b in x]for x in map(zip,g,g[4:])]

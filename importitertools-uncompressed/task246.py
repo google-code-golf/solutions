@@ -1,0 +1,1 @@
+p=lambda g,k=3:-k*g or p([[v|8*any(r[:j])*(3^k%2in max(g[j:]))for j,v in enumerate(r)]for r in zip(*g)][::-1],k-1)

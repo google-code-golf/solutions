@@ -1,0 +1,1 @@
+p=lambda g:[a:=g[:len(g)//2],[r[:len(r)//2]for r in g]][a*2*(g>g[:2])!=g]

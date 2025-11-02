@@ -1,0 +1,1 @@
+p=lambda e:[[sorted(([q==5for q in r],r)for q in range(len(e)-2)for t in range(len(e[0])-2)if all(r:=sum([q[t:t+3]for q in e[q:q+3]],[])))[4+(q-q%3+t//3)%5^5*(q-q%3+t//3<4)][1][q%3*3+t%3]for t in range(9)]for q in range(9)]

@@ -1,0 +1,1 @@
+p=lambda g:[g:=[[(r[~x:1-x]==[8,0])*r[9]or r[~x]for r in g]for x in range(10)]for _ in g][3]

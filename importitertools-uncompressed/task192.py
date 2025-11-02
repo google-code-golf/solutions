@@ -1,0 +1,1 @@
+p=lambda g:[g:=[[sorted(sum(g,r))[-30]*(y>0<x|z)for x,y,z in zip([0]+r,r,r[1:]+[0])]for*r,in zip(*g)]for _ in g][1]

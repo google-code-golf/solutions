@@ -1,0 +1,1 @@
+p=lambda g:[[*map(max,map(min,b[5:]+b,b[3:]+b),b,map(min,*a))]for*a,b in zip(g[5:]+g,g[3:]+g,g)]

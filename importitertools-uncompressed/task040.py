@@ -1,0 +1,1 @@
+p=lambda g,i=0:[[(c>0)*g[1+(i:=i-1)//50][i//5%2-1]for c in r]for r in g]

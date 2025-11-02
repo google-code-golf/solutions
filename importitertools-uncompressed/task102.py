@@ -1,0 +1,1 @@
+p=lambda g,k=51,l=3:-k*g or p([[k and 0**a<<(l:=l+1)|a|b*(a>5<b)or 132132>>a.bit_count()&2|a%2*5for a,b in zip(r,[0]+r)]for*r,in zip(*g[::-1])],k-1)

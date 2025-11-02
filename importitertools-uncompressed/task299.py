@@ -1,0 +1,1 @@
+p=lambda g:[[[x,x/4+2][2in r]for x in g[0]]for r in g]

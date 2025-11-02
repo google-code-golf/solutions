@@ -1,0 +1,1 @@
+p=lambda g:max(L:=[b for i in range(144)if all(map(max,(b:=[c[i%12:][:3]for c in g[i//12:][:3]])+[*zip(*b)]))],key=L.count)

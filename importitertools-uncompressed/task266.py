@@ -1,0 +1,1 @@
+p=lambda g:[[sum([*[*g,[0]*5][y-56%c-1],0][x+47%c%5-1]*c/2for c in b"")for x in range(5)]for y in[0,1,2]]

@@ -1,0 +1,1 @@
+r=range(17);p=lambda g:[[g[i][j]or g[i%6][j%6]and g[0][5]for j in r]for i in r]
