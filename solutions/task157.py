@@ -1,4 +1,4 @@
-def p(i):m,r=range,15;n=sum(i,f:=[]);i=[[]];[(i:=[i+[(e,f)]for i in i for e in m(3*r)if n[e]<1],f:=[])for e in m(3*r)if f==(f:=f+[m for m in m(e,150,r)if n[m]&(e<r)])>[]];return max([*zip(*[((any(m+min(i)-e in i for e,i in i if e%r<5+m%r)+n[m]%5)%3for m in m(150))]*r)]for i in i)
+def p(r):i,u=range,15;f=sum(r,p:=[]);r=[[]];[(r:=[r+[(n,p)]for r in r for n in i(3*u)if f[n]<1],p:=[])for n in i(3*u)if p==(p:=p+[i for i in i(n,150,u)if f[i]&(n<u)])>[]];return max([*zip(*[((any(i+min(r)-n in r for n,r in r if n%u<5+i%u)+f[i]%5)%3for i in i(150))]*u)]for r in r)
 # ----------------------------------------------------------------
 # compression: cgi
 # jailctf
