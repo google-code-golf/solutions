@@ -1,2 +1,4 @@
-import re
-p=lambda g:exec('g[::-1]=eval(re.sub("0, [^0](?=[^(]*\([^0])","4,4",f"{*zip(*g),}"));'*4)or g
+def p(g):
+ e,k=[~-s.index(max(s))for s in(g,g[0])]
+ for t in b'-(#$)*% ':g[e+t%5][k+t%3]=4
+ return g

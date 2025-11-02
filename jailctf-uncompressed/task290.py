@@ -1,0 +1,1 @@
+p=lambda g:[[sum({*sum(g,[-c])})for c in r if c]for r in g if[r]>g]

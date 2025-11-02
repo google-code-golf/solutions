@@ -1,0 +1,1 @@
+p=lambda g:[r*(q:=r in g[::9])or[q:=r.pop(0)or 9*any(r*q)for _ in g]for r in g]

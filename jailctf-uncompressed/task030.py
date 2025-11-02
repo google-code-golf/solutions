@@ -1,0 +1,1 @@
+p=lambda g:[*zip(*[r[(I:=sum(g,[]).index)(max(r))//10-I(1)//10:]*any(r)+r for r in zip(*g)])]

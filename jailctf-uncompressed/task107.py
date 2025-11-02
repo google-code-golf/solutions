@@ -1,0 +1,1 @@
+exec('def p(g):a,b,c,d,e=g;l=len({*e,i:=-1});return[[g|((i:=i+1)//m+l*(a>c)in(z:=i%m+(b>[1])*l,4*l+~z))*2>>g\nfor g in g for m in[5*l]*l]#'*2)

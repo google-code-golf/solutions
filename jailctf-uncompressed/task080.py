@@ -1,0 +1,1 @@
+def p(r):o=sum(map(all,r))+1;n=len(r)//o+1;f,u,f,u,l,f,u,f,u=max([sum(m:=[r for r in r[::n][e:][:3]for r in r[::n][p:][:3]]),m]for e in range(o)for p in range(o))[1];r=[[a*(a!=f)for a in e]for e in r];return[r:=[*zip(*[[t or{s:0,l:f,f:u}[s]for t,s in zip(p,[0]*n+p)]for*p,in r])][::-1]for*p,in r][3]

@@ -1,1 +1,1 @@
-def p(g):c=g.count(g[0]);return[r[c:]+r[:c]for r in g[-c:]*2+g[c:-c]]
+p=lambda g:[r[(d:=g.count(g[0])):9]+-~d*r[:1]for r in g*2][~d-9:-d]

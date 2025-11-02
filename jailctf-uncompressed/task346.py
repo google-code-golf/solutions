@@ -1,0 +1,1 @@
+p=lambda g:[[min(q:=sum(g,g)[-5:16:-1],key=(*q,4).count)]]

@@ -1,0 +1,1 @@
+p=lambda g,i=11:g*-i or[(q:=0)or[[c^2<q,q%~0**c%4,2&-c,q:=c][i//4]or c for c in r]for*r,in zip(*p(g,i-1)[::-1])]

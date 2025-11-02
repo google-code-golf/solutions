@@ -1,0 +1,1 @@
+p=lambda g:[*filter(any,zip(*g[8:]or p(g*2)*2))]

@@ -1,1 +1,1 @@
-p=lambda g:g[10230:]or p([[sum({*w*c}-{5})or c for*w,c in zip([0]+r,g[0],r)][::-1]for r in g]*2)
+p=lambda g:[[c:=[max(j and c,*g[0][j:],key=bool),x][x!=5]for j,x in enumerate(r)]for r in g]

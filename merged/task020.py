@@ -1,1 +1,4 @@
-p=lambda g,i=0:sum(a:=eval("(g:=[[*map(max,*x)]for x in zip(g,([*zip(*(g*2)[i%21::-1])]*i)[i:])]),"*3)[2],a).count(0)//87*a or p(g,i+1)
+def p(g):
+ m,n=[[*map(any,h)].index(1)for h in(g,zip(*g))];k=75
+ while k:k-=1;i=k//5%5;g[m+i][n+k%5]|=g[m+~k%5][n+i]
+ return g

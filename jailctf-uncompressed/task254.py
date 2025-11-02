@@ -1,0 +1,1 @@
+p=lambda g:[[c*sum(g[x.index(c)])%~sum(g[8])%11%7//3for*x,c in zip(*g,r)]for r in g]

@@ -1,0 +1,1 @@
+p=lambda g:[[109//c&12%c+7for c in g[0]]]*3

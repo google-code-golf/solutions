@@ -1,0 +1,1 @@
+p=lambda g:eval('[[g\nfor g in g for _ in[*{*"%s"}][5:]]#'%g*2)

@@ -1,0 +1,1 @@
+p=lambda g,i=7,q=0:g*-i or[[i//4%-~q*2>>c|c*(sum(g,g).count(q:=c)>>i<2)for c in r]for*r,in zip(*p(g,i-1)[::-1])]

@@ -1,1 +1,1 @@
-p=lambda i,k=4,*w:k and p([*map(p,i,[k>1]*9,i[:1]+i,i[1:]+i,*w)],k-1)or i or(sum(w)>7)*7
+p=lambda g:[[L[0]or(r>g[0]<L[-max(r[5:])%9:][:5])*7for*L,in zip(r,*g)]for r in g]

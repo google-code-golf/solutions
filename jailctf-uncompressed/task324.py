@@ -1,0 +1,1 @@
+def p(e):t=n,a,y,o=sorted({*sum(e,[])},key=sum(e,[]).count);return[[[p,t[(p!=o)^any({*s}in[{y,n},{a,o}]for s in[*zip(*e)]+e)]][p*any(f in(n,a)for i,r in enumerate(e)for c,f in enumerate(r)if i-u in(c-s,s-c)) in{y,o}]for s,p in enumerate(r)]for u,r in enumerate(e)]

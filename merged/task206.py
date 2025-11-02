@@ -1,4 +1,4 @@
-def p(g):
- t=sum(g,[]).index(5);l=len(g[0]);q=lambda h:[r for r in zip(*h)if{*r}-{0,5}]
- for g[t//l-1][t%l-1:t%l+2]in q(q(g)):t+=l
- return g
+def p(a):
+ i,j=divmod(sum(a,[]).index(5),len(a[0]));a[i][j]=0
+ for s in eval('filter(any,zip(*'*2+'a))))'):a[i-1][j-1:j+2]=s;i+=1
+ return a

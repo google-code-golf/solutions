@@ -1,0 +1,1 @@
+def p(g,i=2):*z,b,c={}.fromkeys(sum(g,[]));return~i*g or p([[[x:=r.pop()or~-(r[-1:]<[1]>sorted(r[-5:-1])),(c|x>>9)^b^x][i<0!=x]for r in g]for _ in g],i-1)

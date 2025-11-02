@@ -1,0 +1,1 @@
+p=lambda g,m=min:[g:=[c*(q:=(i:=any(m(g))))or[sum({q}&{*c[i:]}|{*c[:i]}&{m((g*2)[i:=i+1])},q:=m(r))for r in g]for*c,in zip(*g)]for _ in g][1]

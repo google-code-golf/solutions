@@ -1,0 +1,1 @@
+p=lambda g:[[sum({min(q:=sum(g,[]),key=q.count)}&{r,C})for C in g[0]]for*a,r in g]

@@ -1,1 +1,1 @@
-exec(f"p=lambda g:[g:=[[x:=y]and[g[y][x]|g[y][[~x,y+2][18-y>x%2*x>y]]{'for y in range(19)]'*3}[5]")
+k=1;p=lambda g:exec("k+=2;g[i:=k%19][j:=k%18]|=g[i][j-2]*(i<j-2<16-i)|g[j][~i];"*746)or g

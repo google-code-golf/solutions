@@ -1,0 +1,1 @@
+p=lambda g,h=[]:[*map([p,max][h>[]],g,h+g[6:])]

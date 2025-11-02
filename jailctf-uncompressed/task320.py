@@ -1,0 +1,1 @@
+p=lambda g:[*zip(*[[*x,t:=sum(x)//4][:~t]+t*[8]for*x,in zip(*g)])]

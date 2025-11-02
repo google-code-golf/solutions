@@ -1,0 +1,1 @@
+p=lambda g,x=0,i=-1:'8'in str(a:=[[[5,g[x//3*4+(i:=i+1)//44][x%3*4+i%11//4]][c!=5]for c in r]for r in g])and p(g,x+1)or a

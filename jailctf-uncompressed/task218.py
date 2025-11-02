@@ -1,0 +1,1 @@
+p=lambda g,*x:[*{i:1for i in zip(*x or p(*g))if any(i)}]

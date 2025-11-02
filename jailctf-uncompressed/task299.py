@@ -1,0 +1,1 @@
+p=lambda g:[[j-(2in i)&2--j%7for j in g[0]]for i in g]

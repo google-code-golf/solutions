@@ -1,0 +1,1 @@
+p=lambda g:g*0!=0and[p(i)for i in g for _ in g]or g

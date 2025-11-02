@@ -1,0 +1,1 @@
+p=lambda g,E=enumerate:max((sum(sum(q:=[[v|-(x%7>1<len(g)-x%5>=x%7>i-x%5>-1<j-x%29<x%9)&6-v*80for j,v in E(r)]for i,r in E(g)],[])),q)for x in range(9135))[1]

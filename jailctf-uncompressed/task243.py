@@ -1,0 +1,1 @@
+p=lambda g,i=-79:g*i or p([[r.pop()or 1in r[-1:]for r in g]for*r,in g],i+1)

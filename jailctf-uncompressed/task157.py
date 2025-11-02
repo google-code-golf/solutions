@@ -1,0 +1,1 @@
+def p(m):i,t,*r=15,sum(m,e:=[]),e;[e==(e:=e+[n for n in range(150)[f::i]if(i>f)&t[n]])>[]>[r:=[x+[(e,n)]for n in range(15*3)for x in r*0**t[n]],e:=[]]for f in range(150)];return max([*zip(*[((any(min(a)+n-s in a*(5>s%i-n%i)for a,s in x)+t[n]%5)%3for n in range(150))]*i)]for x in r)

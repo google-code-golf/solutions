@@ -1,0 +1,1 @@
+p=lambda g:[[(c:=-c)%(v+4)for v in x]for x in g if(c:=4)]

@@ -1,0 +1,1 @@
+p=lambda g,x=0:[[c|8-c&(x:=(x|r.pop(0)*8)*(1in r))for c in r*1]for*r,in zip(*x*g or p(g,1))]

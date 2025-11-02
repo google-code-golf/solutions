@@ -1,0 +1,1 @@
+p=lambda g:[[i|8&i-any(c)for*c,i in zip(*g,r)]*2for r in g]*2

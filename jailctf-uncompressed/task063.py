@@ -1,0 +1,1 @@
+p=lambda g:[[j|3>>j+any(k)*max(i[1:-1])for a,*k,b,j in zip(*g,i)]for i in g]

@@ -1,0 +1,1 @@
+p=lambda g:[(i[:6]*8)[:len(i)*2]for i in g]

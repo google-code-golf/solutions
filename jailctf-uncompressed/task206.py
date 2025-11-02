@@ -1,0 +1,1 @@
+p=lambda g:exec(f"z=sum(g,[]).index(5);r=len(g[0])\nfor c in{'[x for x in zip(*'*2}g{')if{*x}-{0,5}]'*2}:g[z//r-1][z%r-1:z%r+2]=c;z+=r")or g

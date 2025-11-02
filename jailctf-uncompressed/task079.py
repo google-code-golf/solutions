@@ -1,0 +1,1 @@
+p=lambda g:max(v:=[k for i in range(155)if any(min(*(k:=[(*r[i%12:][:3],)for r in g[i%13:][:3]]),*zip(*k)))],key=v.count)

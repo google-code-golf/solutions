@@ -1,0 +1,1 @@
+p=lambda g:max([all(l:=sum(v:=[k[i%9:i%11]for k in g[i%8:i%13]],g)),l.count(2),len(l),v]for i in range(5**6))[3]

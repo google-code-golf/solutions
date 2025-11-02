@@ -1,1 +1,1 @@
-p=lambda i:min([[sum({*t}&{*max(i,key=any)})for t in zip(x,(x*2)[~n::~0])]for x in i]for n in range(16))
+p=lambda g,a=0:[[a*(v>0<r[~i+t])for i,v in enumerate(r)if a or{t:=i-r[::-1].index(a:=v)}]for r in g]

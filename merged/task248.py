@@ -1,3 +1,4 @@
-def p(g,i=10):
- for l in g:w=len(l)*2-2;l[min(i:=~-i%w,w-i)]=1
- return g
+def p(g):
+	b=j=0
+	for r in g[::-1]:r[j]=1;b^=-r[b];j-=b|1
+	return g

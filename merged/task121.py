@@ -1,1 +1,1 @@
-p=lambda g:exec("g[:]=map(list,zip(*g[(8in g[-2])-2::~0]));"*40+"g[1][1]=max(g[0])")or g
+p=lambda g:(a:=(g:=(g:=sum(g,[]))[g.index(8)-14:])[:3],(g[13],max(a),g[15]),g[26:29])

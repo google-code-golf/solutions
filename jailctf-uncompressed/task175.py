@@ -1,0 +1,1 @@
+p=lambda g,r=range(21):[[g[y][x]|g[x][y]or g[0][x!=y]for x in r]for y in r]

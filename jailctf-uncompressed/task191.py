@@ -1,0 +1,2 @@
+import re
+def p(u):t=re.findall('1[^]]*1',str(u));[u:=[*zip(*eval(re.sub(re.sub(*'10',('(...%r)'%{3*len(u[0])-len(t[0])}).join(t)),'\%i '.join(t)%(*range(1,len(t)),),str(u))),[0]*66)][::s]for s in(1,-1,-1,-1)*6];return[s[6:-6]for s in u[6:-6]]

@@ -1,0 +1,1 @@
+p=lambda g,x=1:g*0!=0and[p(r,3*(x:=x+(g!=(g:=r))))for r in g]or g or~533%x&x//7

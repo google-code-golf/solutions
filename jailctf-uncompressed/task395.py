@@ -1,0 +1,1 @@
+p=lambda g,h=[]:g*0!=0and[*map(p,g,h+g[3:])]or~g+~h&2

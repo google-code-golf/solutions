@@ -1,0 +1,1 @@
+p=lambda g,*a:[*zip(z:=[8]*9,*a[1:]or p(*g)[2:],z)]

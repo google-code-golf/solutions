@@ -1,1 +1,3 @@
-p=lambda g,i=10:[([8]*min(i:=~-i%(w:=(x:=len(l))*2-2),w-i)+[1]+[8]*x)[:x]for l in g]
+def p(g,i=9):
+ for r in g:w=~-len(r);r[:]=[8]*-~w;r[i%w^i//w%-2]=1;i-=1
+ return g

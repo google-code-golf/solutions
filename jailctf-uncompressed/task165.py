@@ -1,0 +1,1 @@
+def p(g):*_,k={}.fromkeys(sum(G:=g[::-1],[]));return[*zip(*[(i:=[*r,k].index(k)%20)*[sum({*r[:i]})]+r[i:]for*r,in zip(*G)])][::-1]

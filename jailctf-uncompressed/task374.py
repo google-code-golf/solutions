@@ -1,0 +1,1 @@
+p=lambda g,i=9,j=0:g*-i or p(eval((k:=f'{*zip(*g),}#').replace('5'+i*', 5','*-~i*[92%len({*k})]')),i+j,~j)

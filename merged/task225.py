@@ -1,2 +1,1 @@
-import re
-p=lambda g:eval(re.sub(r"0(?=.{27}(...)?(.{20})?0,( [^0])(?!,\3).{19}0)",r"\3",f"{*zip(*g[42:]or p(g*2)),}"))[::-1]
+s=range(6);p=lambda g,n=0:g[r:=n//5][c:=n%5]and[[g[y][x]|g[r+(y<r)][c+(x<c)]*(y-r&x-c&2>0)for x in s]for y in s]or p(g,n+1)

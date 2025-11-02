@@ -1,0 +1,1 @@
+p=lambda g:[(a:=[8for i in g if sum(i)==10]+g[0])[:3],a[5:2:-1],[0]*3]
