@@ -17,14 +17,4 @@ dev = ["ruff>=0.14.3", "ty>=0.0.1a25"]
 
 
 [tool.ruff]
-exclude = [
-    "solutions",
-    "build",
-    "cgi-compressed",
-    "cgi-uncompressed",
-    "jailctf-compressed",
-    "merged",
-    "oxjam-compressed",
-    "oxjam-uncompressed",
-    "post-comp-diamonds",
-]
+exclude = ["solutions", "build"]
