@@ -1,3 +1,3 @@
-p=lambda g:[[hash((*b'+]`dBPx <IaAacF#p3e7"kz0W}k&N%r'[sum(b'%r'%g)%39:]%g,))&8]]
+p=lambda g:[[hash((*b'`_eL0Q<7MbK9"`@tzn!&a"V%r'[sum(b'	%r'%g)%33:]%g,))%-3&8]]
 # ----------------------------------------------------------------
-# jailctf
+# post-comp-diamonds jailctf
