@@ -52,8 +52,8 @@ def main():
         "-d",
         "--directory",
         type=str,
-        default="merged",
-        help="Solutions directory (default: merged)",
+        default="build",
+        help="Solutions directory (default: build)",
     )
     args = parser.parse_args()
 
