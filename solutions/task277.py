@@ -1,4 +1,4 @@
-p=lambda g,k=-15,i=1:k*g or[[c%~c&(i:=[i*32,2-c%31*3//str(g).count("8")-(c%635in{539,547}),c|i&c%~c][k//14])for c in[0]+r][:0:-1]for*r,in zip(*p(g,k+1))]
+p=lambda g,k=-15,i=1:k*g or[[c%~c&(i:=[i*32,2-c%31*3//str(g).count("8")-(c%1247%728==4),c|i&c%~c][k//14])for c in[0]+r][:0:-1]for*r,in zip(*p(g,k+1))]
 # ----------------------------------------------------------------
 # post-competition-diamond, base: jailctf annotations
 
