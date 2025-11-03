@@ -15,7 +15,7 @@ TASKS = Path("tasks")
 
 
 def test_task(args):
-    task_num, solutions_dir = args
+    task_num, solutions_dir, max_cases = args
     start_time = time.time()
 
     task = Task.load(task_num, TASKS)
@@ -24,8 +24,12 @@ def test_task(args):
 
     path = solutions_dir / f"task{task_num:03d}.py"
 
+    testcases = task.all_testcases()
+    if max_cases is not None:
+        testcases = testcases[:max_cases]
+
     passed = total = 0
-    for testcase in task.all_testcases():
+    for testcase in testcases:
         total += 1
         try:
             with warnings.catch_warnings():
@@ -55,49 +59,38 @@ def main():
         default="build",
         help="Solutions directory (default: build)",
     )
+    parser.add_argument(
+        "-n",
+        "--max-cases",
+        type=int,
+        default=None,
+        help="Maximum test cases per task (default: all)",
+    )
     args = parser.parse_args()
 
-    solutions_dir = Path(args.directory)
     tasks: list[int] = args.tasks or [*range(1, 401)]
+    jobs: int = args.jobs
+    solutions_dir = Path(args.directory)
+    max_cases: int | None = args.max_cases
 
-    tasks_list = [(task_num, solutions_dir) for task_num in tasks]
-    with Pool(args.jobs) as pool:
+    tasks_list = [(task_num, solutions_dir, max_cases) for task_num in tasks]
+    with Pool(jobs) as pool:
         results = []
-        total = len(tasks_list)
-        completed_tasks = set()
-        for i, r in enumerate(pool.imap_unordered(test_task, tasks_list), 1):
+        for r in pool.imap_unordered(test_task, tasks_list):
             if r:
                 results.append(r)
-                task_num, ok, bytes_count = r
-                completed_tasks.add(task_num)
-                status = "✓" if ok else "✘"
-                print(
-                    f"\r[{i}/{total}] task{task_num:03d}: {status} {bytes_count}b"
-                    + " " * 20
-                )
 
-                pending = [t for t, _ in tasks_list if t not in completed_tasks]
-                if pending:
-                    print(
-                        f"Pending: {pending[:20]}{'...' if len(pending) > 20 else ''}"
-                    )
-        print()
-
-    print(f"\n{'Task':<7}  {'Result':<8}  {'Bytes':<8}")
-    print("-" * 28)
+    results.sort()
 
     ok_count = sum(ok for _, ok, _ in results)
     total_bytes = sum(bytes_count for _, _, bytes_count in results)
+    failed = [task_num for task_num, ok, _ in results if not ok]
 
-    for task_num, ok, bytes_count in results[:10]:
-        status = "✓" if ok else "✘"
-        print(f"task{task_num:03d}  {status:<8}  {bytes_count:<8}")
-
-    print("-" * 28)
     print(f"Passed: {ok_count}/{len(results)}")
     print(f"Total bytes: {total_bytes}")
 
-    if ok_count < len(results):
+    if failed:
+        print(f"Failed tasks: {failed}")
         sys.exit(1)
 
 
