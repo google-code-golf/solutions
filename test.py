@@ -83,11 +83,11 @@ def main():
     results.sort()
 
     ok_count = sum(ok for _, ok, _ in results)
-    total_bytes = sum(bytes_count for _, _, bytes_count in results)
+    total_score = sum(max(1, 2500 - bytes_count) for _, _, bytes_count in results)
     failed = [task_num for task_num, ok, _ in results if not ok]
 
     print(f"Passed: {ok_count}/{len(results)}")
-    print(f"Total bytes: {total_bytes}")
+    print(f"Score: {total_score}")
 
     if failed:
         print(f"Failed tasks: {failed}")
