@@ -1,5 +1,7 @@
 # Google Code Golf 2025 Solutions
 
+[![Test](https://github.com/arc-code-golf/solutions/actions/workflows/test.yml/badge.svg)](https://github.com/arc-code-golf/solutions/actions/workflows/test.yml)
+
 To build the compressed solutions, run `python build.py`.
 
 Base solutions sourced from:
