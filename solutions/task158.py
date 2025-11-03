@@ -9,5 +9,5 @@ def	p(r):
 					s=*zip(*s[::-1]),
 	return	r
 # ----------------------------------------------------------------
-# compression: cgi
+# compression: auto
 # oxjam

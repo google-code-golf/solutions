@@ -12,5 +12,5 @@ def p(r):
      for l,n in z:r[e+n][f+l]=a[n][l]
  return r
 # ----------------------------------------------------------------
-# compression: cgi
+# compression: auto
 # cgi

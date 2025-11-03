@@ -5,5 +5,5 @@ def	p(u):
 		for	f	in	r:
 			if	a-n<f:return[[u+3*(s-j*1jin	f&n)for	s,u	in	enumerate(u)]for	j,u	in	enumerate(u)]
 # ----------------------------------------------------------------
-# compression: zopfli-20
+# compression: auto
 # oxjam

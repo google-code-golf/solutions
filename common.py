@@ -41,7 +41,7 @@ class Task:
     def from_dict(data: dict) -> Task:
         train = [TestCase.from_dict(tc) for tc in data["train"]]
         test = [TestCase.from_dict(tc) for tc in data["test"]]
-        arc_gen = [TestCase.from_dict(tc) for tc in data.get("arc-gen", [])]
+        arc_gen = [TestCase.from_dict(tc) for tc in data["arc-gen"]]
         return Task(train, test, arc_gen)
 
     @staticmethod

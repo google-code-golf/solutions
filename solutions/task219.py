@@ -8,5 +8,5 @@ def p(_):
    if 0<a<10:_[e][a]+=_[e][a]<1
  return _
 # ----------------------------------------------------------------
-# compression: cgi
+# compression: auto
 # importitertools

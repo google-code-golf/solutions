@@ -1,22 +1,10 @@
 from __future__ import annotations
 
 import io
-import zlib
 from collections import defaultdict
+from functools import lru_cache
 from typing import NamedTuple, Optional
-
-import zopfli.zlib
-import deflate
-
-CLEN_ORDER = [16, 17, 18, 0, 8, 7, 9, 6, 10, 5, 11, 4, 12, 3, 13, 2, 14, 1, 15]
-ZOPFLI_ITERS = [2048]
-DEFLATE_LEVELS = range(7, 13)
-DELIMS = [b"'", b'"']
-
-
-# ============================================================================
-# Reencode implementation
-# ============================================================================
+import zlib
 
 
 class BitReader:
@@ -99,6 +87,7 @@ class Huffman:
 
     @staticmethod
     def parse(deflate: bytes) -> Huffman:
+        CLEN_ORDER = [16, 17, 18, 0, 8, 7, 9, 6, 10, 5, 11, 4, 12, 3, 13, 2, 14, 1, 15]
         reader = BitReader(deflate)
 
         final = reader.read(1)
@@ -172,7 +161,7 @@ class Huffman:
 
 
 class State(NamedTuple):
-    prev: int  # 0 = regular, 1 = null, 2 = backslash
+    prev: int
     value: BitString
 
 
@@ -265,72 +254,9 @@ def lz77(data: bytes, huffman: Huffman, delim: bytes) -> bytes:
     return ret
 
 
+@lru_cache(maxsize=1024)
 def reencode(deflate: bytes, delim: bytes):
     if deflate[0] & 0b111 == 0b101:
         data = zlib.decompress(deflate, -10)
         return lz77(data, Huffman.parse(deflate), delim)
     return deflate
-
-
-# ============================================================================
-# Golf utils implementation
-# ============================================================================
-
-
-def sanitize(b_in: bytes, delim: bytes) -> bytes:
-    b_in = reencode(b_in, delim)
-    b_out = bytearray()
-    for b, b_next in zip(b_in, [*b_in[1:], 0]):
-        if b == 0:
-            b_out += b"\\x00" if b_next in b"01234567" else b"\\0"
-        elif b == ord("\r"):
-            b_out += b"\\r"
-        elif b == ord("\\") and b_next in b"\0\n\r\"'01234567NU\\abfnrtuvx":
-            b_out += b"\\\\"
-        elif b == ord("\n") and len(delim) == 1:
-            b_out += b"\\n"
-        elif bytes([b]) == delim:
-            b_out += b"\\" + delim
-        else:
-            b_out.append(b)
-    return bytes(b_out)
-
-
-def compress_core(src: bytes) -> bytes:
-    compressed: list[bytes | bytearray] = []
-
-    # Zopfli attempts
-    for i in ZOPFLI_ITERS:
-        compressed.append(zopfli.zlib.compress(src, numiterations=i)[2:-4])  # type: ignore[reportUnknownArgumentType]
-    # deflate (libdeflate) attempts
-    for level in DEFLATE_LEVELS:
-        compressed.append(deflate.deflate_compress(src, compresslevel=level))  # type: ignore[reportUnknownArgumentType]
-
-    literals: list[bytes] = []
-    for data in compressed:
-        for delim in DELIMS:
-            literals.append(delim + sanitize(data, delim) + delim)
-
-    return min(literals, key=len)
-
-
-def compress(src: bytes) -> bytes:
-    codes = []
-
-    codes.append(
-        b"#coding:L1\nimport zlib\nexec(zlib.decompress(bytes("
-        + compress_core(src)
-        + b',"L1"),~9))'
-    )
-
-    if src.startswith(b"import"):
-        imports = src.split()[1]
-        codes.append(
-            b"#coding:L1\nimport zlib,"
-            + imports
-            + b"\nexec(zlib.decompress(bytes("
-            + compress_core(src[len(imports) + 8 :])
-            + b',"L1"),~9))'
-        )
-
-    return min(codes, key=len)

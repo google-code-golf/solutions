@@ -13,5 +13,5 @@ def p(i):
    for n in t:i[n//10][n%10]=0
  return i
 # ----------------------------------------------------------------
-# compression: cgi
+# compression: auto
 # jailctf

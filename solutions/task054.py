@@ -17,5 +17,5 @@ def p(r):
      for d in range(-2,3):p[i+n][o+d]=r[i+1][o+2]
  return p
 # ----------------------------------------------------------------
-# compression: cgi
+# compression: auto
 # cgi

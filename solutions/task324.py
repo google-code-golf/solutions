@@ -8,5 +8,5 @@ def p(s):
    if{d+m,(d-m,)}&f:e[m]=o[a in e and a in c[m::len(e)]]
  return s
 # ----------------------------------------------------------------
-# compression: cgi
+# compression: auto
 # post-comp-diamonds
