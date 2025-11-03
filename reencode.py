@@ -1,8 +1,8 @@
 from __future__ import annotations
 
-import io
 from collections import defaultdict
 from functools import lru_cache
+import io
 from typing import NamedTuple, Optional
 import zlib
 
