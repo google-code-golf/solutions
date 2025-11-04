@@ -1,3 +1,3 @@
-p=lambda g:[*zip(*map(lambda*r:r[(k:=(f:=sum(g,[]).index)(max(r))//10-f(1)//10):]+r[:k],*g))]
+p=lambda g:[*zip(*map(lambda*r:r[(I:=sum(g,[]).index)(max(r))//10-I(1)//10:]*any(r)+r,*g))]
 # ----------------------------------------------------------------
 # post-comp-diamonds, base: jailctf
