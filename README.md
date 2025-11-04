@@ -15,3 +15,5 @@ Base solutions sourced from:
 - lv1.dev: https://github.com/lv1-dev/google-code-golf-2025/
 - biz
 - camjam: https://github.com/intgrah/golf
+
+Compressed using https://github.com/key-moon/golf
