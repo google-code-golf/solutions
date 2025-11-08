@@ -1,3 +1,7 @@
+p=lambda g,i=11:-i*g or p([*map(lambda*r,v=0:[v:=c and[v==1or c,1+(sum(g,g).count(c)!=2),-c+v*~v%999][i//8+i//7]for c in r],*g[::-1])],i-1)
+# ----------------------------------------------------------------
+# post-competition-diamond, base: golfers anonymous
+
 p=lambda g,k=-15,i=1:k*g or[[c%~c&(i:=[i*32,2-c%31*3//str(g).count("8")-(c%1247%728==4),c|i&c%~c][k//14])for c in[0]+r][:0:-1]for*r,in zip(*p(g,k+1))]
 # ----------------------------------------------------------------
 # post-competition-diamond, base: jailctf annotations
