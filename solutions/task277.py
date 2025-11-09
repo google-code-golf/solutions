@@ -1,4 +1,4 @@
-p=lambda g,i=11:-i*g or p([*map(lambda*r,v=0:[v:=c and[v==1or c,1+(sum(g,g).count(c)!=2),-c+v*~v%999][i//8+i//7]for c in r],*g[::-1])],i-1)
+p=lambda g,i=11:-i*g or p([*map(lambda*r,v=0:[v:=c and[c-v%c,1+(sum(g,g).count(c)!=2),v*c-c][i//8+i//7]for c in r],*g[::-1])],i-1)
 # ----------------------------------------------------------------
 # post-competition-diamond, base: golfers anonymous
 
