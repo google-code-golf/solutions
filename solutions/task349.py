@@ -1,3 +1,3 @@
-p=lambda g,n=15:-n*g or[[P:=[max(x:=r.pop(),x%~x&P,a:=x and a+1198080|9),x or P&8**n*7and~8&P-8**n|3,x&15,x|(n-3in r)][n//4]for _ in g]for*r,in zip(*p(g,n-1))if[P:=0,a:=0]]
+e=enumerate;p=lambda g:[[v[j]or any((l:=(m:=W%2*-~m)//2)+1>I-i>~l<J-j<l*3for I,V in e(g)if(m:=1)for J,W in e(V))*3|any(w[:i])for j,w in e(zip(*g))]for i,v in e(g)]
 # ----------------------------------------------------------------
-# cgi
+# theoreticalsyntaxgolfers

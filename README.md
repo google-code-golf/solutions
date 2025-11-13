@@ -13,7 +13,9 @@ Base solutions sourced from:
 - LogicLynx: https://github.com/shunsuke-toba/kaggle-google-code-golf-2025/
 - import itertools: https://github.com/Natanaelel/GoogleCodeGolf2025/
 - lv1.dev: https://github.com/lv1-dev/google-code-golf-2025/
+- Theoretical Syntax Golfers: https://github.com/Yosshi999/ARCGolfVisualizer
 - biz
 - camjam: https://github.com/intgrah/golf
+- garrymoss
 
 Compressed using https://github.com/key-moon/golf

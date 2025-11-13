@@ -1,3 +1,3 @@
-def p(g):d=c=g[-2].count(0)//2;exec(c*"c-=1;r=g[c-d-2];r[c]=r[~c]=g[-1][d];");return g
+def p(g):*w,a,b=g;i=j=a.index(b[0]);exec('j-=1;v=w[j-i];v[j]=v[~j]=b[i];'*i);return g
 # ----------------------------------------------------------------
-# cgi, logiclynx
+# theoreticalsyntaxgolfers
