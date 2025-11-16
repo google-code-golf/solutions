@@ -1,3 +1,7 @@
+p=lambda g,i=11:-i*g or p([*map(lambda*r,v=0:[v:=-~v*c*i|c%~c&3&~sum(g,g).count(c)for c in r][::-1],*g)],i-1)
+# ----------------------------------------------------------------
+# post-competition-diamond, base: golfers anonymous
+
 p=lambda g,i=11:-i*g or p([[v:=c and[3-sum(g,g).count(c),~v*c][i>0]for c in[0]+r][:0:-1]for*r,in zip(*g)],i-1)
 # ----------------------------------------------------------------
 # post-competition-diamond, base: golfers anonymous
