@@ -1,3 +1,3 @@
-p=lambda g,i=19:g*-i or[*map(lambda*r,q=8:[q:=[c|8-c&q,c|-c&~q%3,c%4][i//8]for c in r],*p(g,i-1)[::-1])]
+p=lambda g,i=11:g*-i or[*map(lambda*r,d=0:[d:=c+(c*d>0,(2&-d)%~c)[i>3]for c in r],*p(g,i-1)[::-1])]
 # ----------------------------------------------------------------
-# post-comp-diamonds
+# post-comp-diamonds, base: theoreticalsyntaxgolfers
