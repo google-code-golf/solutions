@@ -1,3 +1,3 @@
-p=lambda g:g>g*0!=0and[p(g[1])]*4+p(g[2:])or g
+p=lambda g:g+g*-1and[p(g[1])]*4+p(g[2:])or g
 # ----------------------------------------------------------------
-# logiclynx, oxjam
+# post-comp-diamonds, base: logiclynx, oxjam
